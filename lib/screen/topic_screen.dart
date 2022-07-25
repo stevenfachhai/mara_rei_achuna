@@ -3,12 +3,12 @@ import 'package:mara_rei_achuna/screen/block_screen.dart';
 import 'package:mara_rei_achuna/content/title_list.dart';
 
 class TopicScreen extends StatelessWidget {
-  TopicScreen({
+  const TopicScreen({
     Key? key,
     required this.titleList,
-  }) : super(key: key) {}
+  }) : super(key: key);
 
-  late List<String> titleList;
+  final List<String> titleList;
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +27,7 @@ class TopicScreen extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) => BlockScreen(
-                      listNumber: index + 1,
+                      titleNumber: index + 1,
                     ),
                   ),
                 );
@@ -39,5 +39,3 @@ class TopicScreen extends StatelessWidget {
     );
   }
 }
-
-BlockScreen({required int listNumber}) {}

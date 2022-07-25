@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mara_rei_achuna/content/title_list.dart';
 
-class LyricsScreen extends StatelessWidget {
-  LyricsScreen({
+class BlockScreen extends StatelessWidget {
+  BlockScreen({
     Key? key,
     required this.titleNumber,
   }) : super(key: key);
