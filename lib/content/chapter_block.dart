@@ -1,16 +1,14 @@
-import 'package:flutter/cupertino.dart';
-
-const bookBlock = {
-  1: MARAREIHCHAHNAWHALPHABET,
-  2: VOWELSNATACONSONANTS,
-  3: NUHBYREINATARODAH1100,
-  4: NUHBYHLUHNALAREINATARODAH110000000000,
-  5: KOTHLAHATANATANOHZY,
+const chapterBlock = {
+  1: maraReihChahnawhalphabet,
+  2: vowelsNataConsonants,
+  3: nuhbyReiNataRoDah1100,
+  4: nuhbyHluhNanlaReiNataRoDah110000000000,
+  5: koThlaHataNataNohzy,
   6: maraRahLiataSayPazy,
-  7: MARACHIZY,
+  7: maraChizy,
 };
 
-const MARAREIHCHAHNAWHALPHABET = '''
+const maraReihChahnawhalphabet = '''
 
 
 
@@ -38,7 +36,7 @@ r	s	t	u	v	z
 
 ''';
 
-const VOWELSNATACONSONANTS = '''
+const vowelsNataConsonants = '''
 
                   
                   
@@ -82,7 +80,7 @@ V	Z - zy he ama châ.
 
 ''';
 
-const NUHBYREINATARODAH1100 = '''
+const nuhbyReiNataRoDah1100 = '''
 
 
 NUHBY REI NATA RO DÂH (1-100)
@@ -190,7 +188,7 @@ NUHBY REI NATA RO DÂH (1-100)
 
 ''';
 
-const NUHBYHLUHNALAREINATARODAH110000000000 = '''
+const nuhbyHluhNanlaReiNataRoDah110000000000 = '''
 
 NUHBY HLUHNA LÂ REIHNA NATA ROZIE
 
@@ -212,7 +210,7 @@ Zanôsaw			  10,00,00,00,000				11
 
 ''';
 
-const KOTHLAHATANATANOHZY = '''
+const koThlaHataNataNohzy = '''
 
 Kô kha liata thlah a ypa mohzy cha : 
 
@@ -303,7 +301,7 @@ PAVAW SAHEI NIEPA CHIZY
 
 ''';
 
-const MARACHIZY = '''
+const maraChizy = '''
 
 
 MARA CHIZY

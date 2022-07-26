@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:mara_rei_achuna/content/title_list.dart';
+import 'package:mara_rei_achuna/content/chapter_block.dart';
 
-class BlockScreen extends StatelessWidget {
-  BlockScreen({
+class ChapterScreen extends StatelessWidget {
+  const ChapterScreen({
     Key? key,
     required this.titleNumber,
   }) : super(key: key);
@@ -11,14 +11,16 @@ class BlockScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final block = chapterBlock[titleNumber] ?? '';
+
     return Scaffold(
       body: SingleChildScrollView(
         child: Container(
           width: double.infinity,
           margin: const EdgeInsets.symmetric(horizontal: 35),
-          child: const Text(
-            'hello',
-            style: TextStyle(fontSize: 17),
+          child: Text(
+            block,
+            style: const TextStyle(fontSize: 17),
           ),
         ),
       ),
