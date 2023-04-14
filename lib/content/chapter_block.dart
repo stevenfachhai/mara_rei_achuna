@@ -20,18 +20,18 @@ MARA REIH CHÂHNAWH (ALPHABETS)
 
 HAWRAWH PIPA (CAPITAL LETTERS)
 
-A	AW	Y	B	CH	D 
-E 	F 	H	I	K	L
-M	N	NG	O	Ô	P
-R	S	T	U	V	Z
+    A       AW      Y        B      CH      D 
+    E        F         H        I        K        L
+    M       N        NG     O       Ô       P
+    R        S         T        U        V      Z
 
 
 Hawrawh chypa (small letters)
 
-a	aw	y	b	ch	d
-e	f	h	I	k	l
-m	n	ng	o	ô	p
-r	s	t	u	v	z
+    a       aw       y        b       ch       d
+    e        f          h        I         k         l
+    m       n        ng      o        ô         p
+    r         s          t        u        v         z
 
 
 ''';
@@ -47,36 +47,36 @@ Mara châhnawh liata hawrawh a ypa zydua he phu no ta pachhaih theipa châ ei ta
 
 VOWELS: Vowel hawrawhzy cha, biereipa pyu nata ziza (air fluence) apabuapa tlyma, apakhâpa tlyma, y leipazy he ama châ. Chazy cha:
 
-A	AW	Y	E	I	O	Ô	U  zy he ama châ.
+A  AW  Y  E  I  O   Ô   U  zy he ama châ.
 
-	(1) Single-letters vowels: Hawrawh miakha deita ta pyu (sound) ngiana châta hmâpazy he ama châ. Chazy cha: 
+  (1) Single-letters vowels: Hawrawh miakha deita ta pyu (sound) ngiana châta hmâpazy he ama châ. Chazy cha: 
 			
-A	Y	E	E	I	O	Ô 	U - zy he ama châ.
+A  Y  E  E  I  O  Ô  U - zy he ama châ.
 	
-	‘Â’ deikua Mara reih liata ‘A’ apahypa châ ta,pakah â kawh viapa ta rei awpa a châ. Anodeikua,hawrawh ‘Â’ he Mara châhnawh liata pahlaopa cha vei.
+  ‘Â’ deikua Mara reih liata ‘A’ apahypa châ ta,pakah â kawh viapa ta rei awpa a châ. Anodeikua,hawrawh ‘Â’ he Mara châhnawh liata pahlaopa cha vei.
 
-	(2) Dual-lettterd Vowels: Hawrawh miano apakaopa ta pyu (sound) ngiana châta hmâpazy châ ei ta, chazy cha:
+  (2) Dual-lettterd Vowels: Hawrawh miano apakaopa ta pyu (sound) ngiana châta hmâpazy châ ei ta, chazy cha:
 
-AW	AO	IE - zy he ama châ. Â	IE nata AO deikua vowels châ thlâh ha tlôh hrapa ta, Mara châhnawh liata a hlao veih ei. He vowels A, AO nata IE zy alhajo leipa ta Mara reih a ki the leipa ta, cheikh ta ro thai’pa châ hra vei.
+AW  AO  IE - zy he ama châ. Â  IE nata AO deikua vowels châ thlâh ha tlôh hrapa ta, Mara châhnawh liata a hlao veih ei. He vowels A, AO nata IE zy alhajo leipa ta Mara reih a ki the leipa ta, cheikh ta ro thai’pa châ hra vei.
 
 (B) CONSONANTS: Bie eima riep pyu liata zilih,patypamâtuhpa a y theipa hawrawhzy he châ ei ta, chazy cha:
 
-B	CH	D	F	H	K	L
-M	N	NG	P	R	S	T
-V	Z - zy he ama châ.
+    B       CH       D       F      H       K       L
+    M       N        NG     P      R      S      T
+    V       Z - zy he ama châ.
 
-	Consonants he phu no ta pachhaih theipa châ ta, chazy cha:
+ Consonants he phu no ta pachhaih theipa châ ta, chazy cha:
 
-	(1) Single-lettered Consonants: Consonant hawrawh apakaohlâhpa hnei leipa, hawrawh miakha deipazy he châ ei ta,hezy he ama châ:
+  (1) Single-lettered Consonants: Consonant hawrawh apakaohlâhpa hnei leipa, hawrawh miakha deipazy he châ ei ta,hezy he ama châ:
 
-	B	CH	D	F	H
-	K	L	M	N	P
-	R	S	T	V	Z
+      B   CH      D      F     H
+      K      L         M      N     P
+      R       S        T      V      Z
+ 
+  (2) CLUSTERED CONSONANTS: Consonant hawrawh miano tlyma, miano hlâta huh via apakaohpazy he châ ei ta, chaty cha:
 
-(2) CLUSTERED CONSONANTS: Consonant hawrawh piano tlyma, miano hlâta huh via apakaohpazy he châ ei ta, chaty cha:
-
-	NG	CHH	HL	HR	KH	PH
-	TH	TL	THL - zy he ama châ.
+      NG     CHH     HL    HR    KH      PH
+      TH         TL       THL - zy he ama châ.
 
 ''';
 
@@ -193,19 +193,19 @@ const nuhbyHluhNanlaReiNataRoDah110000000000 = '''
 NUHBY HLUHNA LÂ REIHNA NATA ROZIE
 
 
-Reizie				Nuhby					Nuhby zie (Digit)
+Reizie        Nuhby             Nuhby zie (Digit)
 
-Sâ /Mia			  1						          1
-Sy				    10						        2
-Za				    100						        3
-Sâh				    1000						      4
-Thy				    10,000						    5
-Thysy				  10,00,00					    6
-Thyza				  10,00,000					    7
-Thysâh				1,00,00,000					  8
-Thyzaw			  10,00,00,000					9
-Thyhluh			  1,00,00,00,000				10
-Zanôsaw			  10,00,00,00,000				11
+Sâ /Mia              1                       1
+Sy                        10                     2
+Za                        100                  3
+Sâh                      1000                4
+Thy                      10,000             5
+Thysy                  10,00,00          6
+Thyza                  10,00,000           7
+Thysâh        1,00,00,000           8
+Thyzaw        10,00,00,000          9
+Thyhluh       1,00,00,00,000        10
+Zanôsaw       10,00,00,00,000       11
 
 
 ''';
@@ -215,27 +215,27 @@ const koThlaHataNataNohzy = '''
 Kô kha liata thlah a ypa mohzy cha : 
 
 
-	Mara							            English
+      Mara                    English
 
-   1. Nawh				  -			      January
-   2.	Hmypi				  -			      February
-   3.	Pamih				  -			      March
-   4.	Pachawh			  -			      April
-   5.	Patô				  -			      May
-   6.	Chhiepa			  -			      June
-   7.	Khihpa				-			      July
-   8.	Thlazoh			  -			      August
-   9.	Thlarâh			  -			      September
-   10.Phiata				-			      October
-   11.Phiapi				-			      November
-   12.Di				    -			      December
+   1. Nawh          -           January
+   2. Hmypi           -          February
+   3. Pamih         -           March
+   4. Pachawh         -          April
+   5. Patô          -           May
+   6. Chhiepa         -          June
+   7. Khihpa        -           July
+   8. Thlazoh         -           August
+   9. Thlarâh       -           September
+   10.Phiata          -           October
+   11.Phiapi        -           November
+   12.Di              -          December
 
 
 
 Hâta eikha liata noh sari y ta chazy cha :
 
 
-	Mara							          English
+    Mara                         English
 
 1.	Hriatuanoh			  -			  Monday
 2.	Hriaheihnoh			  -			  Tuesday

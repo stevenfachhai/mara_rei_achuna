@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:mara_rei_achuna/content/audio_block.dart';
 import 'package:mara_rei_achuna/content/chapter_block.dart';
+import 'package:audioplayers/audioplayers.dart';
 
-class ChapterScreen extends StatelessWidget {
+class ChapterScreen extends StatefulWidget {
   const ChapterScreen({
     Key? key,
     required this.titleNumber,
@@ -10,17 +12,53 @@ class ChapterScreen extends StatelessWidget {
   final int titleNumber;
 
   @override
+  _ChapterScreenState createState() => _ChapterScreenState();
+}
+
+class _ChapterScreenState extends State<ChapterScreen> {
+  final AudioPlayer _audioPlayer = AudioPlayer();
+  bool _isPlaying = false;
+
+  @override
+  void dispose() {
+    super.dispose();
+    _audioPlayer.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    final block = chapterBlock[titleNumber] ?? '';
+    final block = chapterBlock[widget.titleNumber] ?? '';
+    final audio = audioBlock[widget.titleNumber] ?? '';
 
     return Scaffold(
+      appBar: AppBar(),
       body: SingleChildScrollView(
         child: Container(
           width: double.infinity,
           margin: const EdgeInsets.symmetric(horizontal: 35),
-          child: Text(
-            block,
-            style: const TextStyle(fontSize: 17),
+          child: Column(
+            children: [
+              Text(
+                block,
+                style: const TextStyle(fontSize: 20),
+              ),
+              IconButton(
+                icon: Icon(
+                  _isPlaying ? Icons.pause : Icons.play_arrow,
+                  size: 30,
+                ),
+                onPressed: () async {
+                  if (_isPlaying) {
+                    await _audioPlayer.pause();
+                  } else {
+                    await _audioPlayer.play(audio);
+                  }
+                  setState(() {
+                    _isPlaying = !_isPlaying;
+                  });
+                },
+              ),
+            ],
           ),
         ),
       ),

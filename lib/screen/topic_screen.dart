@@ -10,28 +10,39 @@ class TopicScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ListView.builder(
-        itemCount: topicList.length,
-        itemBuilder: (context, index) {
-          return Card(
-            child: ListTile(
-              title: Text(
-                topicList[index],
-                style: TextStyle(fontSize: 17),
-              ),
-              onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => ChapterScreen(
-                      titleNumber: index + 1,
-                    ),
+      appBar: AppBar(),
+      body: Stack(
+        children: [
+          Image.asset(
+            "assets/screen.png",
+            fit: BoxFit.cover,
+            height: double.infinity,
+            width: double.infinity,
+          ),
+          ListView.builder(
+            itemCount: topicList.length,
+            itemBuilder: (context, index) {
+              return Card(
+                child: ListTile(
+                  title: Text(
+                    topicList[index],
+                    style: TextStyle(fontSize: 17),
                   ),
-                );
-              },
-            ),
-          );
-        },
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => ChapterScreen(
+                          titleNumber: index + 1,
+                        ),
+                      ),
+                    );
+                  },
+                ),
+              );
+            },
+          ),
+        ],
       ),
     );
   }
