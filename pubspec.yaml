@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  audioplayers: ^0.20.1
+  audioplayers: ^4.0.1
   cupertino_icons: ^1.0.2
   
 
@@ -21,12 +21,12 @@ dev_dependencies:
     sdk: flutter
 
   
-  flutter_lints: ^1.0.0
+  flutter_lints: ^2.0.1
 
 flutter:
   uses-material-design: true
   assets:
-    - assets/screen.png
+    - assets/image/screen.png
     - assets/audio/aawbch.mp3
     
 

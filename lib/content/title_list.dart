@@ -5,7 +5,4 @@ const topicList = [
   '4. Nuhby hluhna lâ rei nata ro dâh (1-10,00,00,00,000)',
   '5. Kô,thla,hâta nata nohzy',
   '6. Marapa râh liata râhsa ypazy',
-  '7. Mara chizy',
-  '8. Article',
-  '9. Poem'
 ];

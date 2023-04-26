@@ -51,7 +51,7 @@ class _ChapterScreenState extends State<ChapterScreen> {
                   if (_isPlaying) {
                     await _audioPlayer.pause();
                   } else {
-                    await _audioPlayer.play(audio);
+                    await _audioPlayer.play(audio as Source);
                   }
                   setState(() {
                     _isPlaying = !_isPlaying;

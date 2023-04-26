@@ -14,7 +14,7 @@ class TopicScreen extends StatelessWidget {
       body: Stack(
         children: [
           Image.asset(
-            "assets/screen.png",
+            " assets/screen.png",
             fit: BoxFit.cover,
             height: double.infinity,
             width: double.infinity,

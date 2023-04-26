@@ -5,7 +5,6 @@ const chapterBlock = {
   4: nuhbyHluhNanlaReiNataRoDah110000000000,
   5: koThlaHataNataNohzy,
   6: maraRahLiataSayPazy,
-  7: maraChizy,
 };
 
 const maraReihChahnawhalphabet = '''
@@ -297,26 +296,6 @@ PAVAW SAHEI NIEPA CHIZY
 5.	Vachhaih	6.	Hmôthu	7.	Hmôchhih	8.	Matulâbiah
 9.	Machhochabu		10.	Riarâtaoh.
 
-
-
-''';
-
-const maraChizy = '''
-
-
-MARA CHIZY
-
-1.	Tlôsaih			-		Siaha
-2.	Chapi			  -		Ngiaphiapi
-3.	Hawthai		
-4.	Zyhno
-5.	Vyhtu			   -		Zôphei
-6.	Liahlai		 	 -		Heima
-7.	Tisi			   -		Ratu
-8.	Khihlô			 -		Sabyh
-9.	Kahno			   -		Lautu
-10.	Matu			   -		Khumi
-11.	Miria
 
 
 ''';
