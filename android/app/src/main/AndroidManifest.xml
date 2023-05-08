@@ -3,7 +3,7 @@
    <application
         android:label="mara_rei_achuna"
         android:name="${applicationName}"
-        android:icon="@mipmap/launcher_icon">
+        android:icon="@mipmap/icon_foreground">
         <activity
             android:name=".MainActivity"
             android:exported="true"
