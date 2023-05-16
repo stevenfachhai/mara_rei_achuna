@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mara_rei_achuna/content/audio_block.dart';
 import 'package:mara_rei_achuna/content/chapter_block.dart';
-import 'package:audioplayers/audioplayers.dart';
+import 'package:just_audio/just_audio.dart';
 
 class ChapterScreen extends StatefulWidget {
   const ChapterScreen({
@@ -51,7 +51,9 @@ class _ChapterScreenState extends State<ChapterScreen> {
                   if (_isPlaying) {
                     await _audioPlayer.pause();
                   } else {
-                    await _audioPlayer.play(audio as Source);
+                    await _audioPlayer.setAsset(audio);
+                    await _audioPlayer.play();
+                    await _audioPlayer.stop();
                   }
                   setState(() {
                     _isPlaying = !_isPlaying;

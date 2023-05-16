@@ -13,12 +13,6 @@ class TopicScreen extends StatelessWidget {
       appBar: AppBar(),
       body: Stack(
         children: [
-          Image.asset(
-            " assets/screen.png",
-            fit: BoxFit.cover,
-            height: double.infinity,
-            width: double.infinity,
-          ),
           ListView.builder(
             itemCount: topicList.length,
             itemBuilder: (context, index) {
