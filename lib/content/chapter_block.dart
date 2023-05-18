@@ -5,6 +5,7 @@ const chapterBlock = {
   4: nuhbyHluhNanlaReiNataRoDah110000000000,
   5: koThlaHataNataNohzy,
   6: maraRahLiataSayPazy,
+  7: nubyhReinaDah,
 };
 
 const maraReihChahnawhalphabet = '''
@@ -297,5 +298,20 @@ PAVAW SAHEI NIEPA CHIZY
 9.	Machhochabu		10.	Riarâtaoh.
 
 
+
+''';
+
+const nubyhReinaDah = '''
+
+      Nubyh rei na dah
+
+Mara reih liana he ta nubyh reina dah he chi thô ta pachhaipa chata cha zy cha ~ 
+
+1. Pa - chysa malu rei na liata eima hma tyh. 
+   Eg.  Chapaw pathô ama cha. 
+2. Mia/Sâ - hmohro hnei leipa liata eima tyh. 
+   Eg. Sâkha, sâno/ Miakha, Miano
+3. Pô - Rahsa/Osa liata nata theilâpa reina liata zy eima hma tyh. 
+   Eg. Alu pôkha khazie maw?  Vao pô khazie nama hnei?
 
 ''';

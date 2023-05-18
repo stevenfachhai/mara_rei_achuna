@@ -20,7 +20,7 @@ class TopicScreen extends StatelessWidget {
                 child: ListTile(
                   title: Text(
                     topicList[index],
-                    style: TextStyle(fontSize: 17),
+                    style: const TextStyle(fontSize: 17),
                   ),
                   onTap: () {
                     Navigator.push(
