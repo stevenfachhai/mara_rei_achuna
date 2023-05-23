@@ -6,5 +6,4 @@ const topicList = [
   '5. Kô,thla,hâta nata nohzy',
   '6. Marapa râh liata râhsa ypazy',
   '7. Nubyh reina dah',
-  '8. Srory',
 ];

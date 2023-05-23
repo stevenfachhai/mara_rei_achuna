@@ -24,6 +24,12 @@ class _ChapterScreenState extends State<ChapterScreen> {
   @override
   void initState() {
     super.initState();
+    initializeAudio();
+  }
+
+  Future<void> initializeAudio() async {
+    await _audioPlayer.setAsset(audioBlock[widget.titleNumber] ?? '');
+
     _audioPlayer.durationStream.listen((duration) {
       setState(() {
         _audioDuration = duration!;
@@ -35,27 +41,36 @@ class _ChapterScreenState extends State<ChapterScreen> {
         _position = position;
       });
     });
+
+    _audioPlayer.playerStateStream.listen((playerState) {
+      setState(() {
+        _isPlaying = playerState.playing;
+      });
+    });
   }
 
   @override
   void dispose() {
-    super.dispose();
     _audioPlayer.dispose();
+    super.dispose();
   }
 
-  Future<void> playAudio(String audio) async {
-    await _audioPlayer.setAsset(audio);
-    await _audioPlayer.play();
-    setState(() {
-      _isPlaying = true;
-    });
+  Future<void> playAudio() async {
+    if (_isPlaying) {
+      await _audioPlayer.pause();
+    } else {
+      await _audioPlayer.play();
+    }
   }
 
-  Future<void> pauseAudio() async {
-    await _audioPlayer.pause();
-    setState(() {
-      _isPlaying = false;
-    });
+  Future<void> stopAudio() async {
+    await _audioPlayer.stop();
+  }
+
+  String formatDuration(Duration duration) {
+    final minutes = duration.inMinutes;
+    final seconds = duration.inSeconds.remainder(60).toString().padLeft(2, '0');
+    return '$minutes:$seconds';
   }
 
   @override
@@ -65,68 +80,70 @@ class _ChapterScreenState extends State<ChapterScreen> {
 
     return Scaffold(
       appBar: AppBar(),
-      body: SingleChildScrollView(
-        child: Container(
-          width: double.infinity,
-          margin: const EdgeInsets.symmetric(horizontal: 35),
-          child: Column(
-            children: [
-              Text(
-                block,
-                style: const TextStyle(fontSize: 20),
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
+      body: LayoutBuilder(
+        builder: (context, constraints) {
+          final screenWidth = constraints.maxWidth;
+          final screenHeight = constraints.maxHeight;
+
+          return SingleChildScrollView(
+            child: Container(
+              width: double.infinity,
+              margin: const EdgeInsets.symmetric(horizontal: 35),
+              child: Column(
                 children: [
-                  IconButton(
-                    icon: Icon(
-                      _isPlaying ? Icons.pause : Icons.play_arrow,
-                      size: 30,
-                    ),
-                    onPressed: () {
-                      if (_isPlaying) {
-                        pauseAudio();
-                      } else {
-                        playAudio(audio);
-                      }
-                    },
+                  Text(
+                    block,
+                    style: const TextStyle(fontSize: 17),
+                  ),
+                  Row(
+                    children: [
+                      IconButton(
+                        icon: Icon(
+                          _isPlaying ? Icons.pause : Icons.play_arrow,
+                          size: screenWidth * 0.1,
+                        ),
+                        onPressed: playAudio,
+                      ),
+                      IconButton(
+                        icon: Icon(
+                          Icons.stop,
+                          size: screenWidth * 0.1,
+                        ),
+                        onPressed: stopAudio,
+                      ),
+                      Expanded(
+                        child: Slider(
+                          value: _position.inSeconds.toDouble(),
+                          min: 0,
+                          max: _audioDuration.inSeconds.toDouble(),
+                          onChanged: (value) {
+                            final newPosition =
+                                Duration(seconds: value.toInt());
+                            _audioPlayer.seek(newPosition);
+                          },
+                        ),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        formatDuration(_position),
+                        style: const TextStyle(fontSize: 16),
+                      ),
+                      Text(
+                        formatDuration(_audioDuration),
+                        style: const TextStyle(fontSize: 16),
+                      ),
+                    ],
                   ),
                 ],
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(
-                    formatDuration(_position),
-                    style: const TextStyle(fontSize: 16),
-                  ),
-                  Expanded(
-                    child: Slider(
-                      value: _position.inSeconds.toDouble(),
-                      min: 0,
-                      max: _audioDuration.inSeconds.toDouble(),
-                      onChanged: (value) {
-                        final newPosition = Duration(seconds: value.toInt());
-                        _audioPlayer.seek(newPosition);
-                      },
-                    ),
-                  ),
-                  Text(
-                    formatDuration(_audioDuration),
-                    style: const TextStyle(fontSize: 16),
-                  ),
-                ],
-              ),
-            ],
-          ),
-        ),
+            ),
+          );
+        },
       ),
     );
-  }
-
-  String formatDuration(Duration duration) {
-    final minutes = duration.inMinutes;
-    final seconds = duration.inSeconds.remainder(60).toString().padLeft(2, '0');
-    return '$minutes:$seconds';
   }
 }
