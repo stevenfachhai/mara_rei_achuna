@@ -1,12 +1,25 @@
 const chapterBlock = {
-  1: maraReihChahnawhalphabet,
-  2: vowelsNataConsonants,
-  3: nuhbyReiNataRoDah1100,
-  4: nuhbyHluhNanlaReiNataRoDah110000000000,
-  5: koThlaHataNataNohzy,
-  6: maraRahLiataSayPazy,
-  7: nubyhReinaDah,
+  1: introduction,
+  2: maraReihChahnawhalphabet,
+  3: vowelsNataConsonants,
+  4: nuhbyReiNataRoDah1100,
+  5: nuhbyHluhNanlaReiNataRoDah110000000000,
+  6: koThlaHataNataNohzy,
+  7: maraRahLiataSayPazy,
+  8: nubyhReinaDah,
 };
+
+const introduction = '''
+
+         Mara reih a chuna app he kȏ 2022 March tawhta chyhsa thai viapa nata chȃbu a y theipa mai a saohiah ty na ta, chyhsa ei saohiah viapa nata na bao chaituhpazy cha Puhpa Pachi Hlychho, Executive Secretary (RTD) nata Puhpa Thati Khithie zy ama chȃ. Chȃbu ei hmȏ theipa nata ei saohiah via chaipa cha Puhpa A. Zakia (L) ropa “Mara reih Grammar book 1 nata MADC ry liata achuna bu class 1 chȃbu” zy a chȃ. 
+	       Mara reih achuna app ei chhuanohna liata MSO Headquarters Siaha ta tlaw 10000/- na bao eita, ei ly hmeiseih. Audio taona liata aao ngia ngâsâpa nata Mara reih reizie do ngâsâpa ta a ao na khȏpatuhpa Ls. Ngovȃ Hlychho, Meisavaih Siaha chô liata ei ly hmeiseih.
+	       Mara reih achuna app ei taopa lia heta tao chheipa nata pado leipa, voice record aparo dâh asupia khai leipa a y thei aw. He chôchâh liata nama nopavâhna nata padokheina angia aw na ta, tao chheipa nata pado khai leipa a ypa nama pahnopa zy cha kâchhie leipa ta nama vaw reih lymâ awpa ta khatino rai ta ei pahy thlâh ha.
+	       He app hmâpa ta Mara reih dopa achupa maih hnohta khokheina cha hlâ ei na ta, Mara reih he khizaw liata cheichalo ta, pasâhsa lymâ awpa ta ei hmalana liata na baotuhpa nata hmala pazituhpa châ chyu awpa ta Mara saw khizaw râh to liata ypa zydua cha hrua ei.
+Contact no.								          FC. BEIRACHHUADY
+8798044892								             Meisavaih siaha
+
+
+''';
 
 const maraReihChahnawhalphabet = '''
 
@@ -50,9 +63,9 @@ VOWELS: Vowel hawrawhzy cha, biereipa pyu nata ziza (air fluence) apabuapa tlyma
 
     (2) Dual-lettterd Vowels: Hawrawh miano apakaopa ta pyu (sound) ngiana châta hmâpazy châ ei ta, chazy cha:
 
-        AW  AO  IE - zy he ama châ. Â  IE nata AO deikua vowels châ thlâh ha tlôh hrapa ta, Mara châhnawh liata a hlao veih ei. He vowels A, AO nata IE zy alhajo leipa ta Mara reih a ki the leipa ta, cheikh ta ro thai’pa châ hra vei.
+        AW  AO  IE - zy he ama châ. Â  IE nata AO deikua vowels châ thlâh ha tlôh hrapa ta, Mara châhnawh liata a hlao veih ei. He vowels A, AO nata IE zy a hlao leipa ta Mara reih a ki thei leipa ta, chahleikhôta ro thai’pa châ hra vei.
 
-  (B) CONSONANTS: Bie eima riep pyu liata zizah,patypamâtuhpa a y theipa hawrawhzy he châ ei ta, chazy cha:
+  (B) CONSONANTS: Bie eima reipa pyu liata zizah, patypamâtuhpa a y theipa hawrawhzy he châ ei ta, chazy cha:
 
     B       CH       D       F      H       K       
     L        M       N        NG     P      R           
@@ -246,9 +259,9 @@ const maraRahLiataSayPazy = '''
 
 
 
-              MARARÂH LIATA RÂHSA Y PAZY
+              MARA RÂH LIATA RÂHSA Y PAZY
 
-Mararâh liata râhsa nata pawvaw a upa alâluah viapazy cha hey he ama châ.
+Mara râh liata râhsa nata pavaw a ypa alâluah viapazy cha hezy he ama châ.
 
 
 RÂHSA LAI VIAPAZY
@@ -261,7 +274,7 @@ RÂHSA LAI VIAPAZY
 
 RÂHSA CHYH VIAPA CHIZY
 
-	Sawku		Sawthaih	Sawkhei	sawhlu		Ruleipa	Sato
+	Sawku		Sawthaih	Sawkhei	Sawhlu		Ruleipa	Sato
 	Saphu		Pihvao		Sakavyh	Lohpawpa 	Tuhzu.
 
 
@@ -297,16 +310,16 @@ PAVAW SAHEI NIEPA CHIZY
 
 const nubyhReinaDah = '''
 
-      Nubyh rei na dah
+      Nubyh rei na dâh
 
-Mara reih liana he ta nubyh reina dah he chi pali ta pachhaipa chata cha zy cha ~ 
+Mara reih liana heta nubyh reina dâh he chi pali ta pachhaihpa châta, chazy cha ~ 
 
-1. Pa - chysa malu rei na liata eima hma tyh. 
-   Eg.  Chapaw pathô ama cha. 
-2. Mia/Sâ - hmohro hnei leipa liata eima tyh. 
+1. Pa - Chyhsa malu reina liata eima hmâ tyh. 
+   Eg.  Chapaw pathô ama châ. 
+2. Mia/Sâ - Hmohro hnei leipa liata eima hmâ tyh. 
    Eg. Sâkha, sâno/ Miakha, Miano
-3. Pô - Rahsa/Osa liata nata theilâpa reina liata zy eima hma tyh. 
-   Eg. Theihlu pôkha khazie maw?  Vao pôh khazie nama hnei?
+3. Pô - Râhsa/Osa liata nata theilâpa reina liata zy eima hmâ tyh. 
+   Eg. Theihlu pôhkha khazie maw?  Vao pôh khazie nama hnei?
 4. Bao - Hmo sâno pakaopa reina chata ama hma tyh.
    Eg. Nôvah baokha ama y.
 ''';
