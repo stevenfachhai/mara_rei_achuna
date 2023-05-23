@@ -1,27 +1,22 @@
 name: mara_rei_achuna
 description: A new Flutter project.
-publish_to: 'none' 
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
-
 
 dependencies:
   flutter:
     sdk: flutter
   just_audio: ^0.9.33
   cupertino_icons: ^1.0.2
-  
 
-  
-  
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_launcher_icons: ^0.13.1
   flutter_lints: ^2.0.1
-
 
 flutter_launcher_icons:
   android: "launcher_icon"
@@ -31,8 +26,10 @@ flutter_launcher_icons:
 flutter:
   uses-material-design: true
   assets:
-    
-    - assets/audio/aawbch.mp3
-    
-
-  
+      - assets/audio/Ko.mp3
+      - assets/audio/Marareih.mp3
+      - assets/audio/Nuby_hluna.mp3
+      - assets/audio/Nuby_rei.mp3
+      - assets/audio/Nuby_reina.mp3
+      - assets/audio/Vowel_Consonanats.mp3
+      - assets/image/nubyh.png

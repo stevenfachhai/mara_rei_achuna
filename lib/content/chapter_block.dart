@@ -59,7 +59,7 @@ A  Y  E  E  I  O  Ô  U - zy he ama châ.
 
 AW  AO  IE - zy he ama châ. Â  IE nata AO deikua vowels châ thlâh ha tlôh hrapa ta, Mara châhnawh liata a hlao veih ei. He vowels A, AO nata IE zy alhajo leipa ta Mara reih a ki the leipa ta, cheikh ta ro thai’pa châ hra vei.
 
-(B) CONSONANTS: Bie eima riep pyu liata zilih,patypamâtuhpa a y theipa hawrawhzy he châ ei ta, chazy cha:
+(B) CONSONANTS: Bie eima riep pyu liata zizah,patypamâtuhpa a y theipa hawrawhzy he châ ei ta, chazy cha:
 
     B       CH       D       F      H       K       L
     M       N        NG     P      R      S      T
@@ -73,7 +73,7 @@ AW  AO  IE - zy he ama châ. Â  IE nata AO deikua vowels châ thlâh ha tlôh h
       K      L         M      N     P
       R       S        T      V      Z
  
-  (2) CLUSTERED CONSONANTS: Consonant hawrawh miano tlyma, miano hlâta huh via apakaohpazy he châ ei ta, chaty cha:
+  (2) CLUSTERED CONSONANTS: Consonant hawrawh miano tlyma, miano hlâta hluh via apakaohpazy he châ ei ta, chazy cha:
 
       NG     CHH     HL    HR    KH      PH
       TH         TL       THL - zy he ama châ.
@@ -305,13 +305,14 @@ const nubyhReinaDah = '''
 
       Nubyh rei na dah
 
-Mara reih liana he ta nubyh reina dah he chi thô ta pachhaipa chata cha zy cha ~ 
+Mara reih liana he ta nubyh reina dah he chi pali ta pachhaipa chata cha zy cha ~ 
 
 1. Pa - chysa malu rei na liata eima hma tyh. 
    Eg.  Chapaw pathô ama cha. 
 2. Mia/Sâ - hmohro hnei leipa liata eima tyh. 
    Eg. Sâkha, sâno/ Miakha, Miano
 3. Pô - Rahsa/Osa liata nata theilâpa reina liata zy eima hma tyh. 
-   Eg. Alu pôkha khazie maw?  Vao pô khazie nama hnei?
-
+   Eg. Theihlu pôkha khazie maw?  Vao pôh khazie nama hnei?
+4. Bao - Hmo sâno pakaopa reina chata ama hma tyh.
+   Eg. Nôvah baokha ama y.
 ''';

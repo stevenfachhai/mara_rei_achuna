@@ -1,5 +1,3 @@
-// ignore_for_file: library_private_types_in_public_api
-
 import 'package:flutter/material.dart';
 import 'package:mara_rei_achuna/content/audio_block.dart';
 import 'package:mara_rei_achuna/content/chapter_block.dart';
@@ -19,10 +17,9 @@ class ChapterScreen extends StatefulWidget {
 
 class _ChapterScreenState extends State<ChapterScreen> {
   final AudioPlayer _audioPlayer = AudioPlayer();
-  bool _isPlaying = false;
-  bool _isPaused = false;
   Duration _audioDuration = Duration.zero;
   Duration _position = Duration.zero;
+  bool _isPlaying = false;
 
   @override
   void initState() {
@@ -44,6 +41,21 @@ class _ChapterScreenState extends State<ChapterScreen> {
   void dispose() {
     super.dispose();
     _audioPlayer.dispose();
+  }
+
+  Future<void> playAudio(String audio) async {
+    await _audioPlayer.setAsset(audio);
+    await _audioPlayer.play();
+    setState(() {
+      _isPlaying = true;
+    });
+  }
+
+  Future<void> pauseAudio() async {
+    await _audioPlayer.pause();
+    setState(() {
+      _isPlaying = false;
+    });
   }
 
   @override
@@ -68,31 +80,22 @@ class _ChapterScreenState extends State<ChapterScreen> {
                 children: [
                   IconButton(
                     icon: Icon(
-                      _isPlaying || _isPaused ? Icons.pause : Icons.play_arrow,
+                      _isPlaying ? Icons.pause : Icons.play_arrow,
                       size: 30,
                     ),
-                    onPressed: () async {
+                    onPressed: () {
                       if (_isPlaying) {
-                        await _audioPlayer.pause();
-                        setState(() {
-                          _isPaused = true;
-                          _isPlaying = false;
-                        });
-                      } else if (_isPaused) {
-                        await _audioPlayer.play();
-                        setState(() {
-                          _isPaused = false;
-                          _isPlaying = true;
-                        });
+                        pauseAudio();
                       } else {
-                        await _audioPlayer.setAsset(audio);
-                        await _audioPlayer.play();
-                        setState(() {
-                          _isPlaying = true;
-                        });
+                        playAudio(audio);
                       }
                     },
                   ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
                   Text(
                     formatDuration(_position),
                     style: const TextStyle(fontSize: 16),
