@@ -82,9 +82,6 @@ class _ChapterScreenState extends State<ChapterScreen> {
       appBar: AppBar(),
       body: LayoutBuilder(
         builder: (context, constraints) {
-          final screenWidth = constraints.maxWidth;
-          final screenHeight = constraints.maxHeight;
-
           return SingleChildScrollView(
             child: Container(
               width: double.infinity,
@@ -100,14 +97,12 @@ class _ChapterScreenState extends State<ChapterScreen> {
                       IconButton(
                         icon: Icon(
                           _isPlaying ? Icons.pause : Icons.play_arrow,
-                          size: screenWidth * 0.1,
                         ),
                         onPressed: playAudio,
                       ),
                       IconButton(
                         icon: Icon(
                           Icons.stop,
-                          size: screenWidth * 0.1,
                         ),
                         onPressed: stopAudio,
                       ),
@@ -126,12 +121,12 @@ class _ChapterScreenState extends State<ChapterScreen> {
                     ],
                   ),
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
                         formatDuration(_position),
                         style: const TextStyle(fontSize: 16),
                       ),
+                      const SizedBox(width: 8),
                       Text(
                         formatDuration(_audioDuration),
                         style: const TextStyle(fontSize: 16),
