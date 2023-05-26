@@ -13,7 +13,7 @@ const introduction = '''
 
       Mara reih a chuna app
 
-         Mara reih a chuna app he kô 2022 March tawhta chyhsa thai viapa nata châbu a y theipa mai a saohiah ty na ta, chyhsa ei saohiah viapa nata na bao chaituhpazy cha Puhpa Pachi Hlychho, Executive Secretary (RTD) nata Puhpa Thati Khithie zy ama châ. Châbu ei hmô theipa nata ei saohiah via chaipa cha Puhpa A. Zakia (L) ropa “Mara reih Grammar book 1 nata MADC ry liata achuna bu class 1 châbu” zy a châ. 
+         Mara reih a chuna app he kô 2022 March tawhta chyhsa thai viapa nata châbu a y theipa mai a saohiah ty na ta, chyhsa ei saohiah viapa nata na bao chaituhpazy cha Puhpa Pachi Hlychho, Executive Secretary (RTD) nata Puhpa Thati Khithie (ei Personal advisor) zy ama châ. Châbu ei hmô theipa nata ei saohiah via chaipa cha Puhpa A. Zakia (L) ropa “Mara reih Grammar book 1 nata MADC ry liata achuna bu class 1 châbu” zy a châ. 
 	       Mara reih achuna app ei chhuanohna liata MSO Headquarters Siaha ta tlaw 10000/- na bao eita, ei ly hmeiseih. Audio taona liata aao ngia ngâsâpa nata Mara reih reizie do ngâsâpa ta a ao na khôpatuhpa Ls. Ngovâ Hlychho, Meisavaih Siaha chô liata ei ly hmeiseih.
 	       Mara reih achuna app ei taopa lia heta tao chheipa nata pado leipa, voice record aparo dâh asupia khai leipa a y thei aw. He chôchâh liata nama nopavâhna nata padokheina angia aw na ta, tao chheipa nata pado khai leipa a ypa nama pahnopa zy cha kâchhie leipa ta nama vaw reih lymâ awpa ta khatino rai ta ei pahy thlâh ha.
 	       He app hmâpa ta Mara reih dopa achupa maih hnohta khokheina cha hlâ ei na ta, Mara reih he khizaw liata cheichalo ta, pasâhsa lymâ awpa ta ei hmalana liata na baotuhpa nata hmala pazituhpa châ chyu awpa ta Mara saw khizaw râh to liata ypa zydua cha hrua ei.
