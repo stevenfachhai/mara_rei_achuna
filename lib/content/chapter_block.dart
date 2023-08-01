@@ -7,6 +7,9 @@ const chapterBlock = {
   6: koThlaHataNataNohzy,
   7: maraRahLiataSayPazy,
   8: nubyhReinaDah,
+  9: tlosaihnatachapireihalyuleipazy,
+  10: marareihliatahbaina,
+  11: marareihliatapazaoawhpanatapazaoleiawhpazy,
 };
 
 const introduction = '''
@@ -312,7 +315,7 @@ PAVAW SAHEI NIEPA CHIZY
 
 const nubyhReinaDah = '''
 
-      Nubyh rei na dâh
+          Nubyh rei na dâh
 
 Mara reih liana heta nubyh reina dâh he chi pali ta pachhaihpa châta, chazy cha ~ 
 
@@ -324,4 +327,114 @@ Mara reih liana heta nubyh reina dâh he chi pali ta pachhaihpa châta, chazy ch
    Eg. Theihlu pôhkha khazie maw?  Vao pôh khazie nama hnei?
 4. Bao - Hmo sâno pakaopa reina chata ama hma tyh.
    Eg. Nôvah baokha ama y.
+''';
+
+const tlosaihnatachapireihalyuleipazy = '''
+
+
+            TLÔSAIH NATA CHAPI REIH ALYU LEIPA ZY
+
+       Tlôsaih                      Chapi
+      1.  ia                       1. e
+      eg. Hiah                     eg. He
+
+      2.  ei                       2. Ie
+      eg: moleina                  eg: meiliena
+
+      3.  o                        3. Ei
+      eg: moleina                  eg: ei
+
+      4.  y                        4. Au
+      eg: chysa                    eg: chaufaw
+
+      5.  ua                       5. Ue
+      eg: kua                      eg: kue
+
+          TLÔSAIH NATA CHAPI REIH ALYUPA ZY
+
+          Tlôsaih                Chapi
+        1.  ie                  1. Ie
+        eg: pie,nie             eg: pie,nie
+
+        2.  ai                  2. Ai
+        eg: lai                 eg: lai
+
+        3.  e                   3. E
+        eg: he,the              eg: he,the
+
+        4.  ô                   4. Ô
+        eg: chô,khô             eg: chô.khô
+
+        5.  u                   5. U
+        eg: uhta                eg: uhta
+        
+        6.  I                   6. I
+        Eg: I,ti                eg: I, ti
+
+        7.  Ao                  7. Ao
+        Eg: aopha               eg: aopha
+
+
+
+
+
+''';
+
+const marareihliatahbaina = '''
+
+              Mara reih liata ‘h’ baina
+
+Mara reih he aoki miathȏ y ta, cha zy cha :
+
+          Â sahpa	 – m
+          A liahpa – r
+          A hnaipa – d
+
+Aoki a nai chhaipa d key liata ‘H’ bai lyma awpa a chȃ.
+          Eg : Sȃ (m)
+               Sȃ (r)
+               Sȃh  (d)
+
+		      Mara reih rodȃh liata ‘h’ baina he ‘chyhsa moh’ liata ‘h’ bai leipa chȃ ta,hmo moh liata deikua baipa a chȃ.
+
+		Eg :  Pathai (chysa moh ‘h’ bai lei awpa)
+		        Pathaih – Lailai cha a ‘pathaih’ kaw.
+		       (He liata cha chysa moh a chȃ kei vȃta ‘h’ baipa a chȃ.
+
+
+''';
+
+const marareihliatapazaoawhpanatapazaoleiawhpazy = '''
+
+Mara reih liata pazao awhpa nata pazao lei awhpa zy 
+
+	Mohchhoh/Hmo moh cha roh pazao khai awpa a chȃ.
+
+Pamosana zy :-
+1.	Noun – Chakeihbarȏhneipa, kypachȃrȏna, Meisavaih.
+2.	Common noun – Chyhsa, Chaleituhpa, taotuhpa Rȃhsa, Chavah.
+3.	Abstract noun – Pathipalȏh, Ngȃchhina, kyhpachȃna.
+4.	Interrogative Pronoun – Ahyzy, Kheihawpa,
+5.	Conjunction – Anodeikuala, Chȃhrasala, Chavȃta.
+6.	Prefix – Pakei, Parao, Patyuh.
+7.	Suffix – Chaleina, phana, Kheihawpa, Khopa, Hmophapa.
+8.	Plural – zy eg:- sawzy, paraotuhpazy,hawsaizy.
+9.	Pronoun – Keima, Keimo, Keimasasyh. 
+
+Pazao lei awhpa zy :-
+1.	Pronoun – na, chi, pi.
+Pamosana – Khoh va ‘na’
+          Na pie ‘chi’ ta
+          Tao ‘pi’ ta.
+2.	Conjunction thokha he cha pazao lei pa ta noun a reipasia tuh avaw chȃ ha na ta cha pazao leipa a chȃ.
+Pamosana – Chȃ hrasala, na ta, chata leipata cha, cha ta, chȃ ta.
+          1.	Chȃ hrasala – CEM hmȃh cha hrasala ȃ reisi kaw.
+          2.	Chata/cha ta – 1. Zisu ‘cha ta’. 2. Moleipa ‘chata’ hmo paru awpa a tlua tyh.
+          3.	Chȃta/chȃ ta – 1. Nȃma nata kei ‘chȃta’ Zisu a thi. 2. LaiLai cha chyhsa pha kawpa chȃ ta.
+
+
+3.	Pronoun nata Verb ȃ pazaona lia bie pazao lei awhpa.
+Pamosana – ȃ vy, ȃ tyuh, ȃ duah.
+
+
 ''';

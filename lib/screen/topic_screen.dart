@@ -23,6 +23,7 @@ class TopicScreen extends StatelessWidget {
                     style: const TextStyle(fontSize: 17),
                   ),
                   onTap: () {
+                    // ignore: avoid_print
                     print(index + 1); // Print index for ChapterScreen
                     Navigator.push(
                       context,

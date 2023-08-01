@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  just_audio: ^0.9.33
+  just_audio: ^0.9.34
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
@@ -35,6 +35,8 @@ flutter:
     - assets/audio/1.mp3
     - assets/audio/Relax.mp3
     - assets/image/nubyh.png
-    
+    - assets/image/Contentsa.png 
+    - assets/image/icon.png
+
 
     

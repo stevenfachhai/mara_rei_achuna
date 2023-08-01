@@ -7,4 +7,7 @@ const topicList = [
   '6. Kô,thla,hâta nata nohzy',
   '7. Marapa râh liata râhsa ypazy',
   '8. Nubyh reina dah',
+  '9. TLÔSAIH NATA CHAPI REIH ALYU LEIPA ZY',
+  '10. Mara reih liata ‘h’ baina',
+  '11. Mara reih liata pazao awhpa nata pazao lei awhpa zy',
 ];

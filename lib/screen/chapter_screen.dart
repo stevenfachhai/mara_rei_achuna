@@ -12,6 +12,7 @@ class ChapterScreen extends StatefulWidget {
   final int titleNumber;
 
   @override
+  // ignore: library_private_types_in_public_api
   _ChapterScreenState createState() => _ChapterScreenState();
 }
 
@@ -55,16 +56,15 @@ class _ChapterScreenState extends State<ChapterScreen> {
     super.dispose();
   }
 
-  Future<void> playAudio() async {
+  Future<void> playStopAudio() async {
     if (_isPlaying) {
       await _audioPlayer.pause();
     } else {
       await _audioPlayer.play();
     }
-  }
-
-  Future<void> stopAudio() async {
-    await _audioPlayer.stop();
+    setState(() {
+      _isPlaying = !_isPlaying;
+    });
   }
 
   String formatDuration(Duration duration) {
@@ -76,7 +76,6 @@ class _ChapterScreenState extends State<ChapterScreen> {
   @override
   Widget build(BuildContext context) {
     final block = chapterBlock[widget.titleNumber] ?? '';
-    final audio = audioBlock[widget.titleNumber] ?? '';
 
     return Scaffold(
       appBar: AppBar(),
@@ -88,50 +87,44 @@ class _ChapterScreenState extends State<ChapterScreen> {
               margin: const EdgeInsets.symmetric(horizontal: 35),
               child: Column(
                 children: [
-                  Text(
-                    block,
-                    style: const TextStyle(fontSize: 17),
+                  Slider(
+                    value: _position.inSeconds.toDouble(),
+                    min: 0,
+                    max: _audioDuration.inSeconds.toDouble(),
+                    onChanged: (value) {
+                      final newPosition = Duration(seconds: value.toInt());
+                      _audioPlayer.seek(newPosition);
+                    },
                   ),
-                  Row(
-                    children: [
-                      IconButton(
-                        icon: Icon(
-                          _isPlaying ? Icons.pause : Icons.play_arrow,
-                        ),
-                        onPressed: playAudio,
-                      ),
-                      IconButton(
-                        icon: Icon(
-                          Icons.stop,
-                        ),
-                        onPressed: stopAudio,
-                      ),
-                      Expanded(
-                        child: Slider(
-                          value: _position.inSeconds.toDouble(),
-                          min: 0,
-                          max: _audioDuration.inSeconds.toDouble(),
-                          onChanged: (value) {
-                            final newPosition =
-                                Duration(seconds: value.toInt());
-                            _audioPlayer.seek(newPosition);
-                          },
-                        ),
-                      ),
-                    ],
+                  IconButton(
+                    iconSize: 36,
+                    icon: Icon(
+                      _isPlaying ? Icons.pause : Icons.play_arrow,
+                    ),
+                    onPressed: playStopAudio,
                   ),
+                  const SizedBox(
+                      height:
+                          16), // Add some spacing between icon and text content
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
                         formatDuration(_position),
                         style: const TextStyle(fontSize: 16),
                       ),
-                      const SizedBox(width: 8),
                       Text(
                         formatDuration(_audioDuration),
                         style: const TextStyle(fontSize: 16),
                       ),
                     ],
+                  ),
+                  const SizedBox(
+                      height:
+                          16), // Add some spacing between audio player and text content
+                  Text(
+                    block,
+                    style: const TextStyle(fontSize: 17),
                   ),
                 ],
               ),
