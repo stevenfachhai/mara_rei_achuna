@@ -11,6 +11,7 @@ dependencies:
     sdk: flutter
   just_audio: ^0.9.34
   cupertino_icons: ^1.0.2
+  
 
 dev_dependencies:
   flutter_test:
@@ -35,10 +36,13 @@ flutter:
     - assets/audio/1.mp3
     - assets/audio/Relax.mp3
     - assets/image/nubyh.png
-    - assets/image/Contentsa.png 
+    - assets/image/Contentsh.png 
     - assets/image/icon.png
     - assets/image/phohla.png
     - assets/image/MaraPh.png
-
-
-    
+    - assets/image/thyu.png
+    - assets/image/cho.png
+    - assets/image/MARAPHOPA1.png
+    - assets/image/PHOHLA2.png
+    - assets/image/HOME1.png
+    - assets/image/ACHUAWPAZY.png

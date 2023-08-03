@@ -12,8 +12,8 @@ class HomeScreen extends StatelessWidget {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/image/Contentsa.png'),
-            fit: BoxFit.cover,
+            image: AssetImage('assets/image/Contentsh.png'),
+            fit: BoxFit.fill,
           ),
         ),
         child: Center(
@@ -37,7 +37,7 @@ class HomeScreen extends StatelessWidget {
                     decoration: BoxDecoration(
                       color: Colors.black,
                       border: Border.all(
-                        color: Colors.black,
+                        color: const Color.fromARGB(255, 250, 247, 247),
                         width: 2.0,
                       ),
                       borderRadius: BorderRadius.circular(9.0),
@@ -84,7 +84,7 @@ class HomeScreen extends StatelessWidget {
                     decoration: BoxDecoration(
                       color: Colors.black,
                       border: Border.all(
-                        color: Colors.black,
+                        color: const Color.fromARGB(255, 242, 241, 241),
                         width: 2.0,
                       ),
                       borderRadius: BorderRadius.circular(9.0),
@@ -103,7 +103,7 @@ class HomeScreen extends StatelessWidget {
                             width:
                                 10), // Add some spacing between the second image and text
                         const Text(
-                          'Phohla',
+                          '   Phohla    ',
                           style: TextStyle(
                             fontSize: 30,
                             color: Color.fromARGB(255, 236, 161, 90),
@@ -129,9 +129,9 @@ class HomeScreen extends StatelessWidget {
                   child: Container(
                     padding: const EdgeInsets.all(8.0),
                     decoration: BoxDecoration(
-                      color: Colors.black,
+                      color: Color.fromARGB(255, 8, 8, 8),
                       border: Border.all(
-                        color: Colors.black,
+                        color: Color.fromARGB(255, 237, 234, 234),
                         width: 2.0,
                       ),
                       borderRadius: BorderRadius.circular(9.0),
@@ -150,7 +150,7 @@ class HomeScreen extends StatelessWidget {
                             width:
                                 10), // Add some spacing between the second image and text
                         const Text(
-                          'Phôhpa',
+                          '   Phôhpa    ',
                           style: TextStyle(
                             fontSize: 30,
                             color: Color.fromARGB(255, 236, 161, 90),

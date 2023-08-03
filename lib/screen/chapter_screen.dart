@@ -12,7 +12,6 @@ class ChapterScreen extends StatefulWidget {
   final int titleNumber;
 
   @override
-  // ignore: library_private_types_in_public_api
   _ChapterScreenState createState() => _ChapterScreenState();
 }
 
@@ -67,6 +66,30 @@ class _ChapterScreenState extends State<ChapterScreen> {
     });
   }
 
+  Future<void> stopAudio() async {
+    await _audioPlayer.stop();
+    setState(() {
+      _isPlaying = false;
+      _position = Duration.zero;
+    });
+  }
+
+  Future<void> goToStart() async {
+    final newPosition = Duration.zero;
+    _audioPlayer.seek(newPosition);
+    setState(() {
+      _position = newPosition;
+    });
+  }
+
+  Future<void> goToEnd() async {
+    final newPosition = _audioDuration;
+    _audioPlayer.seek(newPosition);
+    setState(() {
+      _position = newPosition;
+    });
+  }
+
   String formatDuration(Duration duration) {
     final minutes = duration.inMinutes;
     final seconds = duration.inSeconds.remainder(60).toString().padLeft(2, '0');
@@ -96,16 +119,6 @@ class _ChapterScreenState extends State<ChapterScreen> {
                       _audioPlayer.seek(newPosition);
                     },
                   ),
-                  IconButton(
-                    iconSize: 36,
-                    icon: Icon(
-                      _isPlaying ? Icons.pause : Icons.play_arrow,
-                    ),
-                    onPressed: playStopAudio,
-                  ),
-                  const SizedBox(
-                      height:
-                          16), // Add some spacing between icon and text content
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -119,9 +132,42 @@ class _ChapterScreenState extends State<ChapterScreen> {
                       ),
                     ],
                   ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      IconButton(
+                        iconSize: 36,
+                        icon: Icon(
+                          Icons.skip_previous,
+                        ),
+                        onPressed: goToStart,
+                      ),
+                      IconButton(
+                        iconSize: 36,
+                        icon: Icon(
+                          _isPlaying ? Icons.pause : Icons.play_arrow,
+                        ),
+                        onPressed: playStopAudio,
+                      ),
+                      IconButton(
+                        iconSize: 36,
+                        icon: Icon(
+                          Icons.stop,
+                        ),
+                        onPressed: stopAudio,
+                      ),
+                      IconButton(
+                        iconSize: 36,
+                        icon: Icon(
+                          Icons.skip_next,
+                        ),
+                        onPressed: goToEnd,
+                      ),
+                    ],
+                  ),
                   const SizedBox(
-                      height:
-                          16), // Add some spacing between audio player and text content
+                    height: 16,
+                  ), // Add some spacing between audio player and text content
                   Text(
                     block,
                     style: const TextStyle(fontSize: 17),
@@ -131,6 +177,19 @@ class _ChapterScreenState extends State<ChapterScreen> {
             ),
           );
         },
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.popUntil(context, (route) => route.isFirst);
+        },
+        child: const Icon(Icons.home),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      bottomNavigationBar: BottomAppBar(
+        shape: const CircularNotchedRectangle(),
+        child: Container(
+          height: 50.0,
+        ),
       ),
     );
   }
