@@ -207,12 +207,12 @@ NUHBY HLUHNA LÂ REIHNA NATA
 
 Reizie        Nuhby             Nuhby zie (Digit)
 
-Sâ /Mia           1                              1
-Sy                     10                            2
-Za                     100                          3
-Sâh                   1000                       4
-Thy                    10,000                   5
-Thysy                10,00,00                6
+Sâ /Mia           1                         1
+Sy                    10                        2
+Za                    100                     3
+Sâh                  1000                   4
+Thy                  10,000                 5
+Thysy              10,00,00              6
 Thyza               10,00,000               7
 Thysâh            1,00,00,000             8
 Thyzaw           10,00,00,000           9
@@ -345,7 +345,7 @@ const tlosaihnatachapireihalyuleipazy = '''
       eg: moleina                  eg: ei
 
       4.  y                        4. Au
-      eg: chysa                    eg: chaufaw
+      eg: chyhsa                    eg: chaufaw
 
       5.  ua                       5. Ue
       eg: kua                      eg: kue

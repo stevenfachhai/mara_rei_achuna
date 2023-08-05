@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:mara_rei_achuna/story/phopa.dart';
 
 class StoryScreen extends StatelessWidget {
@@ -28,7 +29,12 @@ class StoryScreen extends StatelessWidget {
                           16), // Add some spacing between icon and text content
                   Text(
                     song,
-                    style: const TextStyle(fontSize: 17),
+                    style: GoogleFonts.libreBaskerville(
+                      textStyle: const TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.normal,
+                      ),
+                    ),
                   ),
                 ],
               ),

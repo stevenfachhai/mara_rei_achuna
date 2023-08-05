@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:mara_rei_achuna/screen/title_screen.dart';
 import 'package:mara_rei_achuna/screen/topic_screen.dart';
 import 'package:mara_rei_achuna/story/tluana_list.dart';
@@ -14,7 +15,18 @@ class TluanaScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Color.fromARGB(255, 13, 13, 13),
+        title: Text(
+          'Mara Phȏhpa',
+          style: GoogleFonts.yesevaOne(
+            textStyle: const TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.normal,
+            ),
+          ),
+        ),
+      ),
       body: Stack(
         children: [
           ListView.builder(
@@ -50,7 +62,7 @@ class TluanaScreen extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            FloatingActionButton(
+            TextButton(
               onPressed: () {
                 Navigator.push(
                   context,
@@ -59,13 +71,32 @@ class TluanaScreen extends StatelessWidget {
                   ),
                 );
               },
-              child: Image.asset(
-                'assets/image/PHOHLA2.png', // Replace with the path of your first image
-                width: 80,
-                height: 80,
+              style: TextButton.styleFrom(
+                backgroundColor: Colors.black,
+                shape: RoundedRectangleBorder(
+                  borderRadius:
+                      BorderRadius.circular(20), // Adjust the radius as needed
+                ),
+                padding: const EdgeInsets.symmetric(
+                    horizontal: 16, vertical: 8), // Adjust padding as needed
+              ),
+              child: const Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.music_note, color: Colors.white),
+                  SizedBox(
+                      height: 4), // Add some space between the icon and text
+                  Text(
+                    'Mara Phohla', // Your text here
+                    style: TextStyle(
+                      fontSize: 12, // Adjust the font size as needed
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
               ),
             ),
-            FloatingActionButton(
+            TextButton(
               onPressed: () {
                 Navigator.push(
                   context,
@@ -74,14 +105,32 @@ class TluanaScreen extends StatelessWidget {
                   ),
                 );
               },
-              backgroundColor: Colors.black,
-              child: Image.asset(
-                'assets/image/HOME1.png', // Replace with the path of your second image
-                width: 80,
-                height: 80,
+              style: TextButton.styleFrom(
+                backgroundColor: Colors.black,
+                shape: RoundedRectangleBorder(
+                  borderRadius:
+                      BorderRadius.circular(20), // Adjust the radius as needed
+                ),
+                padding: const EdgeInsets.symmetric(
+                    horizontal: 16, vertical: 8), // Adjust padding as needed
+              ),
+              child: const Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.home, color: Colors.white),
+                  SizedBox(
+                      height: 4), // Add some space between the icon and text
+                  Text(
+                    'Home', // Your text here
+                    style: TextStyle(
+                      fontSize: 12, // Adjust the font size as needed
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
               ),
             ),
-            FloatingActionButton(
+            TextButton(
               onPressed: () {
                 Navigator.push(
                   context,
@@ -90,20 +139,38 @@ class TluanaScreen extends StatelessWidget {
                   ),
                 );
               },
-              child: Image.asset(
-                'assets/image/ACHUAWPAZY.png', // Replace with the path of your second image
-                width: 80,
-                height: 80,
+              style: TextButton.styleFrom(
+                backgroundColor: Colors.black,
+                shape: RoundedRectangleBorder(
+                  borderRadius:
+                      BorderRadius.circular(20), // Adjust the radius as needed
+                ),
+                padding: const EdgeInsets.symmetric(
+                    horizontal: 16, vertical: 8), // Adjust padding as needed
+              ),
+              child: const Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.library_books_outlined, color: Colors.white),
+                  SizedBox(
+                      height: 4), // Add some space between the icon and text
+                  Text(
+                    'Achu awpa zy', // Your text here
+                    style: TextStyle(
+                      fontSize: 12, // Adjust the font size as needed
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
               ),
             ),
           ],
         ),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
         shape: const CircularNotchedRectangle(),
         child: Container(
-          height: 50.0,
+          height: 0,
         ),
       ),
     );

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:mara_rei_achuna/screen/title_screen.dart';
 import 'package:mara_rei_achuna/screen/tluana_screen.dart';
 import 'package:mara_rei_achuna/screen/topic_screen.dart';
@@ -55,12 +56,12 @@ class HomeScreen extends StatelessWidget {
                         const SizedBox(
                             width:
                                 10), // Add some spacing between the first image and text
-                        const Text(
+                        Text(
                           'Achu awpa zy',
-                          style: TextStyle(
+                          style: GoogleFonts.libreBaskerville(
                             fontSize: 25,
                             color: Color.fromARGB(255, 236, 161, 90),
-                            fontWeight: FontWeight.bold,
+                            fontWeight: FontWeight.normal,
                           ),
                         ),
                       ],
@@ -93,7 +94,7 @@ class HomeScreen extends StatelessWidget {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Image.asset(
-                          'assets/image/phohla.png', // Replace with the path to your second image file
+                          'assets/image/PHOHLA2.png', // Replace with the path to your second image file
                           width:
                               50, // Replace with the desired width for the image
                           height:
@@ -102,12 +103,12 @@ class HomeScreen extends StatelessWidget {
                         const SizedBox(
                             width:
                                 10), // Add some spacing between the second image and text
-                        const Text(
-                          '   Phohla    ',
-                          style: TextStyle(
+                        Text(
+                          '   Phohla     ',
+                          style: GoogleFonts.libreBaskerville(
                             fontSize: 30,
                             color: Color.fromARGB(255, 236, 161, 90),
-                            fontWeight: FontWeight.bold,
+                            fontWeight: FontWeight.normal,
                           ),
                         ),
                       ],
@@ -140,7 +141,7 @@ class HomeScreen extends StatelessWidget {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Image.asset(
-                          'assets/image/MaraPh.png', // Replace with the path to your second image file
+                          'assets/image/MARAPHOPA1.png', // Replace with the path to your second image file
                           width:
                               50, // Replace with the desired width for the image
                           height:
@@ -149,12 +150,12 @@ class HomeScreen extends StatelessWidget {
                         const SizedBox(
                             width:
                                 10), // Add some spacing between the second image and text
-                        const Text(
+                        Text(
                           '   Phôhpa    ',
-                          style: TextStyle(
+                          style: GoogleFonts.libreBaskerville(
                             fontSize: 30,
                             color: Color.fromARGB(255, 236, 161, 90),
-                            fontWeight: FontWeight.bold,
+                            fontWeight: FontWeight.normal,
                           ),
                         ),
                       ],

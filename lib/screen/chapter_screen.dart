@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:mara_rei_achuna/content/audio_block.dart';
 import 'package:mara_rei_achuna/content/chapter_block.dart';
 import 'package:just_audio/just_audio.dart';
@@ -170,7 +171,12 @@ class _ChapterScreenState extends State<ChapterScreen> {
                   ), // Add some spacing between audio player and text content
                   Text(
                     block,
-                    style: const TextStyle(fontSize: 17),
+                    style: GoogleFonts.libreBaskerville(
+                      textStyle: const TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.normal,
+                      ),
+                    ),
                   ),
                 ],
               ),

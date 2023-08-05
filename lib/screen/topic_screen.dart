@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:mara_rei_achuna/screen/chapter_screen.dart';
 import 'package:mara_rei_achuna/content/topic_list.dart';
 import 'package:mara_rei_achuna/screen/home_screen.dart';
@@ -13,9 +14,25 @@ class TopicScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.black,
+        title: Text(
+          'Achu awpa zy',
+          style: GoogleFonts.yesevaOne(
+            textStyle: const TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.normal,
+            ),
+          ),
+        ),
+      ),
       body: Stack(
         children: [
+          Container(
+            // Add a container for background
+            color: const Color.fromARGB(
+                255, 19, 18, 18), // Set the desired background color here
+          ),
           ListView.builder(
             itemCount: topicList.length,
             itemBuilder: (context, index) {
@@ -23,7 +40,12 @@ class TopicScreen extends StatelessWidget {
                 child: ListTile(
                   title: Text(
                     topicList[index],
-                    style: const TextStyle(fontSize: 17),
+                    style: GoogleFonts.arapey(
+                      textStyle: const TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                   ),
                   onTap: () {
                     // ignore: avoid_print
@@ -49,7 +71,7 @@ class TopicScreen extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            FloatingActionButton(
+            TextButton(
               onPressed: () {
                 Navigator.push(
                   context,
@@ -58,13 +80,32 @@ class TopicScreen extends StatelessWidget {
                   ),
                 );
               },
-              child: Image.asset(
-                'assets/image/PHOHLA2.png', // Replace with the path of your first image
-                width: 80,
-                height: 80,
+              style: TextButton.styleFrom(
+                backgroundColor: Colors.black,
+                shape: RoundedRectangleBorder(
+                  borderRadius:
+                      BorderRadius.circular(20), // Adjust the radius as needed
+                ),
+                padding: const EdgeInsets.symmetric(
+                    horizontal: 16, vertical: 8), // Adjust padding as needed
+              ),
+              child: const Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.music_note, color: Colors.white),
+                  SizedBox(
+                      height: 4), // Add some space between the icon and text
+                  Text(
+                    'Mara phohla', // Your text here
+                    style: TextStyle(
+                      fontSize: 12, // Adjust the font size as needed
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
               ),
             ),
-            FloatingActionButton(
+            TextButton(
               onPressed: () {
                 Navigator.push(
                   context,
@@ -73,14 +114,32 @@ class TopicScreen extends StatelessWidget {
                   ),
                 );
               },
-              backgroundColor: Colors.black,
-              child: Image.asset(
-                'assets/image/HOME1.png', // Replace with the path of your second image
-                width: 80,
-                height: 80,
+              style: TextButton.styleFrom(
+                backgroundColor: Colors.black,
+                shape: RoundedRectangleBorder(
+                  borderRadius:
+                      BorderRadius.circular(20), // Adjust the radius as needed
+                ),
+                padding: const EdgeInsets.symmetric(
+                    horizontal: 16, vertical: 8), // Adjust padding as needed
+              ),
+              child: const Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.home, color: Colors.white),
+                  SizedBox(
+                      height: 4), // Add some space between the icon and text
+                  Text(
+                    'Home', // Your text here
+                    style: TextStyle(
+                      fontSize: 12, // Adjust the font size as needed
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
               ),
             ),
-            FloatingActionButton(
+            TextButton(
               onPressed: () {
                 Navigator.push(
                   context,
@@ -89,20 +148,39 @@ class TopicScreen extends StatelessWidget {
                   ),
                 );
               },
-              child: Image.asset(
-                'assets/image/MARAPHOPA1.png', // Replace with the path of your second image
-                width: 80,
-                height: 80,
+              style: TextButton.styleFrom(
+                backgroundColor: Colors.black,
+                shape: RoundedRectangleBorder(
+                  borderRadius:
+                      BorderRadius.circular(20), // Adjust the radius as needed
+                ),
+                padding: const EdgeInsets.symmetric(
+                    horizontal: 16, vertical: 8), // Adjust padding as needed
+              ),
+              child: const Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.menu_book_sharp, color: Colors.white),
+                  SizedBox(
+                      height: 4), // Add some space between the icon and text
+                  Text(
+                    'Mara phȏhpa', // Your text here
+                    style: TextStyle(
+                      fontSize: 12, // Adjust the font size as needed
+                      color: Colors.white,
+                    ),
+                  ),
+                ],
               ),
             ),
           ],
         ),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
         shape: const CircularNotchedRectangle(),
         child: Container(
-          height: 50.0,
+          height: 0,
+          // Add any additional content for the BottomAppBar here if needed
         ),
       ),
     );
