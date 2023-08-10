@@ -1,8 +1,10 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mara_rei_achuna/screen/title_screen.dart';
-import 'package:mara_rei_achuna/screen/tluana_screen.dart';
-import 'package:mara_rei_achuna/screen/topic_screen.dart';
+import 'package:mara_rei_achuna1/screen/title_screen.dart';
+import 'package:mara_rei_achuna1/screen/tluana_screen.dart';
+import 'package:mara_rei_achuna1/screen/topic_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);

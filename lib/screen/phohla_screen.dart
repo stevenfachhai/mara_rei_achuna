@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mara_rei_achuna/song/song_image.dart';
-import 'package:mara_rei_achuna/song/song_lyrics.dart';
+import 'package:mara_rei_achuna1/song/song_image.dart';
+import 'package:mara_rei_achuna1/song/song_lyrics.dart';
 
 class PhohlaScreen extends StatelessWidget {
   const PhohlaScreen({

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mara_rei_achuna/screen/chapter_screen.dart';
-import 'package:mara_rei_achuna/content/topic_list.dart';
-import 'package:mara_rei_achuna/screen/home_screen.dart';
-import 'package:mara_rei_achuna/screen/title_screen.dart';
-import 'package:mara_rei_achuna/screen/tluana_screen.dart';
+import 'package:mara_rei_achuna1/screen/chapter_screen.dart';
+import 'package:mara_rei_achuna1/content/topic_list.dart';
+import 'package:mara_rei_achuna1/screen/home_screen.dart';
+import 'package:mara_rei_achuna1/screen/title_screen.dart';
+import 'package:mara_rei_achuna1/screen/tluana_screen.dart';
 
 class TopicScreen extends StatelessWidget {
   const TopicScreen({
@@ -29,9 +29,7 @@ class TopicScreen extends StatelessWidget {
       body: Stack(
         children: [
           Container(
-            // Add a container for background
-            color: const Color.fromARGB(
-                255, 19, 18, 18), // Set the desired background color here
+            color: const Color.fromARGB(255, 19, 18, 18),
           ),
           ListView.builder(
             itemCount: topicList.length,
@@ -48,8 +46,7 @@ class TopicScreen extends StatelessWidget {
                     ),
                   ),
                   onTap: () {
-                    // ignore: avoid_print
-                    print(index + 1); // Print index for ChapterScreen
+                    print(index + 1);
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -83,22 +80,20 @@ class TopicScreen extends StatelessWidget {
               style: TextButton.styleFrom(
                 backgroundColor: Colors.black,
                 shape: RoundedRectangleBorder(
-                  borderRadius:
-                      BorderRadius.circular(20), // Adjust the radius as needed
+                  borderRadius: BorderRadius.circular(20),
                 ),
-                padding: const EdgeInsets.symmetric(
-                    horizontal: 16, vertical: 8), // Adjust padding as needed
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               ),
               child: const Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Icon(Icons.music_note, color: Colors.white),
-                  SizedBox(
-                      height: 4), // Add some space between the icon and text
+                  const SizedBox(height: 4),
                   Text(
-                    'Mara phohla', // Your text here
+                    'Mara phohla',
                     style: TextStyle(
-                      fontSize: 12, // Adjust the font size as needed
+                      fontSize: 12,
                       color: Colors.white,
                     ),
                   ),
@@ -117,22 +112,20 @@ class TopicScreen extends StatelessWidget {
               style: TextButton.styleFrom(
                 backgroundColor: Colors.black,
                 shape: RoundedRectangleBorder(
-                  borderRadius:
-                      BorderRadius.circular(20), // Adjust the radius as needed
+                  borderRadius: BorderRadius.circular(20),
                 ),
-                padding: const EdgeInsets.symmetric(
-                    horizontal: 16, vertical: 8), // Adjust padding as needed
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               ),
               child: const Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Icon(Icons.home, color: Colors.white),
-                  SizedBox(
-                      height: 4), // Add some space between the icon and text
+                  const SizedBox(height: 4),
                   Text(
-                    'Home', // Your text here
+                    'Home',
                     style: TextStyle(
-                      fontSize: 12, // Adjust the font size as needed
+                      fontSize: 12,
                       color: Colors.white,
                     ),
                   ),
@@ -151,28 +144,28 @@ class TopicScreen extends StatelessWidget {
               style: TextButton.styleFrom(
                 backgroundColor: Colors.black,
                 shape: RoundedRectangleBorder(
-                  borderRadius:
-                      BorderRadius.circular(20), // Adjust the radius as needed
+                  borderRadius: BorderRadius.circular(20),
                 ),
-                padding: const EdgeInsets.symmetric(
-                    horizontal: 16, vertical: 8), // Adjust padding as needed
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               ),
               child: const Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Icon(Icons.menu_book_sharp, color: Colors.white),
-                  SizedBox(
-                      height: 4), // Add some space between the icon and text
+                  const SizedBox(height: 4),
                   Text(
-                    'Mara phȏhpa', // Your text here
+                    'Mara phôhpa',
                     style: TextStyle(
-                      fontSize: 12, // Adjust the font size as needed
+                      fontSize: 12,
                       color: Colors.white,
                     ),
                   ),
                 ],
               ),
             ),
+
+// ... Your TextButton widgets ...
           ],
         ),
       ),
@@ -180,7 +173,6 @@ class TopicScreen extends StatelessWidget {
         shape: const CircularNotchedRectangle(),
         child: Container(
           height: 0,
-          // Add any additional content for the BottomAppBar here if needed
         ),
       ),
     );

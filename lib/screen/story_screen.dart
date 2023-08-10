@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mara_rei_achuna/story/phopa.dart';
+import 'package:mara_rei_achuna1/story/phopa.dart';
 
 class StoryScreen extends StatelessWidget {
   const StoryScreen({
@@ -12,7 +12,7 @@ class StoryScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final song = phopa[titleNumber] ?? '';
+    final story = phopa[titleNumber] ?? '';
 
     return Scaffold(
       appBar: AppBar(),
@@ -26,15 +26,16 @@ class StoryScreen extends StatelessWidget {
                 children: [
                   const SizedBox(
                       height:
-                          16), // Add some spacing between icon and text content
+                          18), // Add some spacing between icon and text content
                   Text(
-                    song,
+                    story,
                     style: GoogleFonts.libreBaskerville(
                       textStyle: const TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.normal,
                       ),
                     ),
+                    textAlign: TextAlign.justify, // Add this line
                   ),
                 ],
               ),

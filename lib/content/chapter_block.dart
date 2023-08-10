@@ -384,22 +384,22 @@ const marareihliatahbaina = '''
 
               Mara reih liata ‘h’ baina
 
-Mara reih he aoki miathȏ y ta, cha zy cha :
+Mara reih he aoki miathô y ta, cha zy cha :
 
           Â sahpa	 – m
           A liahpa – r
           A hnaipa – d
 
-Aoki a nai chhaipa d key liata ‘H’ bai lyma awpa a chȃ.
-          Eg : Sȃ (m)
-               Sȃ (r)
-               Sȃh  (d)
+Aoki a nai chhaipa d key liata ‘H’ bai lyma awpa a châ.
+          Eg : Sâ (m)
+               Sâ (r)
+               Sâh  (d)
 
-		      Mara reih rodȃh liata ‘h’ baina he ‘chyhsa moh’ liata ‘h’ bai leipa chȃ ta,hmo moh liata deikua baipa a chȃ.
+		      Mara reih rodâh liata ‘h’ baina he ‘chyhsa moh’ liata ‘h’ bai leipa châ ta,hmo moh liata deikua baipa a châ.
 
 		Eg :  Pathai (chysa moh ‘h’ bai lei awpa)
 		        Pathaih – Lailai cha a ‘pathaih’ kaw.
-		       (He liata cha chysa moh a chȃ kei vȃta ‘h’ baipa a chȃ.
+		       (He liata cha chysa moh a châ kei vâta ‘h’ baipa a châ.
 
 
 ''';
@@ -408,14 +408,14 @@ const marareihliatapazaoawhpanatapazaoleiawhpazy = '''
 
 Mara reih liata pazao awhpa nata pazao lei awhpa zy 
 
-	Mohchhoh/Hmo moh cha roh pazao khai awpa a chȃ.
+	Mohchhoh/Hmo moh cha roh pazao khai awpa a châ.
 
 Pamosana zy :-
-1.	Noun – Chakeihbarȏhneipa, kypachȃrȏna, Meisavaih.
-2.	Common noun – Chyhsa, Chaleituhpa, taotuhpa Rȃhsa, Chavah.
-3.	Abstract noun – Pathipalȏh, Ngȃchhina, kyhpachȃna.
+1.	Noun – Chakeihbarôhneipa, kypachârôna, Meisavaih.
+2.	Common noun – Chyhsa, Chaleituhpa, taotuhpa Râhsa, Chavah.
+3.	Abstract noun – Pathipalôh, Ngâchhina, kyhpachâna.
 4.	Interrogative Pronoun – Ahyzy, Kheihawpa,
-5.	Conjunction – Anodeikuala, Chȃhrasala, Chavȃta.
+5.	Conjunction – Anodeikuala, Châhrasala, Chavâta.
 6.	Prefix – Pakei, Parao, Patyuh.
 7.	Suffix – Chaleina, phana, Kheihawpa, Khopa, Hmophapa.
 8.	Plural – zy eg:- sawzy, paraotuhpazy,hawsaizy.
@@ -426,15 +426,15 @@ Pazao lei awhpa zy :-
 Pamosana – Khoh va ‘na’
           Na pie ‘chi’ ta
           Tao ‘pi’ ta.
-2.	Conjunction thokha he cha pazao lei pa ta noun a reipasia tuh avaw chȃ ha na ta cha pazao leipa a chȃ.
-Pamosana – Chȃ hrasala, na ta, chata leipata cha, cha ta, chȃ ta.
-          1.	Chȃ hrasala – CEM hmȃh cha hrasala ȃ reisi kaw.
+2.	Conjunction thokha he cha pazao lei pa ta noun a reipasia tuh avaw châ ha na ta cha pazao leipa a châ.
+Pamosana – Châ hrasala, na ta, chata leipata cha, cha ta, châ ta.
+          1.	Châ hrasala – CEM hmâh cha hrasala â reisi kaw.
           2.	Chata/cha ta – 1. Zisu ‘cha ta’. 2. Moleipa ‘chata’ hmo paru awpa a tlua tyh.
-          3.	Chȃta/chȃ ta – 1. Nȃma nata kei ‘chȃta’ Zisu a thi. 2. LaiLai cha chyhsa pha kawpa chȃ ta.
+          3.	Châta/châ ta – 1. Nâma nata kei ‘châta’ Zisu a thi. 2. LaiLai cha chyhsa pha kawpa châ ta.
 
 
-3.	Pronoun nata Verb ȃ pazaona lia bie pazao lei awhpa.
-Pamosana – ȃ vy, ȃ tyuh, ȃ duah.
+3.	Pronoun nata Verb â pazaona lia bie pazao lei awhpa.
+Pamosana – â vy, â tyuh, â duah.
 
 
 ''';

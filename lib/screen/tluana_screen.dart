@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mara_rei_achuna/screen/title_screen.dart';
-import 'package:mara_rei_achuna/screen/topic_screen.dart';
-import 'package:mara_rei_achuna/story/tluana_list.dart';
-import 'package:mara_rei_achuna/screen/story_screen.dart';
+import 'package:mara_rei_achuna1/screen/title_screen.dart';
+import 'package:mara_rei_achuna1/screen/topic_screen.dart';
+import 'package:mara_rei_achuna1/story/tluana_list.dart';
+import 'package:mara_rei_achuna1/screen/story_screen.dart';
 
 import 'home_screen.dart';
 
@@ -16,9 +16,9 @@ class TluanaScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 13, 13, 13),
+        backgroundColor: Color.fromARGB(255, 54, 27, 11),
         title: Text(
-          'Mara Phȏhpa',
+          'Mara Phôhpa',
           style: GoogleFonts.yesevaOne(
             textStyle: const TextStyle(
               fontSize: 20,
@@ -58,7 +58,7 @@ class TluanaScreen extends StatelessWidget {
       ),
       floatingActionButton: Container(
         height: 50.0,
-        color: Colors.black,
+        color: Color.fromARGB(255, 12, 12, 12),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
@@ -167,6 +167,7 @@ class TluanaScreen extends StatelessWidget {
           ],
         ),
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
         shape: const CircularNotchedRectangle(),
         child: Container(

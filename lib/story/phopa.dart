@@ -8,7 +8,17 @@ const phopa = {
   7: papangawhlyurie,
   8: haratiepa,
   9: sawku,
-  10: leidoh
+  10: leidoh,
+  11: savainata,
+  12: azyh,
+  13: raino,
+  14: chavyhpupa,
+  15: tliano,
+  16: chheihluti,
+  17: nara,
+  18: hlichhy,
+  19: liasari,
+  20: hlyche,
 };
 
 const marachhopasia = '''
@@ -27,7 +37,7 @@ const marachhopasia = '''
 
 2.	Laiherh chi: Chittagong Hill track liata apahrâ hrapa, Chakma nah ta Mahpaw SIATHYU he pahno ei ta, ama vaw chi ngâsâ. Chariah ama thiepa chyhsa luh tai ei ta ama phao tyhpa vaw hmô ei ta, he a luh liata lathlie nie awpa hawhta vaw pachâ ei ta, hevâna heta 'Laiherh chi' ama vaw tahpa a châ.
 
-3.	 Kaliah: Chi hropazy ta miah ama pahnona dâh avaw lyu tlâ hra vei sala. Keimo nata Keimo sasyh ta Mara eima vaw tah.A yzie cha, MIRAM tawhta la pachhuahpa hawhta a lâ. Thokhata KALIAH eimâ vaw tah hra.A yzie cha, 'Chikha Phokha, reih atheipa, zie alyupa' tahna a chȃ. Anodeikuala, daihti vaw sie lymâpa liata he Kaliah reikah he a vaw dia pathao lymâpa a châ. Kaliah moh pachyupa eima hmâpa thokhazy:- 
+3.	 Kaliah: Chi hropazy ta miah ama pahnona dâh avaw lyu tlâ hra vei sala. Keimo nata Keimo sasyh ta Mara eima vaw tah.A yzie cha, MIRAM tawhta la pachhuahpa hawhta a lâ. Thokhata KALIAH eimâ vaw tah hra.A yzie cha, 'Chikha Phokha, reih atheipa, zie alyupa' tahna a châ. Anodeikuala, daihti vaw sie lymâpa liata he Kaliah reikah he a vaw dia pathao lymâpa a châ. Kaliah moh pachyupa eima hmâpa thokhazy:- 
 
       e.g.
 
@@ -38,7 +48,7 @@ const marachhopasia = '''
 
 4.	Lakher: India Maw-Nochhi lâta ypa MIZORAM State chhôh liata chi hluh chaipa nah cha, Mizo châ ei ta, amo ta LAKHER miah ama vaw ta. Ayzie cha, kha hlâta atahmâno hawhta asie-pahlienazy a vaw pha leipa vâta, eima reikahzy a thei thei tlâ ma pi. Miah ama vaw tlôkiana daihti liata eima chanô nah ta eimâ bu-sai awpa Pala ama vaw hria kôzawpa he eima moh chho nawpa ta Lakher' tahpa ta ama vaw pachyupa a châ.
 
-I     ndia liata Vianah nata Mongyuh nah ta he daihti liata a eih-hrâpa ta miah vaw pahno tu hlei vei. Chavâta MIZO nah reih ahly ei ta, LAKHER tahpa ta miah ama vaw pahno pathaopa a châ hra.
+    India liata Vianah nata Mongyuh nah ta he daihti liata a eih-hrâpa ta miah vaw pahno tu hlei vei. Chavâta MIZO nah reih ahly ei ta, LAKHER tahpa ta miah ama vaw pahno pathaopa a châ hra.
 
 5.	 Mara: Chin-Haka chyhsa nah ta, 'MIRAM' tahpa ta miah ama vaw pahno/âw. A yzie cha ama pahrâna/yna tawhta mahthi lâ/nohdi lâta a ypa tahna a châ. Mara nah chô lâta a ypa hawhta ama vaw pachâ. He leipa chhaota 'Zo/Zochhia' miah ama vaw tahpâ hra. 'Miram' tahpa he 'Mara' tahpa ta paliepa a châ. Bie miakhapa, a yzie âlyupa a châ.
 
@@ -50,10 +60,12 @@ I     ndia liata Vianah nata Mongyuh nah ta he daihti liata a eih-hrâpa ta miah
 
 const marachanonatachapaw = '''
 
-                MARA CHANO NATA CHAPAWATOBI 
-                    NATAAMA HROZIE NOCHÂ
+        MARA CHANO NATA 
+          CHAPAWATOBI 
+        NATA AMA HROZIE 
+          NOCHÂ
 
-      Hlâno Mara chanô nata Chapawnah heta O chhôh lyukah hluh kaw ta. Chanônah heta ti chho beih chho, O chhôh lyukah liata hmȃtlȃh ama vaw chȃnah heta raihria awpa vaw hluh kaw ta.Chanȏnah heta ti chho beih chho, O chhȏh lyukah nata a kiapâh pathai rai nata Lyu rai chhao thata vaw hria ei ta. He hleikhô ta ama daihti ruapa liata Thaisapa, Pala hriapa nata Tho phao, Ti thaizy chhao thata ama vaw hria tyh. He hleikhô ta ama nie awpa Sâh zy zawh ei ta, chakhai nahta Mydi Awh khota thyu ei ta, Sâh ama vaw daih pazao heih tyhpa a châ. Nohchhô lâta ama hria awpazy ama hriapazi khai tawhta zâ daihti liata chhaota Laihsa châta O chareipazy ama hnei khiatala adi hlâ viata cha amâ tyupâ tyh. He vâna heta hlâno Mara chanônah he ama riethei/ hriapasa via pahchai.
+      Hlâno Mara chanô nata Chapawnah heta O chhôh lyukah hluh kaw ta. Chanônah heta ti chho beih chho, O chhôh lyukah liata hmâtlâh ama vaw chânah heta raihria awpa vaw hluh kaw ta.Chanônah heta ti chho beih chho, O chhôh lyukah nata a kiapâh pathai rai nata Lyu rai chhao thata vaw hria ei ta. He hleikhô ta ama daihti ruapa liata Thaisapa, Pala hriapa nata Tho phao, Ti thaizy chhao thata ama vaw hria tyh. He hleikhô ta ama nie awpa Sâh zy zawh ei ta, chakhai nahta Mydi Awh khota thyu ei ta, Sâh ama vaw daih pazao heih tyhpa a châ. Nohchhô lâta ama hria awpazy ama hriapazi khai tawhta zâ daihti liata chhaota Laihsa châta O chareipazy ama hnei khiatala adi hlâ viata cha amâ tyupâ tyh. He vâna heta hlâno Mara chanônah he ama riethei/ hriapasa via pahchai.
 
       Hlâno Mara Chapawnah chhao, Chanônah hawhta rai hria pasa ngâsâ ei ta, O chhôh lâta ama hria viapazy deikua cha, Chapawnah ta Ti thai nawpa ta Ramawh Ti-ôh achapawpa ta Ti thaih ei ta, Thozy chhao ama vaw phao khei tyh hra. O sa chhao he Chapaw rai eih viapa hawhta pachâpa a châ. Khichhôh Satlia nata Laihsazy chhao y molo leipa ei ta,a hripi ta Sawpâh phaona lâzy sie tyh ei ta, ama Khizaw daihti haosai ama vaw phapasa ngâsâ tyh. Ngiadih tai ei, phaoh ei, Chavah lâzy sie apahrua ei ama vaw tah tyh. Nie dona kyh liata chhao hlâno chyhsanah he ama vaw paphasa ngâsâ tyh. Sahma apahâh ngâsâpa ama hneipa, Râchâ beih liata ama vaw pazy tyh. Noh peimawhpa liata zy, apaly-pa-uasana daihti liata zy ama vaw hmâh ngâsâ. Chapaw nah he Hrâsihpa chyhsa ama châpa vâta, Chanônah hlâta a ei viapa ama vaw châ. Sa ama phaopazy chhao a khitlâh ta alykhei thai kawpa chyhsa ama vaw châ. A khina rakha ta Sa cha tlâh ama vaw zâ tyh. Hlâno daihti liata Sa aka theipazy cha a khisaw dei chhao châ leipa ta, Khih beipa chhaota avaw palaikhei kaw tyh hra.
 
@@ -108,141 +120,141 @@ const sawnahmohchho = '''
 
 const maraphohpa = '''
 
-                MARA PHÔHPA AZUAPA CHI
+                MARA PHÔHPA 
+                AZUAPA CHI
 
-Hlâno Mara sawzy alai a chyh, hawti machâ, achanô chapaw ta eima yru chȃh ta nata daihti ruapa lia mainta lathli pachâna a kawh nata kawh lei, eima sona nata so lei pahno nawpa ta khâ ama vaw hiahri tyhpa, atanoh sawtliapa chhâ liata eima my lei nawpa alâhâh viapazy ei vaw palâsa. Hlâno Mara sawzy IQ a pha nata pha lei he tawhna heta na pahno thei aw.
+Hlâno Mara sawzy alai a chyh, hawti machâ, achanô chapaw ta eima yru châh ta nata daihti ruapa lia mainta lathli pachâna a kawh nata kawh lei, eima sona nata so lei pahno nawpa ta khâ ama vaw hiahri tyhpa, atanoh sawtliapa chhâ liata eima my lei nawpa alâhâh viapazy ei vaw palâsa. Hlâno Mara sawzy IQ a pha nata pha lei he tawhna heta na pahno thei aw.
 
 1.	Khâpa e, aphei pheikha dei Viarâh
-	Lâthlôh.
+=>	Lâthlôh.
 2.	Khâpa e, lâpi taipakhâh?
-	Hlo-ia.
+=>	Hlo-ia.
 3.	Khâpa e, Sasu chao lahmi râh phaiphô? 
-	Tisao.
+=>	Tisao.
 4.	Khâpa e. nie chhy ie chhy?
-	Larieh. 
+=>	Larieh. 
 5.	Khâpa e, vawh ta vaw kua thai khao vei?
-	Pachih pachhaopa. 
+=>	Pachih pachhaopa. 
 6.	Khâpa e, haona tai vawh ta, he lia y thlâh heih? 
-	Mohmia pasaihpa.
+=>	Mohmia pasaihpa.
 7.	 Khâpa e, Lyurâhpa cheichâ?
-	 Thaithaipa.
+=>	 Thaithaipa.
 8.	Khâpa e, Lyurâhpa bôtô ?
-	Theiluhkhupa
+=>	Theiluhkhupa
 9.	 Khâpa e, nohta thlaw ta hlôsilih? 
-	Awhtih.
+=>	Awhtih.
 10.	Khâpa e, Lyurâhpa Awh hnie?
-	 Lyuri.
+=> Lyuri.
 11.	Khâpa e, Apinô ngâhta ta, ataw ahrâh kaw? 
-	Ngiasyuh/ Ngiadih.
+=>	Ngiasyuh/ Ngiadih.
 12.	Khapa e, amokhaoh sai ta a y thlâh hawh? 
-	 Awhpaih.
+=>	Awhpaih.
 13.	 Khapa e, Lyurâh awhsai khypa?
-	Mei.
+=>	Mei.
 14.	 Khâpa e, Awhsai khypa pathlie?
-	Lyu raopa. 
+=>	Lyu raopa. 
 15.	Khâpa e, Tilih lia Ngapeili baokha tlôh?
-	 Noh nata Thlâpâ.
+=>	 Noh nata Thlâpâ.
 16.	 Khâpa e, Luh pôlô tilih tla?
-	 Saikyu.
+=>	 Saikyu.
 17.	 Khâpa e, rapikhaoh maitlalô?
-	 Sathaw-ôh.
+=>	 Sathaw-ôh.
 18.	 Khâpa echapie thosari?
-	 Chhâmeih su.
+=> Chhâmeih su.
 19.	 Khapa e mykhahrai, zâ khahrai? 
-	 Ochhi khawpa
+=>	 Ochhi khawpa
 20.	Khâpa e, Opi hno pasai?
-	Khaohrei.
+=>	Khaohrei.
 21.	Khâpa e, Opi thaikah?
-	 Pâkô.
+=>	 Pâkô.
 22.	Khâpa e, Opi pathi?
-	 Pachoh.
+=>	 Pachoh.
 23.	 Khâpa e, Viahchhâ dai sari?
-	Chakoh.
+=>	Chakoh.
 24.	 Khâpa e, apinô sâkha dei, pinô ahluh kaw?
-	 Seihâh.
+=>	 Seihâh.
 25.	Khâpa e, a chô mei saih, ary ti lih?
-	Karao luh nata karao chao.
+=>	Karao luh nata karao chao.
 26.	 Khâpa e, ary mei saih, a chô tilih? 
-	Beih eima chhopa.
+=>	Beih eima chhopa.
 27.	 Khâpa e, a phei pheikha deita Sa phaoh?
-	Viahkho.
+=>	Viahkho.
 28.	 Khâpa e, Vawbiah khao charie?
-	Amôh/ Rahvaw hleidy.
+=>	Amôh/ Rahvaw hleidy.
 29.	 Khataih lia e, lâthlôh a chhâ?
-	 Chakoh.
+=>	 Chakoh.
 30.	 Khâpa e, vâlô ?
-	Chakoh.
+=>	Chakoh.
 31.	Khâpa e, khatino raita apy bie? 
-	Baiba
+=>	Baiba
 32.	 Khâpa e, Karô - Zaka reitiah lei?
-	Aomâ chi.
+=>	Aomâ chi.
 33.	 Khâpa e, Karô- Zaka luh taibyu?
-	 Chuahmi.
+=>	 Chuahmi.
 34.	 Khâpa e, alie lâta apaw pawh?
-	 Chôchouh
+=>	 Chôchouh
 35.	 Khâpa e, Lyurâhhripa I?
-	 Tisadah.
+=>	 Tisadah.
 36.	 Khâpa e, Lyurâhpa hmi paphapa hawhta reih ta, tlaopachhie hri?
-	 Chano. (Landslide)
+=>	 Chano. (Landslide)
 37.	Khâpa e, ei sie na tah ta, ahrô Awhpi tieta asyh ta, ahnawh haw? 
-	 Beih a tlao ngâpa.
-38.	 Khâpa e, a chyh nota a hrâh kaw ta, a lai nahta a nȏnai kaw?
-	Ngiadih.
+=>	 Beih a tlao ngâpa.
+38.	 Khâpa e, a chyh nota a hrâh kaw ta, a lai nahta a nônai kaw?
+=>	Ngiadih.
 39.	 Khâpa e, a chyh nota hnorâh a sai ta, avaw pitloh nahta hnorâh a sai khoh khao vei? 
-	Atei. 
+=>	Atei. 
 40.	 Khâpa e, Tlah laki liata nawh chhaota achanei ngâ kaw?
-	Chhâmeih.
+=>	Chhâmeih.
 41.	Khâpa e, sie laih saw sa laih? 
-	Athei.
+=>	Athei.
 42.	 Khâpa e, sie laih, ie laih? 
-	Mawh-reipeih.
+=>	Mawh-reipeih.
 43.	Khâpa e, Opi Rahy?
-	 Awhchari.
+=>	 Awhchari.
 44.	Khâpa e, Nohchhô lâta anodi ta, azo lâta a py bi?
-
-	Awchari.
+=>	Awchari.
 45.	Khâpa e, Nohchhô lâta apy bi ta, a zo lâta a nodi?
-	 Ribâ.
+=>	 Ribâ.
 46.	 Khâpa e, a chy nota a phei phei no hnei ta, apitloh nahta phei thôh hnei haw?
-	 Machâ pawpi.
+=>	 Machâ pawpi.
 47.	Khâpa e, achyh nota Poh hrohpa abu ta, a lai na Poh saihpa abu?
-	Ahiah.
+=>	Ahiah.
 48.	Khâpa e, Syhu bộ kalie?
-	Hnapasu. 
+=>	Hnapasu. 
 49.	 Khâpa e, Lôkâ tawhta bale... bale... tah ngâ kaw?
-	Paleih.
+=>	Paleih.
 50.	Khâpa e, a lie lâta saw phaoh?
-	 Pheipai.
+=>	 Pheipai.
 51.	 Khâpa e, Mieta pawh buluh?
-	 Thlaohmia.
+=>	 Thlaohmia.
 52.	 Khâpa e, Lôkâh liata zizâ puapa a ngieh ngâ kaw? 
-	 Rahy.
+=>	 Rahy.
 53.	 Khâpa e, Unawh papangawh?
-	 Kuparo.
+=> Kuparo.
 
 
 ''';
 
 const rietanatavachhuh = '''
 
-                Rieta nata Vachhuh Phȏh
+                Rieta nata Vachhuh Phôh
 
-       Hlâno ta Rieta nata Vachhuh he ama hmao thy atao ei ta. Vachhuh ta Rieta hmao tao tua ta, Râhô dawh ta palo thlupa ta tao ta, Vachhuh hmaothy deikua cha Rieta ta kheihsai ta tao. Ama pangoh nairi tita cha tho a vaw pachu pasua eita Rieta hmao cha Râhô palo thlupa achâpa vâta tiah kaw ta Vachhuh hmao deikua cha tiah thei leipa ta, apathi a ia ngai ta. A pathi a ia tupa vâta, Rieta hnohta, "Khaziama, keizy saihma dawh palo thlupa ta na hmao cha tao nata, nama cha kheisaih ta eina tao chi," tahpa ta thyu hnaoh ta, a tu ei ta,a tha tlaita ama tupa vâta, ama tu no ta thopahrei sâkha ta Rȃ awh, alao tlua ngâ haipa tla thlu ta, apasa tah kawpa ta a râ laih lymâ nona heta, Hlo-ia sawhhrâ bu cha thlia ta, Hlo-ia chata sie lymâ heih ta Ngiahrai abyu thlâh hapa tihmô liata phie va sie ta, apasa tah kaw ta, a tao tia nawpa apahno leipa vâta apasapa yru papai nawpa ta hlachâh thaby toh ta, Hlacha cha pao ta, Tabalapa, hlacha kô liata aypa cha a kaw zaw ta, Masiah nahkao liata angia ta, Masiah ta Tabalâpa nahchakao liata angiapa cha angia a ryh thai leipa ta, a thluahthlâ lymâ ta chatanacha, Masiah pi athluahthlâpa cha chhôtlô tly chheih ha ta, Leichhaw byh zydua phie tly chhei khai ha ta, Leichhaw cha yn' awpa a hnei khao leipa vâta Nôhmeinô kahmi thaby ngai ta. Kahmi cha chaih chaih ta, achyh ta pahlôta.
+       Hlâno ta Rieta nata Vachhuh he ama hmao thy atao ei ta. Vachhuh ta Rieta hmao tao tua ta, Râhô dawh ta palo thlupa ta tao ta, Vachhuh hmaothy deikua cha Rieta ta kheihsai ta tao. Ama pangoh nairi tita cha tho a vaw pachu pasua eita Rieta hmao cha Râhô palo thlupa achâpa vâta tiah kaw ta Vachhuh hmao deikua cha tiah thei leipa ta, apathi a ia ngai ta. A pathi a ia tupa vâta, Rieta hnohta, "Khaziama, keizy saihma dawh palo thlupa ta na hmao cha tao nata, nama cha kheisaih ta eina tao chi," tahpa ta thyu hnaoh ta, a tu ei ta,a tha tlaita ama tupa vâta, ama tu no ta thopahrei sâkha ta Râ awh, alao tlua ngâ haipa tla thlu ta, apasa tah kawpa ta a râ laih lymâ nona heta, Hlo-ia sawhhrâ bu cha thlia ta, Hlo-ia chata sie lymâ heih ta Ngiahrai abyu thlâh hapa tihmô liata phie va sie ta, apasa tah kaw ta, a tao tia nawpa apahno leipa vâta apasapa yru papai nawpa ta hlachâh thaby toh ta, Hlacha cha pao ta, Tabalapa, hlacha kô liata aypa cha a kaw zaw ta, Masiah nahkao liata angia ta, Masiah ta Tabalâpa nahchakao liata angiapa cha angia a ryh thai leipa ta, a thluahthlâ lymâ ta chatanacha, Masiah pi athluahthlâpa cha chhôtlô tly chheih ha ta, Leichhaw byh zydua phie tly chhei khai ha ta, Leichhaw cha yn' awpa a hnei khao leipa vâta Nôhmeinô kahmi thaby ngai ta. Kahmi cha chaih chaih ta, achyh ta pahlôta.
 
        Nohkha cha Nôhmeinô saw he ti za thai ta, ati phao chhao ta Kahmi vaw kiah ta, Kahmi ta tliekhei ha ta, ati-ôh zydua cha phy chhei khai ha ta. Nôhmeinô a vâ a sâh ngâsâ. "Khaziama ti-ôh zydua na tai chhei khai haw," tah ta. "Kahmi ta eina tla khei tawh pi cha," tah ta, "Kahmi nâ kha zia ei na tla khei?" tah ta. "Kahmi ta, "Leichhawta eina chai tawh pih cha," tah ta, "Leichhaw, khâpa vâta e na chaih ?" tah heih ta. "Masiah ta eibu a tly chhei tawh pi cha," "Masiah, khâpa vâta e na tly chhei ta heih ta. Masiah ta, "Tabalâpa, ei nahkhao liata angiapa vâna a châ," tah ta. "Tabalâpa, khâpa vâta e, Masiah nahkhao liata nâ ngia," tah heih ta, Tabalâpa ta, "Hlachâh ta eina pao kheipa vâta a châ," tah ta. "Hlachâ, nâ khâpa vata ei na pao khei ?" tah ta. "Ngiahraih ta eina tôhpa váta a châ," tah heih ta. "Ngiahrai khâpa vâta e na tôh ?" tah heih ta. "Hlo-ia sawhra pi ta ei tihmô a siepa vâna a châ," tah ta. "Hlo-ia, nâ khâpa vâta e Ngiachapaw tihmô liata na sie tah heih ta, "Râ-awh ta ei bu a cha thliapa vâta a châ," tah ta. "Ra-awh khâpa vâta ma, Hlo-ia sawhra bu na cha thlia?" tah heih ta. Râ-awh ta, "Thopahrei ta eina tla thluhpa vâta a châ, tah heih ta. Tho pahrei, khâpa vâta ei na tla thlu?" tah heih ta. Râ-awh ta, "Vachhuh nata Rieta ta a tu ei ta, eina pathla haw ei," tah ta.
 
-       Rieta nata Vachhuh, khâpa vâta ma tho pahrei nama pathla ?" tah heih ta. Vachhuh ta, "Rieta nata eima hmaothy a tao pi ta, keima cha Rieta hmao châta Râhô dawhta palo thlu na ta, anodeikua kheisai ta ei hmao he tao ta, Tho apachu pasua pi ta keima hmao cha a tiah thai leipa vâta ei pathi ia kaw ta, eima tu pa a cha. "Rieta nâ zaw khâpa vâta e Vachhuh hmao cha kheisaih pi na tao thlâ haw," tah ta. Rieta deikua cha arei nawpa pahno thai leipa ta, Ampa, Ampa,..... dei tah ngȃ thlâh ha ta. "Chavâta, "Nama tlai he a hohhiapa châ chi ta, tahpa ta a chadaoh ahnôh lâta ama palie haw. Atanoh taihta Rieta cha a chadaoh a hnôh lâta a y thlâh ha bâpa a châ.
+       Rieta nata Vachhuh, khâpa vâta ma tho pahrei nama pathla ?" tah heih ta. Vachhuh ta, "Rieta nata eima hmaothy a tao pi ta, keima cha Rieta hmao châta Râhô dawhta palo thlu na ta, anodeikua kheisai ta ei hmao he tao ta, Tho apachu pasua pi ta keima hmao cha a tiah thai leipa vâta ei pathi ia kaw ta, eima tu pa a cha. "Rieta nâ zaw khâpa vâta e Vachhuh hmao cha kheisaih pi na tao thlâ haw," tah ta. Rieta deikua cha arei nawpa pahno thai leipa ta, Ampa, Ampa,..... dei tah ngâ thlâh ha ta. "Chavâta, "Nama tlai he a hohhiapa châ chi ta, tahpa ta a chadaoh ahnôh lâta ama palie haw. Atanoh taihta Rieta cha a chadaoh a hnôh lâta a y thlâh ha bâpa a châ.
 
-* Chyhsa viasa atla kaw ei ta hmo atao patlȏ leipa viasazy cha. Rieta nata Vachhuh hawhta eima cha ama tah.
+* Chyhsa viasa atla kaw ei ta hmo atao patlô leipa viasazy cha. Rieta nata Vachhuh hawhta eima cha ama tah.
 
 
 ''';
 
 const chaunatasakhih = '''
 
-                Cha-U nata Sakhih Phȏh
+                Cha-U nata Sakhih Phôh
          
-          Hlâno he Cha-u nata Sakhi he su khata liata ariekhoh pata a viasa kaw ei ta, Nohmeinȏ he sado pha kawpa hneita, basuhzy chichei hropa hluhpi chheita. Cha-u nata Sakhih cha su khata a y khopa ama châna zie hawhta Nôhmeinô sahdo liata basu cha vaw paru tyh ei ta. Nôhmeinô cha abasu a parutuhpenawh pahno thei lei khahta, abasu cha vaw chha daihmâ ha ba ta. Chatanacha, a vâsâh kawpa vâta Heih bu ta vaw panao khâh ta. Zâkha cha Cha-u he basu paru awpa ta hmia avaw sah heih ta, apahno leipa ta eikha laichai ta, Heihta avaw ao ha ta, abangie thlâh haw. A tao n'awpa pahno thai khao leipa ta Sakhih cha aw ta.
+          Hlâno he Cha-u nata Sakhi he su khata liata ariekhoh pata a viasa kaw ei ta, Nohmeinô he sado pha kawpa hneita, basuhzy chichei hropa hluhpi chheita. Cha-u nata Sakhih cha su khata a y khopa ama châna zie hawhta Nôhmeinô sahdo liata basu cha vaw paru tyh ei ta. Nôhmeinô cha abasu a parutuhpenawh pahno thei lei khahta, abasu cha vaw chha daihmâ ha ba ta. Chatanacha, a vâsâh kawpa vâta Heih bu ta vaw panao khâh ta. Zâkha cha Cha-u he basu paru awpa ta hmia avaw sah heih ta, apahno leipa ta eikha laichai ta, Heihta avaw ao ha ta, abangie thlâh haw. A tao n'awpa pahno thai khao leipa ta Sakhih cha aw ta.
                   "Sakhih aw râ law râ law, 
                   Chakeih nunâ kaithâh kai le! 
                   Na be khah e" tahpa ta.
@@ -288,9 +300,9 @@ Azyh he chino chithôh lai y ta, a hmia a chapaipa he lyurie atlapa tahpa a châ
 const haratiepa = '''
 
 
-                Hȃratiepa Phȏhpa
+                Hâratiepa Phôhpa
 
-      Hlâno he khih sâkha liata nôpaw a hnei leipa, Hâratiepa y ta, Nȏ nahta Paw nahta Unawh pilâhpa a hneileipa vȃta ano deita ta ama o liata y ta, lyu tao tyh ta, a kô tatota a niekhi hneina taihta tiama ngaitapa ta rai a hria tyhpa a châ.
+      Hlâno he khih sâkha liata nôpaw a hnei leipa, Hâratiepa y ta, Nô nahta Paw nahta Unawh pilâhpa a hneileipa vâta ano deita ta ama o liata y ta, lyu tao tyh ta, a kô tatota a niekhi hneina taihta tiama ngaitapa ta rai a hria tyhpa a châ.
 
       Kô kha cha Lyurâh pha kawpa liata I vu a tao heih ta, Zawpuh nawh nata Lyu cha ari aw pa ta Lyu cha va ta. Chatana cha Lyu cha rao ei ta, adaihti ta liata Sâh tu ei ta, Lyu chhao a daihti dopa lia saita a thlyu lymâ.
 
@@ -310,9 +322,9 @@ Marapa ta Bieso ama vaw hmâpa cha, my la vâ, hâ noh vâ tah ngâthlâhpa ta, 
 
 const sawku = '''
 
-                Sawku nata Sakhih Phȏhpa
+                Sawku nata Sakhih Phôhpa
 
-      Hlâno he Sawku nata Sakhih he Lyu a ri awpata (lyupa chȃ Hawpata) moh ei ta.Chatanacha va ti avaw daih ha bâ ta Sawku cha a Lyu su awpa liata tho nata Sihnapaży cha a thabyta lia saita a hâh nata chaki lymâ ta, chavâta araoh pha kaw. Sakhih deikua cha achô liata arâ thlu lymâ ta, sâkha hmahta (Sihnapa chhao rai) pachie pathlah tlâ leipa ta, chavâta raoh thai tla leipa ta a hroh khai thlâh haw.
+      Hlâno he Sawku nata Sakhih he Lyu a ri awpata (lyupa châ Hawpata) moh ei ta.Chatanacha va ti avaw daih ha bâ ta Sawku cha a Lyu su awpa liata tho nata Sihnapaży cha a thabyta lia saita a hâh nata chaki lymâ ta, chavâta araoh pha kaw. Sakhih deikua cha achô liata arâ thlu lymâ ta, sâkha hmahta (Sihnapa chhao rai) pachie pathlah tlâ leipa ta, chavâta raoh thai tla leipa ta a hroh khai thlâh haw.
 
       Noh kha cha Lyu raoti avaw daih ha bâ ta. Tlâh-awtuhpa ta, "My lâ cha Lyu rao khai awpa châ ta, chapaw a ypa zyduata Lyu raona lâ nâmâ thao khai awpa a châ aw. Ahy hmahta O liata y thei tlâ aw va ei chi," vaw tah ta. Chatanacha, Sawku nata Sakhih chhao Lyu raona lâta athao hra ei ta, Lyu cha vaw rao khei ei ta, Sawku Lyu cha a thokô rihkôpa araoh thai kawpa vâta kâ ngâsâ ta, thapawh apachhisa ngâsâ. Sakhih Lyu deikua cha kâ thai ngâsâ leipa ta, tao awpa chhao ngiaroh a chhih kawpa a châ.
 
@@ -328,13 +340,13 @@ const sawku = '''
 
       Chatanacha Sakhih cha Chapu tawhta Sakhih nata a hrihrua zydua cha akaw pahri paziah ei ta, hluh kaw ei ta. Sawku Chapu tlôh leina taihta a khy ei ta ai-chhô pôkha tlai ta ama kaw tyuh. Sawku cha Opâhzy pasipathai ta; a o Chapu a sieleipazy liahsa pasiepakyu ta, chatanacha bie ama vaw rei bâ awpa he vaw châ ta. Sakhih nata ahrihruazy cha ama lyuhchâpa, Azyh chhaota ama hluh kawpa vâta bie thai ama châ aw tahpa pangiasa ei ta, ama thapawhpa ta ama thlalôh ngaita ta. Hmohmia pasaih bao ei ta. Sawku hrihruata a châ awpa cha hmô tlâ ei va atahpa vâta amo cha a moh ei ta, ama palôh atlah ngâsâ.
 
-      Sawku ta bierei vaw pathao ta, "Ei unawh saih u, he nama khypa he a pha na, Lyuri cha a dona a pahnotuhpa Khazohpa y ta, anota a dona yzie hawhta miah a chho aw mah ta, khawh bie eima vaw rei laih bâ awpa a châpa vâta eima lyuchâpa Azyh kha, avy tua sala a Chapu chaki lâta ôhkawpa beih-rai a ypa lâta dypa ta, "Khi ohkawpa chhiehru khi kaw pahy la, a sawh luhzy na pakah ta vaw pateipa tua chai the. Chatanacha bie rei eima thao lymâ aw," tah ta. Azyh cha aly ngaitapa ta ohkawpa liata chhiehru cha apatoh ta kaw pahy ta a sawhluh a kawpatei pathao bao chala, (He chhôhna heta Sawku cha aikah lâ phie pua para hata) akheih zydua, alai achyhta za pua ei ta. Azyh cha sie chaimâh ei ta. Azyh dei châ leipa ta a chhôh liata sa a ypa zydua cha sie khai ei ta, ama ynawpa chhao y thai khao leipa ta ama hmiazy cha ȏhkaraopa hawhta pua thloh khai ha ei ta. Sa zydua (Sakhih hrizuah zydua cha arâpai khai ha ei ta) hry liata Sa lai chaipa Masiah chhao a no maoh kathluh ha hra ta. Eikha tlaita obâ kaw tôh pathla ta a râ'pa achhuah hra ta. Châhrasala, arâ n'awpa liata chhôtlô-kô tlâh liata phie vaw tly ta aphei (ngialy) thlie ha ta, arâ thei khaolei kha ta, cha liana cha Kheih zydua ta sie chaimâh ei ta, a thi pâ haw.
+      Sawku ta bierei vaw pathao ta, "Ei unawh saih u, he nama khypa he a pha na, Lyuri cha a dona a pahnotuhpa Khazohpa y ta, anota a dona yzie hawhta miah a chho aw mah ta, khawh bie eima vaw rei laih bâ awpa a châpa vâta eima lyuchâpa Azyh kha, avy tua sala a Chapu chaki lâta ôhkawpa beih-rai a ypa lâta dypa ta, "Khi ohkawpa chhiehru khi kaw pahy la, a sawh luhzy na pakah ta vaw pateipa tua chai the. Chatanacha bie rei eima thao lymâ aw," tah ta. Azyh cha aly ngaitapa ta ohkawpa liata chhiehru cha apatoh ta kaw pahy ta a sawhluh a kawpatei pathao bao chala, (He chhôhna heta Sawku cha aikah lâ phie pua para hata) akheih zydua, alai achyhta za pua ei ta. Azyh cha sie chaimâh ei ta. Azyh dei châ leipa ta a chhôh liata sa a ypa zydua cha sie khai ei ta, ama ynawpa chhao y thai khao leipa ta ama hmiazy cha ôhkaraopa hawhta pua thloh khai ha ei ta. Sa zydua (Sakhih hrizuah zydua cha arâpai khai ha ei ta) hry liata Sa lai chaipa Masiah chhao a no maoh kathluh ha hra ta. Eikha tlaita obâ kaw tôh pathla ta a râ'pa achhuah hra ta. Châhrasala, arâ n'awpa liata chhôtlô-kô tlâh liata phie vaw tly ta aphei (ngialy) thlie ha ta, arâ thei khaolei kha ta, cha liana cha Kheih zydua ta sie chaimâh ei ta, a thi pâ haw.
 
       Chatawcha, lyurâhpa sa to ta cha Masiah sa cha phao awpata biepiepa châ khai ei ta, a sa pachhaih ei ta, a sa ka ta tu khai ei ta, 'khawh' ahyma satôh (apheipalaichi) he a phaoh aw?" tah ei ta. "Chhobaita he apôhpa hmahta chyh hrasala, a uh thei chaipa a châ hih, anota phao lah vâ" tah ei ta. Chhobai(zubata) cha aly kaw hra ta. Mohropa zydua cha ama saka nano ta a pachhuah hôlô ei ta. Chhobai cha Masiah pi Phei cha a vaw pachhuah hra ta. Chhobai cha athao tua chai awpa châ ta, ano athao tua leipa ta cha mohropa a thao pasai leipa châ ta. C hatanacha ama phao ama pachhuah khai tawhta cha, "Khawh' a thao khai bâ teh u, Chhobai ta kha athao tua chai aw," tah ei ta. Chatanacha aphao cha Zabih heta patupa ta, "Bâi bâi ta a thao ba teh" tah ta, aphao cha kaw pathyu khei tyh ta, Chhobaita ta, avi tupa athao leipa vâta 'pie' tahpa ta aveithlu chhyh ha ta. "Bâi bâi ta thyu ba teh"-'pie' tahpa ta aveithlu chhyh haw. Zabih cha a pahnei chhitupata pahneih ngâ thlâhha ta, "Bâi bâi ta thyu ba teh" tah ta. Chhobai cha thao thei leipa vâta Zabih cha apahnei tu hapa vâta (a tha tlaita apahneipa vâta) amo taihta pua a zoh pâ khai haw.
       
       Sa zydua liata Zabih he amo bieh chai ta achhâpa cha he daihti no ta apahnei tu hapa vâta na a châ, ama tah.
 
-Sakhih alyu hmia asia leipa hawhta chyhsata, sȏ athlie chheipa ama y tyh.
+Sakhih alyu hmia asia leipa hawhta chyhsata, sô athlie chheipa ama y tyh.
 
 
 
@@ -353,7 +365,7 @@ const leidoh = '''
 
         Sie khah y, sie kha y, a ki y azyh.
         Nôhnô pheingai hnôti na chhaih, 
-        Nôh pangawh lai so si hmichhȏ oh na,
+        Nôh pangawh lai so si hmichhô oh na,
 
       Aki nahta Azyh cha hmia a sahpa châ lymâ ei ta, ama sie khaolei tita cha ahropa zydua chhao sie thai awpa châ khaoleipa ta, "a palôhpatlah u la, nama sietanô he" tah ei ta. Chatancha ama sietanô palôh ama patlâh tita cha hlâ lâta sapata Leidoh ta a sahrozaw zydua cha apasiasa heih ei.
         "Sie ma y, siema y, Aki, Azyh, 
@@ -377,7 +389,7 @@ Hlobyhpi lâta a heih heihta, he hawhna heta a sa heih.
 
 Hlobyhpi cha thata pahnei ta, ei na kho via na chi a tah.
       Pheingai nô ta, "Pheingai he dyhchâ avaw daih hei ti ta, Deiva nahta Thlasyuh ta ama vaw hia khiah tala Deiva pie leipa u la, Thlasyuh vaw pie muh vy," tah ta. A reipa hawhta daihti vaw sie lymâ ta Pheingai dyh châ avaw hnia ta Thlasyu nahta Deiva ta vaw hiah rairi ta, Leidoh bie reipa kha a thei thlâh ha taraw ta, anodeikua, "Ano rei vei, a paw keima reina tlâ a châ," tahpata "Thlasyuh pie leipata Deiva lâta tlao ama paryhsa.
-      Chatanacha Deiva lâna cha Pheingai cha pie ei ta, a paryh khai ha ei ta ama hly khoh ha bâ. Anodeikua cha, a Nohnô, Parâhpa hata sietanôzy heta a hao kaw ei ta, a chȃ châh tala pati ama pie leina chah chhao avaw y tyh. Avahpa Deiva cheingei chhaota a hnôhkhaoh tacha avaw pathlua ha bȃ hra, ngiachhie a chhi ngaita bapa cha khisawzy ta ama hmô tita a paw (Chuamarôma) lâta bie ta ei ta, chatanacha a pawta nie aw pa pahah pahahpazy a thata vaw phaoh ta a sanawh na o cha a kaw lô khei. Pheingai ta apaw vaw phaopa Bâhla cha lata a Parâhpa hnohta, "Ei Parâhpa na dao chaipa y, he Bâhla he nie mah y" tah ta. A Parâpa avaw hlâh ta i lâta a thy haw. Ei Nohnô na dao chainô la pie sa, tahpata pie ta avaw hla pataw nata Vao pane lata a thy haw heih. Ei sietanô na dao chainô he Viachha vaw pie tuah sa tahpata viachha lata a sietanôta avaw hlâ pataw nahta vaothaopa lata tlao a thy ha heh. Ei vahpa na daochaipahe awhti he pie tua sala, tahpata vahpita a awhtih chaluahpa avaw hla pataw nahta vaothawpa lata a pie thlahha heih. "Nôhmeinô nahaochainô y, hezydua he nama vaw nie tyh ma y" tah ta. azyhduata a pie khai haw. Anocha apaw nata ama khi lâta ama sie haw.
+      Chatanacha Deiva lâna cha Pheingai cha pie ei ta, a paryh khai ha ei ta ama hly khoh ha bâ. Anodeikua cha, a Nohnô, Parâhpa hata sietanôzy heta a hao kaw ei ta, a châ châh tala pati ama pie leina chah chhao avaw y tyh. Avahpa Deiva cheingei chhaota a hnôhkhaoh tacha avaw pathlua ha bâ hra, ngiachhie a chhi ngaita bapa cha khisawzy ta ama hmô tita a paw (Chuamarôma) lâta bie ta ei ta, chatanacha a pawta nie aw pa pahah pahahpazy a thata vaw phaoh ta a sanawh na o cha a kaw lô khei. Pheingai ta apaw vaw phaopa Bâhla cha lata a Parâhpa hnohta, "Ei Parâhpa na dao chaipa y, he Bâhla he nie mah y" tah ta. A Parâpa avaw hlâh ta i lâta a thy haw. Ei Nohnô na dao chainô la pie sa, tahpata pie ta avaw hla pataw nata Vao pane lata a thy haw heih. Ei sietanô na dao chainô he Viachha vaw pie tuah sa tahpata viachha lata a sietanôta avaw hlâ pataw nahta vaothaopa lata tlao a thy ha heh. Ei vahpa na daochaipahe awhti he pie tua sala, tahpata vahpita a awhtih chaluahpa avaw hla pataw nahta vaothawpa lata a pie thlahha heih. "Nôhmeinô nahaochainô y, hezydua he nama vaw nie tyh ma y" tah ta. azyhduata a pie khai haw. Anocha apaw nata ama khi lâta ama sie haw.
 
       Ama khih ama tlô nahta Thlasyuh ta kaw hiah heihta aly kawpa ta Thlasyu lâ na cha dy pachâ heih ei ta, Thlasyu nah chhôhkha cha vaw dao kaw ei ta, ti nahta tho dâhdei chhao palasa khoh lei p'ei ta, ano ta aru lâta a dawhkiah nahta seihna a lapa ta a sie tyh. O a vaw tlô chy tawhta akaru reih avaw thei hla tyh ta anoh nô ta karu reih a thei pataw nahta:
 
@@ -391,6 +403,317 @@ Hlobyhpi cha thata pahnei ta, ei na kho via na chi a tah.
 Phôpatló liapatlo, sairawti patlai patlô
 
 
+
+''';
+
+const savainata = '''
+
+                Savai nata Chakeih Phôh
+
+      Hlâno he Savai Nôvah he y ei ta. saw pakha dei hnei ei ta.Ama Nôvah he y n’awpa hnei leipa ei ta. Savai chata a lahpinô hnohta, "Keimo chhôhkha y n'awpa o dâhdeipa chhao tah eima hnei leipa he pha vei. Khih liata Chakeih lôkhaoh(lôpu) liana khi eima pahrâ leipa cha su thai vei, chavâta khi lôpu lâ khi khy sih la, cha liana chata eima chhôhkha ta eima pahrâ aw," tah ta. Alahpinô chata "Kheihtama Chakeih lôkhaoh liana cha eima pahrâ thai aw, ano Chakeih avaw di mawh sala, kheihta eima tao aw," tah ta. Savai chata "Khâpa bie hmahta reih kha, a ryhpaona eima pachâ lai aw," tah ta.
+
+      Chatanacha Chakeih lôpu liana cha pahrâ ei ta, Savai ta alahpinô hnohta, Kei he khôtho lâ y aw na ta, Chakeih a vy tita vaw pakhu aw na ta, ei pakhupa na pahno pataw na ta he eima saw he vaw pasichheih la, hatipa cha vaw cha aw ta, keima ta khaziama hatipa cha na pachasa? chavaw ta aw na ta, nâma ta, 'Sa na a nie khoh' vaw tah la, keima ta sa cha pacho lia tahpa kha raopa thlâh teh, chavaw tah aw na ta, a chaw chiepa lâ khoh vei, ahrohpa na a khoh vaw tah aw chi ta chatanacha keima ta sahrohpa a khoh khiahta la tahmâ akhy laih ngâ kaw khu chavaw ta aw na ta, chakhiahta la, Chakei lôpu liata eima pahrâpa he eima to aw" tahpata a reiparu khai ha ei ta.
+
+      Chatanachata Savai cha pua ta, khaotlô liata dua a tyuh paru ta, cha liana cha Chakeih avypa a hmô thei lei awpa vâta pawtho (thokô) lâta kiah ta, cha liana cha a tyuh ta. Buakha avaw châ na ta, Chakeih cha alôpu ngai awpa ta a khy ta, Savai cha Chakeih a za hmô pataw nata pakhu ta, apakhupa a lahpinô ta a pahno nahta a saw cha pasi chheih ta, asaw cha cha ta, Savai chata, "Khaziama hatipa cha a cha?" tah ta. A nô ta, "Sa na a chai khoh" tah ta. Savai ta, "Sa cha pachôh lia tahpa kha raopa thlâh teh," tah ta. Anô ta a chawhpa la khoh vei, ahrohpa na a chai khoh" tah ta. Chakhiah la tahmâ a khy lai ngâ kaw khuh, tah ta. Ama bie a chhopa cha Chakeih ta pahno ta, Chakeih ta "Keima tlaita niepa na chhuah thlâhpa he kheihhawhpa rima ma a châ vâ ma i ? tahpa ta a nôpo kaw ta. Lôpu cha kaw nga ngâh khao leipa ta, ahnôh lâ a sy a sy ta a râ syulyu haw.
+
+      Chakeih arâ ngâ haipa cha Veituh ta hmô heih ta, "Khazia ma nama ngâsâpa heta chatlupo ta na râ tly i? Chakeih ta, "Ei lopu liata kheihawhpa chyhsa rimâ ma pahrâ ei ta, lôpu ngai awpata ei khy hai no ta, amasaw hatipa cha vaw cha ta, apaw ta khazia na pacha sa ? tah ta, anô ta sa na anie khoh tah ta, apaw ta pachôh lia tahpa kha rao chah chi, tah ta a nô ta a chawhpa la khoh vei a hrohpa a khoh tah ta, chatanacha ama paw ta, chakhiahta la a khy laih ngâ kaw khuh, khu khu chaih lahva chi a tah thlah bao, cha cha chi tu ha nata ei za râ ha he zaw" tah ta. Veituh chata, "Ahy châ bao vei Savaih heih ma tlyma? Kei he na kaw zi la keima nata khy va pi, Savaih tlai cha ma, a haihhi thaipa he......" Chakeih chata, "Ngâh tiarah khao va na,” tahta, Veituh chata, a khoh leinachô ta/a ngâhleina chôta chhopasao ta, chatanacha Chakeih cha Veituh zi awpata a pachâ haw.
+
+      Chatanacha Veituh chaolahmei cha Chakeih a ngieh laihpata Chakeih lôpu lâ cha ngai awpata khy heih ei ta, Lôpu ama kaw tlô chyta, Savaih ta Veituh cha za hmô ta, "Ei unawh Veituh....eima hnôh lâna kha Chakeih dyu na chei chi tah ta.mâ taih na thô tlâ leipa chi ta, tahmâ kha sâkha ei na kaw thô tuana ma a châ cha?" A za tah pataw na ta Chakeih cha, a hihâh kaw ta, "Veituh he a dyu chei thô nawpata mâ einâ kaw chhi?" tahpa ta ahihâh kawpa vâta Veituh chaolahmei cha thyu pachhô ta, a râsai syulyu haw. (Veituh Chaolahmei a y leina chhapa cha he vâna heta a châ tahpa reipa a châ). 
+
+
+''';
+
+const azyh = '''
+
+
+                Azyh Phôh
+
+      Hlâno he Azyhnah he y ei ta, azawpi ama châpa vâta hluh kaw ei ta. Ama hry liana heta mahpaw pakha hnei ei ta, amoh chhao cha Hroliah ama tah.
+
+      Mahpaw Hroliah he lyu ataopa, chyhsa chata, nohkha cha a Lyu taona liata Chhâmeihzy tu ta, châsala Chhâmeih a tupa cha a pyu hlâta Azyhnah Zawpuhzy chata Mahpaw Hroliah Chhâmeih tupa cha thaoh ei ta, chaih chhyh ha tyh ei ta. Sâh cha tu hei bao ei ta, chahawhta chakheipa chhyh ha ei, Chichei hropazy chhao a tupa maih cha thaopa chhyh ha tyh ei ta. Chatanacha Mahpaw Hroliah cha atao n'awpa pahnoleipa ta pachâ chaimâh ta, "He Azyhna he ama khopa hiahri aw ei sala,ama khopa cha taopa aw ei sala, cha hnôh lâta keima khopa ei pataosa hra aw ei," tahpa cha pachâ ta.
+
+      Nohkha cha apachâpa hawhta Azyhnah yna lâ cha pangai ta. "Azyh saih u, khâpa ma cha taopa ei sala, nama kho chai aw," tahpa hiahri ta, Azyhnah chata, "Mahpaw y, Lyu liata Bia na lopa he a syuh (bu chiepa) sai châ sala, cha Bia kiah liana cha Hmiakhu thao tihâh he sopa lymâ la, chahawhta na tao thei khiata cha eima ly chai aw," tah ei ta. Chatacha Mahpaw Hroliah chhao cha a Bia lopa maih cha bu chiehpa sai loh ta, a kiapâh liata Hmiakhu thao tihâh sopa lymâ ta, chatanacha a sie sai haw. Mahpaw Hroliah a sie pataw na ta Azyh nah sahlao cha vaw pua chaimâh ei ta, Mahpaw Bia bu chiehpa cha nie lymâ ta, akiah liata Hmiakhu thao chhao cha pahrao thlu pâ lymâ ei ta, apahâh tah kaw sai ei ta.
+
+      Mahpaw Hroliah cha a lyu lâna cha zu heih ta, a hmotaopazy cha ama nie khai haw tahpa apahno na ta Azyh yna lâ cha zu ta, ama hnohta, "Azyhnah saih u, nama khopa cha cha taopa khai ha ei na tah ta.mâ lâ keima khopa na eina taopa hrei ei chi," tah ta. Azyhnáh chhao cha a pha tah hra ei ta.
+
+      Mahpaw cha Pypi a byh ta, Dua-âh a pei ta, Zaozi tiah kawpa chaba ta, barôthu ta a pôhpa zydua a hnia khaipa ta Asutôh thaby liana cha a paso thlâh ha ta, chyhsa tuah ta, heta na heta za chho mah y, Azyhzy hnohta, "Nama Mahpaw Hroliah kha a thi ha na," tahpa tah ta. ta.
+
+      Chatawcha, Azyhnah cha ama Mahpaw ri kia awpata a pôhpakhy chaimâh ei ta, ama Mahpaw O cha kaw tlô ei ta, ari kiapâh liana cha tyu pâ chyu ei ta, Azyh hry liata a dypa (atapawpa) deikua cha pakô lâta a tyuh hata. Chatanacha Azyhnah cha ama mahpaw ama i ngaitapa vâta cha lymâ ei ta.
+      Eima mahpaw Hroliah y, na hrono na cha, na Chicheipazy nie tyh pi ta, na Bia lopazy nie tyh pi ta, tahmâ cha vaw thi ha bâ chi ta, kheitama eima tao khao vâ tly? (Mahpaw Hroliah hro chhôh ta cha Biapinô ta Hmiakhuti pahâh hâh...hâh..) tahpata cha lymâ ei ta, Chatanacha, Mahpaw cha, amâ ki ma ki mâh vei ma tahpa pahno khohpa vâta a mo aparuta ta kaw padei ta, cha amo kaw padeipa cha Pâkô liata a tâpawpa a ypa chata za hmô ha ta, hehawhta chaphôh tu ta:-
+
+        "Athipa cha ma? Athipa châ vei,
+        Ama thla-ri, Ahna thlâ ri."
+
+      Ri kiah liata a tyuhpazy chata, khazi ma chahawhta na cha? Thi ta thi tha tlie, ama thlâh-ri thlâh râh.. Athu roh taih pahnâh tlie...." Chatanacha Mahpaw chata, Azyh tâpawpa ta ei mopadeipa na hmô ha tlôh ta, pasisa, pakiparai via awpa he phahnai khao vei, tahpa pachâ ta, thlai kaw thyu ta, a Zaozi ta Zyhnah cha chhawh chaimâh ta, chhawh sao khai ha ta, Azyh tâpawpa Pakô liata a ypa deikua cha a hmô khao leipa vâta thie hmâ leipa ta arâ haw. Atahmâ tah Azyh he arâ hapa a tâpawpa chi pathla hawhta ama za rei cha mawh.
+
+''';
+
+const raino = '''
+
+                RAIH-NO PHÔH
+
+      Hlâno he Raih-nô ama tahpa he y ta, sawchanô pakha deita he hnei ta. Daihti khachâ rakha ma a châ tawhta, a sawchanô cha vaw laiseih ta, laihsa daihmâ ha bâ ta. Titheih ôh kha ôh no rachhôh a phaoh thei awpa cha ha bâ ta. Châhrasala, vâdua kawpata, a sawchanô hnei chhôhpa cha vaw thi ha ta. Raihnô cha a vâsâh ngaita ta, a sawchanô mâchhie cha thata sa ta.
+
+      Zâkha cha a sawchanô chata a thihpa râh iâ tawhta a nô Raih-nô cha vaw tly ta, a nô avaw tlyna liana chata a nô chata pasaih khao leipata patu hata. Vâropi ama ylâh tawhta a sawchanô chata, "Ei nô y, na pathlie ha bâ teh, ei sie daihti a châ ha bâ na," tah ta. A nô chata a pathlie râi ta pathlie pasaih khao leipata khâchâ patu ha ta. A nô tah apathlie khao lei tawhta a sawchanô cha Parih lâta a lie ta, a nô Raih-nô hra heih ta, "Parih hmahta châ hra la, cha pathlie beih aw vana," tah ta. Chatanacha a sawchanô cha Chakeih lâta a lie heih ta, A nô chata, "Chakeih hmahta châ hra la, cha pathlie beih aw vana," tahpa ta khâchâ apatu thlâh nota anô Raih-nô cha amo ku tu ha ta, tlu-uah ta, anô a tlu-uah chhôhta a sawchanô cha a râ sai syulyu ha ta. Chatanacha anô cha avaw hra ta a vâsâh ngâsâ ta, he daihti no he a Vâ Khasôh zoh zuah-nô "Chatlu tah a palôh pasapa cha," tah ta. Athihpa nata Ahrohpa khatinorai ta ama hmô thei khao lei n'awpata ama likah liata vyhphao ta a za chhôhkhâh ha ei.
+
+
+''';
+
+const chavyhpupa = '''
+
+        CHAVYHPUPA 
+          NATA 
+        TLA-UAH PHOH
+
+      Hlâno he Chavyhpuhpa nata Tlâ-uah he y ei ta, amo he a pakyh kawpa ama châ. Tlâ-uah ta Chavyhpuhpa cha Cha-ia pahao awpata pahrua ta. Chatanacha, Cha-ia pahaona lâ cha sie ha ei ta. Cha-ia pahao lymâ ei ta, Tlâ-uah ta alô lai ngaitapa he chapao ta, Cha-ia a pha leina ta, Chavyhpuhpa hnohta, "Nama he liata vaw chapao tua teh," Chavyhpuhpa cha chapao ta, cha na chata Tlâ-uah ta alô lai kawpa a hypa cha pathlie ta, pavithlu hata. Chatanacha, tlâ siesai ha ta.
+      Chatanacha, Chavyhpuhpa cha ano deita ta a ku alô tah a vithlu hapa cha adao ta a daophi thei leipa ta, a chhâ chhâna liata cha vâsâ ta aku cha phia ta, O lâna cha a sie ha hra.
+      Chavyhpuhpa cha a vaw tlô nah ta, "Tlâ-uah ma hetlupo ta na taola, my lâ a hmô tua tlai sih la," tahpa chyh hao thata sa ta. He chyhao a sa khai nahta Tlâ-uah cha a zu ta, ahrôta cha râhzeih lâ pahei ta, Chavyhpuhpa ta Tlâ-uah a kaw hmô nahta Tlâ-uah, na zu ma? Khaziama zâhnia kha Cha-ia eima pahaona liata ei ku alô na pavithlu chi ta, tlâ eina kaw siesai thlâh chi. Tlâ-uah chata, "Ah cha cha dua ei pahno vei dua, Mahpaw Chakâ Tlâ-uah nata Râhzei Tlâ-uah y pi ta zâhniapa cha Chakâ Tlâ-uah a châ cha maw, keima cha Râhzei Tlâ-uah mah ei châ ta, ei hritô chhao he moh la, Râhzei lâ a heih hrapa he❞ tah ta.
+      Chatanacha Râhzei Tlâ-uah tahpa ta a bi ta. "Atahno cha Mahnô mahpaw ryu sôhpa mo awpata Lôkâh lâ ei khy awpa châ ta, nâma kaw sie hra la," tah ta. Chavyhpuhpa cha "y" tah ta. Sie khoh ei ta, Lôkâh liata Kheih a ypa cha pahmô ta, "He hena Mahnô mahpaw ryusôhpa ama tah tyhpa cha a châ," moh ei ta A thlarawsipazy cha moh ei ta, ei ngia eina chhie kaw tah ta. Tlâ-uah cha a hmia chahu ta chapakheita. "Kheih a phiapi tah a ypa khi eima kaw dai khiahta cha tha tlai ta a paro awpa cha ta, cha aparo awpa cha ei chi kaw na," tah ta. "Mahpaw lôvâh y, kei he sie ha awna ta,lytlâh ei tlô nata vaw phyh/pakei aw na ta, chatanacha nâma ta na vaw tu aw," tah ta. Tlâ-uah cha sie lymâ ta, lytlâh a tlô nata phy ta, cha a pakiepa reih a theina chata, Chavyhpuhpa cha Kheih tliahpa cha a kaw chô ta, Kheih cha zaby chaimâh ta, thata sie ei ta, apôhpa zydua cha thloh khai ha ta. "Ei tlô khiata la Tlâ- uah hela Tâkô ta na ei chai aw" tahpa ta chyhao cha sa ta. Chatanacha, Chavyhpuhpa cha O vaw tlô ta. A O liata a tyuh thlâh no ta, Tlâ-uah cha a O lâ cha zu heih ta, Chavyhpuhpa ta "Tlâ-uah khaziama zâhnia kha ei na dôvei chi," tah ta. Tlâ-uah cha a hrôta he Chakâ lâ a paheipâ chôta azupa chata, "Zahniapa khacha a hrôta kha Râhzei lâpa châ ta, keima he cha ei hrôta he vaw moh la, Chakâ lâ a heih he zaw. Chakâ Tlâ-uah ei châpa he," tah heih ta. 
+      Chatawcha, Tlâ-uah ta, atamy he Ngiadih na ei va heih tua aw, na vaw sie khoh hra ma? tah heih ta. Chavyhpuhpa ta,"Ei vaw sie khoh hra na," tah ta. Chatanacha Ngiadih chhaw awpata sie heih ei ta. Ngiadih cha chhawh/va khai ei ta, vaw sie a chhuah ei ta, Ngiadih phao awpa chata Chavyhpuhpa cha a chhuah ta. Tlâ-uah ta Chavyhpuhpa ngiadih phao awpa cha paphaosata a bôkalie lâta, Chatanacha, Chavyhpuhpa cha hmia lâ a sa ta. Tlâ-uah cha hnoh lâta pazi laih ta, buakha ama sie tawhta Chavyhpuhpa phao cha mei ta rao pâ ha ta.
+      Chavyhpuhpa cha a Ngiadih phaopa liata mei ta a kâ ngâpa vâta mei a kâ awpa a chipa vâta a râ lymâ ta, Tlâ-uah ta, "Chakâ lâ...a râ teh... Râhzeih lâ a râ teh.." tahpa ta awh chakhy lymâ ta. Chavyhpuhpa cha a hmi zydua a u pâ khai haw.
+
+
+''';
+
+const tliano = '''
+
+          TLIANO PHÔH
+
+      Hlâno heta Nôvah baokha y ei ta, Saw chanô pakha hnei ei ta, ama saw chhao cha a hawhpi tawhta hnei ei ta, ama saw hneipa a tliapi tawhta ama hneipa vâta, amoh ama bipa chhao cha 'TLIANO' ama tah. Ahmi pha ta a pihzyh kawpa a châ. He nawhna he khih a sa thei kawpa châ ei ta, Vao thawpa sôsaripa hnei ei ta, Khaohrei liata a byu tyh ta, Zâ kha cha syuki hraihlâhpa heta Vaothawpa cha nie'pa a vaw chhuah ta Vaothawpa cha a chipa ta thata a vaw huhâ ta, Tlianô chata, "Y vao thawpa y, khazia ma nâ hrô ngâ kaw, mylâ hâno atlia ama vaw hia tita eima cha thie khawh," tah ta. Cha nôhrâhpa biereipa cha, Cheipa chata, thei hata, a thapawh ngâsâ ta. Cheihpa cha ama khih lâ a râ lymâ ta, a nôpawhzy thali kei chho ta, a mylâpa ta lyuhchâpa vaw tuah ei ta, Ukâ khasaripa phao ei ta, Tlianô cha eima kei hiah. Tlianô nôpaw na heta Syukipa a châpa raita ama pahno leipa cha bao naih ta aryh pâ haw ta, vaw chy-eih ha ei ta.
+      Chatawcha, Tlianô cha Cheipa O lâ cha pakia ha ei ta,ama Vaothawpa cha thie ei ta, athawpa, a thlih cha ano eihta chhôchâ lâ pangieh ei ta, Cheipa ta cha Vao thlih ama bangiehpa cha hmô ta a pachih zao ngâsâ ha ta, atavia tawhna chata kyhchhi â hlaopenawh pati tô a vaw chhuah ei ta, niepata thyu ei ta, châhrasala, Cheipa deikua cha thyu khoh leipa ta, "Keima la nie khoh mâh va na, ei chhôhna a pasa ha," tah ta. Pati ama nie khai tawhna cha thlai vaw zoh pâ ha ta, kyhchhi chôtla penawhzy chhao cha nohchhô lâta ama chôtla lamopa ama khaobâpata amô khai ha ei ta, Cheipa cha amâ mô chhôhta thlai thyu ta, Vao thlih ama bangiehpa liata a vyuh lai chaipa cha charua khai ha ta, cha a nie ngâ hai nona chata Tlianô na seichanô Hleidoh ta hmô ha ta, My khih a vaw deih tawhta Vaothlih ama bangiehpa kha vaw moh ei ta, a ki khao leipa ta thata ama tlua.
+      Chatawcha kyh ama chhipa vaw pai ei ta. Nohkha cha Tliano nata Hleidoh cha tho phaoh ei ta, Hleidoh cha ta, "Ei nawh, azahia ta na vahpa kha..." tah ta. Tlianô chata, "Ei nawh, kheitama a y," tah ta. Hleidoh cha ta, "A hmina a chhithai kaw, ei cha tah bao na,," buakha tawhta Hleidoh chata, "Azâhnia ta na vahpa kha la," tah ha heih ta. Tlianô chata, "Asâ na a seih kaw ei tah baona," tah ta. Tlianô chata, "Asâ a seih kawna, "tahpa ta a chhy ta. Buakha vaw y ta, "Ei nawh azâhnia ta na vahpa khawh," tah ha heih ta, cha na thâh la cha, Tlianô a hie vaw hâhpa ha ta, "Hleidoh, khazia ma na vahpa kha la, eina tah ngâ thlah ha chi, ei cha thie haw na, "tah ta. Ahrei thlai a vaw la ta, a chaipa a chhuah ta, chatanachata Hleidoh chata, "Azâhia ta Vaothlih na Pawzy ta ama pado ngapa kha ano mâh a vaw nie khai ha tah," tahpata chho ta. A chhopata na ta Tlianô cha tho phao na tawhta anôpaw lâna cha thlai vaw kua ta, anô nata apaw hnohta "Ei vahpa awpa he, Syukipa mâh a vaw châ tah. A zâhia Vaothlih a leipa kha anota nie khai ha ta, hehawhpa he ma vahpa ta eina pahneisa ei chi. A chatliepa ta bie na phiepa la, a khoh raita na ei khoh beih vei," tah ha ta.
+      Anô nata apaw chata he tana he vaw chho ei ta, "Atlia, nâ ti thaih la, eima cha tah no ta, Doh-nô, na ta thaih la, Doh- nô nâ tho phaoh mah y eima cha tah nota Atlia nâ tho phaoh mah y," tah ei ta. Ama saw Tlianô, nâ tho phaoh mah y," tah ei ta. Ama saw Tlianô nata ama seichanônô Hleidoh cha ri'pa a chhuah ei ta. Cha hawhta ri'pa ama chhuahpa cha Cheipa chata pahno ha ta, ama khih lâ kua ha ta. Ama khih mo chata hnebeidypa ta a kuapa cha pahno leipa ei ta, Lahpino a vaw chhi awpa cha thata y dy ei ta, hawka liata Ramawhzy chakhyhpata vaw mokhâh ei ta. Cheipa, ama khih mota ama ydypa pyury a thei nata, hla ta kaw phi ta:-
+
+        "Ratlâ tla khah u la, khihsaw saih zy, 
+        Cheipa sihnôh ei vaw kua ha na, u..u.”
+
+vaw tah ta. Ahlasapa ama vaw theina ta khihsaw cha ama pyury sidiah ha ta, Cheipa cha O lâ tlô khoh khao leipa ta hawka liata a hnawh ha ta. A paw chata hla ta za aw ta :-
+        "A khy mah y, a khy mah y, ei pâ y Cheirôh y,
+        Ti thu pahrâ Hleinô Hleidoh, 
+        Doh nô cha hly 'va lah vâ na,"
+        Cheipa chata,:-
+        "Ti thu pahrá Hleinô Hleidoh, 
+        Doh nô ku lia kô nô kha maw”
+kaw tah ta.
+      Akhy khoh leipa ta. Anô ta za aw pâ heih ta, Sôhmôh pahrâ Tlaipyuh hia pawpa ta:-
+        "Akhy ma y, akhy may,
+        Ei pâ y, Cheihrôh y;
+        Sôhmoh pahrâ Tliano Tlaipyuh,
+        Tlianô cha hiapa lah vâ na; 
+        Atlia hnahzô daduah a lyu,” 
+        a tahpa ta na ta, Cheipa chata hla ta kaw palie ta:-
+        "Sôhhmôh pahrâ Tliano Tlaipyu,
+        Atlia hnahzô daduah a lyu,"
+kaw tah ta.
+      O lâ a kaw râ lymâ ta, O cha kaw ngai ta. Nohkha cha anô nata apaw chata, Tlaipyuh hia awpa ta thlai tua ei ta. Tlaipyuh chata vaw khoh leipa ta, "Sabuhpi râh meihdo a pai thai leina râh lâ la khoh va na," tah ha ta. Syukipa râh he cha khatino hmahta meihdo he a pai thei leipa a châpa vâta Tlaipyuh nô nata paw chata, "Hnainô y, râh va hmiazie a thyukhei la vâ chi," tahpa ta chho ei ta. Tlaipyuh cha vaw paryhsa ha ta, Sabuhpi râh lâ cha kiah ha ta. Sabuhpi meihdo a pai leina râh cha Râhvâhmiazie ta zie lymâ ta, noh a vaw lâ ha ta. Cheipanah khih Nôpawzy cha aly ngaita ei ta, ama ky nohsa lalôhpa pa-ai hôlô ei ta. "Atlia la a hmi ngâlâh na, Tlaih-nô dei kua na noh a vaw chhi khei e," tah ei ta. Hla vaw sa ei ta:-
+
+        "Lôseihpa paw Taikuapaw na,
+        Atlai a pahly roh via na, 
+        Tlainô a laihsa na via na,"
+ama ly ngaita kaw.
+      Daihti a vaw rei via tawhta Tlianô kha lô Awhkhypa Siahrôh ta vaw hiah ta, a vaw sie nona cha, Cheipa ta vaw pahno ta bie thelai hiahri ta, "Unawh y, Tlainô naihta na hiah bao aw, ngiachhiepata na pakia tita la eima O lâ rie a vaw pahâ khei mah y," tah ta. A chhâpa cha Cheipa heta Tlianô a khoh tu hapa vâta a reipa a châ.
+      Chatawhna chata Tlainô cha Lôsiarô o lâ kiapa ta a vaw thao ta, Cheipa O chapia pâ awpata reipa a châ ha pa vâta, Cheipa cha Ômâbeih, lolei pâthao pangaih ta, a seihna lâ cha bâh sâ pha ta, a o châkeih liata a kah khaina chôta mokhâh thlâh ha ta. Nohkia heihsa ta Tlianô nata a viasa a zipazy cha vaw tlô palâh ha ei ta. Cheihpa na O lâ cha a vaw pahâ ei ta. Zawpi cha châkeih ama chakâpa a chado ngâsâ ei ta, Tlianô deikua chata moh sazua leipata châkeih liata Cheipa a byu thlâh hapa cha chapia pathla ta, Cheipa, a Aomabeih pazypa a hâh tlâh cha tlo pathla khai ha ta, Tlainô a pasô tu hapa vâta a hâh hmia a tlo khai hapa chhao cha a papeisa leipata, kaw pahneih ta, a viasana kheita, "Tlainô ei naw mo ma," tah ta. A viasana chata, "chavaw moh vei," tah ei ta. Cheipa cha a palôh pasa kaw ta.
+      Chatawhna chata, Tlianô cha a vahpa awpa Siah-rôh O lâ cha kiahpa ta a viasazy chhaota sie ha ei ta. Lôsiahrôh na chata Tlainô cha Siah-rôh liata sawchapaw pakha hnei ta. A saw palôh a vaw hâh via tawhta ano pawzy a zâ hmô ta, a vahpa nata a saw cha siesai ta, ano paw tawhta â kaw liena lâta, Cheipa na khih a kaw chapia heihna liata Cheipa ta patu ta pasiesa khoh khao leipa ta ama O liata ypata khâchâ thlyu ha ta. Tlianô chata avahpa nata a saw vâ ngâsâ thlâh ha ta:-
+        "Lô awhkhy, Siah-rôh kha la,
+        Siah-rôh va ka kei na,
+        Nawhhly va ka kei na,
+tahpata hlazy sa tyh ta. A zâ chareih a hiphiahpata y tyh ta. Zâ kha cha Cheipa âmô chhôhta, Cheipa nô cha ta, “Ei saw y, na vahpa khih lâ cha va sie la, keima ta vaw dôvei sala," tahpa ta chho ta. Tlianô cha a râ lymâ ta. Cheipa cha a kaw thei ta "Ei nâ, Tlianô kha khataih liata ma a y." tah ta. Anô chata, "Sawvâ lâ na a sie," tah ta, Buakha y heih ta, Tlianô cha pado ngâthlâh ha ta.A chhana lâta cha, anô chata a dôvei n'awpa a pahno khao leipa vâta, "Ei saw y, kheihta e, a vahpa nata a saw ama y thlâh hapa cha, kheita a cha ypâ tiah aw, a sie ha khawh," tah ta. Cheipa cha Kheihtarupa lâta a lie ta, a chadai lymâ ta. Tlianô, O a kei tlô hlâta khih cha kei tlô ha ta.Cha a kei tlô nona cha khih deih mâh vei. Tlianô a vahpa Lôsiarôh rakhô liata a zia thlâh hapa cha nie khai ha ta. A saw chhao cha a lathli pazy khai ha ta, châkeih liata padua ta, a vahpa sâbu cha a pakah biena taihta pa-ô ta, Cheipa cha a pheita vaw sie ta, Tlianô nata thlai a vaw tyh ha ei ta, Tlianô cha a palô hroh ngâsâ ta. "Cheipa y, sôkha pahnei khoh tua si," tah ta. Cheipa cha a hmao mona chôta, "Hm hm hm......" tah ta vaw pahneih ta. Tlianô chata, "Khazia khata na pahneih, thapita vaw pahneih tua," tah ta. A thata kaw pahneih ta, apakah liata Sâbu cha kaw pachhao ta. Tlianô cha a pacharôh ngâsâpa ta thata a râ lymâ ta. Ama O a kei tlôpa cha a saw a thi ruapa châkeih liata a padua thlâh hapa cha thlai hmô ta, O chhôh lâ a zâ ngia heih ta, a vahpa heih hra cha a sapa nie khai ha ta, a rupa saita vaw y thlâh ha ta.
+      Tlianô cha a vâ a sâh ngâsâ ta, a viasazy khei ta, "Ei viasa saih u, kheita ma Cheipa he ei thie thei aw tly" tahpa ta hiahri ta. A viasa nô pakha heta, "Zurie pahâh ngâsâpa ta ieh la, Chiephoh bao kha Zurie ôh liata khô pa la, Cheirôh y, ei Zurie he nâ dop'awpa y khao tlôh leipa ei ta, nâma na za sopa tyh la, Zurie a chhâ awpa noh deikua cha, Tlaipyuh chho la, lahuah hmophaw pataosa khai ha la, Atlia râti na ei thli aw va tah la, na mo liahsa paso ha la va doh ma y tah mah y," tahpa ta chho ta. Chatawna cha Tlianô cha Zurie thlai ieh ta, Cheipa cha bieta ta. Cheipa a vaw tlô na ta, "Cheipa y, ei Zurie he na dopa awpa y khao vei ei, nâma za doh tyh la, a chhâna liata deikua cha Tlaipyuh y, lahuah hmohphaw na taopa la, Atlia râti na ei thli tua aw, tahla na mo za paso ha mah y," tah ta. Chatanacha Cheipa cha aly ngâsana chôta a khih lâ cha sie ha ta, khih a tlô tawhna cha ta Zurie cha doh pathao ha ta. A chhâ awpa noh deikua cha Tlianô ta a reipa hawh tlaita a lahpinô Tliapyuh kei ta, "Hmohphaw na phawpa la, lahuah na haihpa la, Atlia râti na ei thli aw," tah ta. A zia hmahta a mo paso ta Zurie cha doh ta, Chiephoh baokha khata a rao liata chhô sao ta, thi ha ta, Cheipa ri cha pasiepa avaw chhuah ei ta, a thina taih chhao chata Tlianô a ngiabâh hapa vâta a hmia nata a kâh deina phie a phâpâ ha ta. Ama nôpo Tlianô cha kei la ei ta, Tlianô cha a hiehâh ngâsâ ta, za tlô ta, Cheipa nô chata, "Atlia y, sôkha vaw hria ha la, cha ngiabâh tu ha ta," vaw tah ta. Tlianô chata, "Syukipa y, Hrailâhpa y, zua eina ngiabâh chi," tahpa ta a phei ta kei tly ta, Chatawcha a hmia nata a kâhdeina cha a vaw thlâ ha ta, siekhei ei ta, thlâ ama tlôkhei na ta a ri cha vaw lai ha heih ta, thlâ keikaw a tlôh leipata, "Atlia y, sôkha vaw hria ha heih la tah heih ei ta, Atlia chata, "Syukipa y, na ngiabâh khao khah y," tah ta. Aphei la kei tly heih ta, a ri cha vaw chyh ta ama pabu thei haw.
+      Cheipa athi tawhna chata Tlianô ta ataopa a pasa kawpa ta pahno ta, a hiehâh ngâsâ ta, Tlianô nôpawna khih lâ cha a dyuh tah, hri kaw chareisa ta. Tlianô cha a nôpaw khih lâ cha sie para lymâ ta, ama khih a kei tlôpa cha ama sahroh awhvapa nata ama khih mo zydua cha thi khai ha ei ta, anô nata apaw chhao vaw thi ha hra ei ta. Ano chhao cha anô nata apaw ri likawhta a zia ta, a chairi cha vaw pathlâ ta, a thi pâ ha hra.
+Phôpatló liapatlo, sairawti patlai patlô
+
+''';
+
+const chheihluti = '''
+
+          CHHEIHLUTI UNAWH PHÔH
+
+      Hlâno he khih miakha liata Nôvah baokha y ei ta Sawchapaw papangawh nata Sawchanô pakha hnei ei ta. Amo cha khih a sa thei kawpa châ ei ta. Nohkha cha ama nô cha vaw thi ha ta. Cha Unawhna cha nô leipa ta y ei ta. Ama paw cha hroh ta, châhrasala machâ ngâsâ ha ta.
+      Nohkha cha Unawh papangawh penawh chata, "Syhly zôh a lawh sih la, a lawh thei leipa la Chakeih chô liata na eima patyu aw," tah ei ta. Chatanacha, Syhly zôh cha a lawh pasua ei ta, ama Unawh papangawh chata lawh khai ha ei ta Ama paw deikua cha lawh thei khao leipa ta, ama reipa hawh tlai ta ama paw cha Chakeih chô liata bu sapa ei ta, ano deitata soh ei ta.
+      Ama sietanô pakhata ama hnei tlakaihpa cha nohchareih ta ama paw Lâchao papiesa tyh ei ta. "Eima paw he Chakeih ta avaw thie khiahtala a phuh eima la aw," tah ei ta. Chatanacha ama sietanô cha Lâchao nata Karao ti phaohpa ta a paw yna lâ cha sie ta. Apaw cha Chakeih chô liata a ypa cha a y ru ngâsâ ta. Asaw chanô avaw hmô pacha a ly ngaita ta. Asawchanô chata, "Ei pâ, azahia a zota pyury na thei ma?" tah ta. Apaw chata, "haosa â hlapapi liata na pyury ei thei," tah ta. Asaw cha O lâ a kaw lie ha ta. Amylâ cha a paw Lâchao nata Karaoti cheipa heih ta, “Ei pâ azâhia pyury na thei khao ma ?" ta heih ta. Apaw chata "Ei saw y, azâhia lâ a pyu a vaw hnia via hata chavah hrih liata na a pyu ei thei, a hu ngâ kaw na, "tah ta A saw cha O lâ kaw tlô heih ta. Amy lâpa, amy thôh nawpa liata a paw O lâ Lâchao nata Karaoti phaoh heih ta, apaw yna su cha za tlô ta, apaw cha vaw y khao leipa ta, Chakeih ta arâ khei haw. thata cha ta, angiachhiena chôta a O a kaw tlo.
+      A rilâhpenawh hnohta, "Eima paw vaw y khao vei, Chakeih na â râkhei haw," tah ta. A rilâhpenawh cha tlao aly ngâsâ ei ta. Ama paw phuh la awpa chata a chhuah momâ ei ta. Ama sietanô chata pasaih leipa ta, "Eima paw. Sahrâpa ku liata a thi hleikhô cha ma, nâmo chhâ la sie leipa ta bâh y thlâh ha u la. Chakeih pakah liata nama leidia thlâh haw na," tah ta. Cha unawhna cha ama Sietanô biereipa cha a papeisa tiarâh leipa ei ta, ama paw phuh la awpa chata amâ thao haw. Sôkhai khih kei tlô ei ta, Sôkhai chata, Unawh papangaw sai, khâpa nama tah aw?" vaw tah ta. Amo chata, "Nô phuh paw phuhna eima la aw," tah ei ta. Sôkhaih chata, "Nô phuh paw phuh a la awpa nama châ khiahtala, kei, sôkhaih he a vaw chakhao sala, alei ei tla hlâta eina lawh pachhôh thei khiah chi ta la, la aw ei chi ta, nama lawh pachhô vei khia la, la aw veih chi," tah ta. Âmo chata, "Eima la thlâh haw ny," tah ei ta. Awkhypa khih lâ sie ei ta. Awkhypa chata, Unawh papangawh penawh, khâpa nama tah aw?" vaw tah ta. Âmo chata, "Nô phuh paw phuh na eima la aw," tah ei ta. Awkhypa chata. "Nô phuh paw phuh a la awpa nama châ khiahtala, keima Awkhypa he vaw khoh sala, "Ti ti ik ik' tahpata vaw khoh sala ei ao a chhâ hlâta Châtai ta eina ka sao thei khiah chi ta la nama la aw, eina ka sao vei khih chi ta la l'aw veih chi,” tah ta. Liahsa a pachyh ha ei ta, “Khawh, Awkhypa duah vaw khoh teh," tah ei ta. Awhkhypa chata a mathlaw vaw chabaih ta, 'Ti ti ik ik' vaw tah ta, aka chhiechhu ei ta, phie ama chhei khai haw. Awkhypa chata, "Nama la thei thlulu na," vaw tah ta. Amo chata "Eima la lei cha ma i," tah ei ta. Awhkhypa chata, ngâ ngâsâ leipa ei ta. Chhiehrieh khih lâ pangai laih ei ta, Chhiehrieh chata, "Unawh papangawh penawh, khâpa ma nama tah aw,?" vaw tah ta. Âmo chata. "Nô phuh paw phuh na eima la aw," tah ei ta. Chhiehrie kô chata, Keima he a vaw chakhyh sala, hmô kha hmahta pathlaopadi leipa ta phiphiah eina huah khai ha khiah chi ta la na ma la aw ei na huah khai vei khiah chi ta la, l'aw vei chi," tah ta. Chhiehrie kô cha, "Kahraih, kahraih" a vaw chakhyh ta, a lei cha araw râ raw ha ta, a huah phiephu ei ta, a hua hoh khao leipa ei ta, ama phei ta charihchamy ei ta, ama siesai haw. Chhiehrie chata, "Kha Unawhnah kha a reithai ngâsâ ei ta, a pakypamâ khoh leipa ta bie rei lymâ ei ta, thlao a chhi thlyu veih ei," tah ta.
+      Chatanacha, sie lymâ heih ei ta, Nôhmeinô Chakeih a hneituhpa O cha kei tlô ha ei ta. Amo chata, "Mahnô, O chhi miah vaw pahy," tah ei ta. Nôhmeinô chata, apa peisa leipa ta a tlâh thlâh hapa tlai cha ama nai ma, ama châ ma tahpa pasia nawpa ta, "Ei saw saih, Ochhi cha cha pahypa thei vei na, vao chô, awhchôzy kha zi ula, chhôchâ lâ tawhna kita a vaw ngia teh u," tah ta. Mahnô reipa hawhna chata, chhôchâ lâ tawhta a kaw ngia ei ta. Unawh papangawh penawh chata, "Mahnô, a tazâ he Awh maniah thiepa mah y," tah ei ta. Mahnô chata, Awh, a ti a thla haipa cha thie ta. Mahnô chata, "Ei saw saih y, keima la ei hâh baih leipa châ na ta, lao kha a liahmaripa na pahlôhpa u la, Awhsa kha a châzi nata a Pati na sopa muh vy,' ,, tah ta. A reipa hawhta sopa ei ta. Pati ama nie khai tawhta vaw zoh pâ ha ta, a vaw mô ei ta, amâ mô chhôhta Nôhmeinô chata Siahloh sahlao aw ta. "Siahloh, Siahloh, sa ta lao ta kaw nie ly," tah ta. Siahloh sahlao cha a khy ei ta, sa nata lao cha nie ei ta. Mahnô chata a nie laihbâhpa kha a sopa ei. Unawh papangaw ama nainyuna kha pachâ ta, a sahlao Chakeihzy ta a pahleipadia thlyu ei tahpa pachâna a hnei chhieliepa châ ta, ama li, Chakeih ka nawpazy cha Siahlohzy pasyu ta ama mô chhôhta pua chakisa khai ha ta, ama li hmao cha, a chie daihmâpa saita sopa ei ta.
+      Chatawcha, my khih vaw deih ta, Unawhzy chata Nôhmeinô cha bie thlai hiahri ei ta, "Mahnô, Chhôtlô ma a pahnai via aw, Pâzao maw ?" tah ei ta. Nôhmeinô chata, "Ei saw saih, Chhôtlô tlai ma a pahnai via," tah ta. Chhotlô byuhpa liata a chhai ei ta, "Khawh, Mahnô, na I cha aw bâ teh," tah ei ta. Mahnô chata, "Chy chyh, Chakâ I a vaw di, râhzei I a vaw di," tah ta. Chakâ lâ tawhta pô pangawh, râhzeih lâ tawhta pô pangawh a vaw zaw lymâ ei ta, "Unawh, na Châta li ta Siahlohzy ta ama li ama chaki khai hapa vâna kha ta, Chakeih pôhrawh penawh ta Unawh papangawh penawh cha ama chaih khai haw.
+      Chatawcha, ama sietanô kha pachârôh ngâsâpa ta y ta, "Eima paw Chakeih ta a niepa hleikhô ta ei rilâhpenawh taihta Chakeih pakah liata ama thi khai hapa cha," tah ta. Noh hluhpi ama mâchhie sapa ta y kôzaw ta. Nohkha cha Vâphuh liata Pala (Lahphâ) he zawh ta, Vâphuh liana chata buakha a zia ta, avaw mô pâ ha ta, aku ta o nâhna akaw patu nota Chheihluh hmô no a zie thlâh ha ta, cha cha chaih ta. Ochhôh lâ ti za do thlu ta. Chatawna chata saw a vaw phaoh thlâh haw. Vâphuh liata Chheihluh a vaw sohtuhpa kha a Vâ liata Abeipa LAISAKHA y ta, a sawchapawpa ta "Ei pâ, ei ie na a chhi kaw," tah ta. A paw chata, avâ vaw cha-iapa ta avâ pyupa tawhna cha za moh ei ta, a saw chata, "Ei pâ, khu khu duama ngiachhie a chhi kaw, Chanô mâchhiesapata a mô thlâhpa khuh" tah ta. Apaw chata na ngia a cha chhie khiala byhnâ za pie châh chi," tah ta. Asaw chata, Chheihluh hmo no kha a za pathlapa a châ.
+      Chatanacha, cha chanô hârapa ngiachhie a chhi kawpa, nôpaw, rilâhpazy chhao a hnei khao leipa, ano dei ta ta polalypa ta khih a sapa, saw tlai cha vaw phaoh thlâh ha ta. Ano-âh ngâsâ ta. A saw phaona daihti a vaw ki na ta saw cha vaw pih ta, chapaw maphie a vaw sa. Ama moh vaw bi ta, Chheihluh hmô a chaina tawhta cha hawsaih pano ama vaw ypa vâna chata, "CHHEIHLUTI UNAWH" a bi pâpa a châ.Cha a sawnah cha vaw laiseih lymâ ei ta. Kyh a pachâ ngâsâ ei ta, charei khoh tyh ei ta, ama palôh liahsa a vaw hâh tawhna cha, ama nô cha bie hiahri ei ta, "Ei nâ, keimo he eima paw a hyma a châ, Paw duama eima hnei vei, eimâ thei hlâta ma maniah a thisai ha tly, mohropazy cha paw hnei ei ta, puhpazy hnei ei ta, keimo he duama a matlamala kaw rai pi," tah ei ta. Ama nô chata, "Ei saw saih vaw laiseih via tua u la, a tahmâ no la chho a daih mâh vei ei chi," tah ha ta. Amo cha vaw laiseih via lymâ ei ta, ama thatlô ta, ama riah chhao a pha ngâsâ. Ama nô cha bie hiahri chanei heih ei ta. "Ei ma paw chhichânazie maniah chho la, puhpa eima hnei nata hnei leizy chhao." tah ei ta. Ama nô chata, "Ei saw saih, he eima vaothawpa he sôcharu tlai châ ha ta, pakha laikathi lâ a duah sala, pakha okachha lâ a duah sala, nama thy pakhô tua aw, Vao sôcharu nama thypakhô thei tlai khiatala ei cha chho ei," tah haw ta. Unawhnah cha ama nô ta, a chhonazie hawhna chata tao ei ta, ama tao thei haw, Chatina chata ama nô chhaota ama tao thei lymâ aw tahpa pachâ ta. Ama paw hnei leinazie nata ama puhpenawh chhichânazie cha chho khai ei ta. "Ei saw saih, nama mahpaw cha, Chakeih ta nie ha ta, nama puhpenawh papangawh chhao Chakeih ta nie khai ha ei ta, Nâ mo paw cha, avâ lâna ay ei aw, Nama mahpaw nata nama puhpenawh ama tlua pâpa, mâchhie ei sa nota vâphuh liata a zia nata buakha ei mo ei vaw paso nota Chheihluh hmô no ei kiapâh ta a ypa ei chai tawhta saw vaw phao na ta nâmo he nama vaw pihpa a châ hi," tah ta.
+      Chatawhna chata Chheihluh Unawhnah chata phuh la awpa ta a chhuahnoh hra ei ta. Ama sie n'awpa noh liana cha, a vâ la tawhta thua li, Chakeihzy maluh a kipa ta ka n'awpa ta za pathlapata, sie lymâ ei ta, lâpi liata Mamo (pavaw) he vaw y thlah ha ta. Mamo chata, "Hy, Chheihluh unawh, khatai lâ ma nama sie aw?" vaw tah ta. Amo chata, "No phuh paw phu na eima la aw," tah ei ta. Mamo chata, "Keima chhao nama hnohta ei vaw sie hra aw tah ta. Mamo cha ama hnohta sie lymâ ha hra ta.
+      Chatawcha, Sôkhaih khih kei tlô ei ta, Sôkhai chata, "Chheihluh Unawh, khâpa ma nama tah aw?" vaw tah ta. Amo chata, "Eima sie chakhyh laih aw na," tah ei ta. Sokhaih chata, "Nô phuh paw phuh ala awpa nama châ khiatala, kei Sôkhaih he a vaw chakhao sala, a lei lâ ei tla hlâta eina lawh hmakhiah chi ta, nama la aw," tah ta. "Duah a vaw chakhao la, keimo chala cha lawh hmâ bao ma pi," tah ei ta. Sôkhaih cha, "Takhai takhô' tahpa ta avaw chakhao chaimâh ta, phie ama lawh hmâ haw. Chatawhna cha sie lymâ heih ei ta, ama sie pakhô tawhna cha, Sôkhaih chata, "Kha Unawhnah kha la a reisi ei ta, ama so kaw na, phuh la ama la aw," tah ta.
+      Awhkhypa khih kei tlô ei ta, Awhkhypa chata, "Unawh saih khâpa nama tah aw?" vaw tah ta. Amo chata, "Nô phuh paw phuh na eima la aw," tah ei ta. Awhkhypa chata, "Vaw khoh sala ei ao eipa chhâ hlâta li ta ei luh he nama kapachhô thei khiatala nama la thei tlai aw, eina chhei ha khiahchi tala, la aw veih chi," tah ta. Awhkhyhpa cha a ma thlaw "Taku,taku' vaw chakhyh ta "Ti ti ik............" vaw tah ta. A ao a pachhâ hlâta, ka pachhô ha ei ta.
+      Cha su tawhna chata sie heih ei ta, Chhiehrie khih kei tlô ei ta, Chhiehrie chata "Hy Chheihhluhti Unawh nah, khâpa nama tah aw?" vaw tah ta. Amo chata, "No phuh paw phuh na eima la aw," tah ei ta. Chhiehrie chata, "Cha khiahtala, keima chhichrie he a vaw chakhyh sala, eina huah khai khiah chi tala, nama la aw." tah ta. Chhichrie cha, "Kahria,.... kahria....... a vaw chakhyh ta. Alei cha arawta raw chheih thlâh ta, Amo cha ahuah chaimah ei ta, Mamo ama ama chhi laihpa tlai khata tiama tu ha ta, hmôkha hmah pathlaopadi leipata phie ama huah khai haw.
+      Cha su tawhna chata sie lymâ heih ei ta, Nôhmeinô, Chakeih bie ahneituhpa O cha kei pangai ei ta, Unawhnah chata, "Manô, Ochhi miah vaw pahypa tua," tah ei ta, Mahno chata, "Ei saw saih, tlâh leipa na ta, thyu thei va na, Vao chô Awh chô lâta angia lana khata a ngia thlâh ha teh u, kaw tahta, Amo chata, "Keimo la, Vao chô Awhchô lâna khuta a ngia awpa châ ma pi," tah ei ta. Ochhi cha za tly pathla ei ta, Nôhmeinô cha a hiehâhpa cha khâpa nata a kho leipa ta, "A tlâh nota khi thlai cha e," tah pâ ngâ kaw ta. "A hno tlysa, a hno tlysa," tah ta. Chheihluh Unawhnah chata, "Mahnô, Awh miah thiepa mah y, "tah ei ta. Mahnô cha a hie vâro ama pahâh hapa vâna kha pasaih leipa ta, "Ei saw saih, Awh thiepa hnei va na," tah ta. Amo chata, amo kho ta, a Awh cha patu ei ta, a tih a thlapa, a thawh lichi no cha ta, awh cha chho ei ta, Mahnô chata, "Ei thlaw thlaih, kei la a luhpa nie thei leipa ta, a sa phapa kha bâh na thlopa muh vy," tah ta. Unawh na cha a sapa nie khai ei ta, arureihpazy sopa ei ta, lao, a kâ-upa so pâpa ei ta. Nôhmeinô cha hnôh lâta Pati niepa a chhuah ta, beihzy vaw moh ta, Lao a kâ-upa, Awh a thiepa kha, a rureipa saita hmô ta, a hie hâh via rili ta, apa-upahmia ngâ kaw. Vaw zoh pâ ha ta, Unawhnah cha a ziana a paryh ei ta, ama Libaw liahsa a huah ei ta, amôkhei thlâh ha ei ta. Nôhmeinô chata a saw, Siahlohnah cha aw ta, "Hy. Siahlohy, Sa ta Lao ta kaw nie ly." tah ta. Siahlohzy cha a khy ei ta, vaw nie ei ta, a rureihpa sai naih ta, nie thei leipa ei ta. Mahnô chata Siahlohzy cha pasyu ta, "Hao ama Libawzy hao va chakipa khai ha muh vy," tah ta. Châhrasala, thua Libaw sai a châpa vâta chaki thei leipa ei ta, Unawh panohpenawh chata, Siahlohzy cha patu ei ta, taikhy lymâ ei ta. "A hoh, Mahnô, pazuhih a rao ha la," tah ei ta. Phie ama thie khai haw. Unawhnah chata, "Mahnô y, na I cha aw heih la," tah ei ta. Ano chata, "Ei saw saih y khao vei, a chha ha na," tah ta. Avâ lâta Mahpaw chata, "Ei saw saih, chô mâh khuh vy, Sôkhaoh liata avo chipa a hrâ ngaitapa Nôhmeinô ta a tyuhnie thlâh hapa kha," vaw tah ta. Cha atyuhniepa, Chakeih chata ama Mahpaw nata ama puhpenawh a nie hapa kha a châ. Unawh panopenawh chata, "Mahnô y, Sôkhaoh liata na tyupa kha â chatliepa ta thyu ha la," tah ei ta. Mahnô chata, "Y khao vei, Sôkhaoh a ruapa châ ta, tlâ ei tyuh," tah ta. Amo chata "Na thyu vei khiahtala eima cha za kapa lah y," ama vaw tah tawhta Nôhmeinô cha Sôkhaoh a tyuhniepa cha vaw thyu ta, Chakeih vochipa cha za ka ei ta, ama pahluah haw.
+      Chatawcha Unawh na cha tho tawhta za cho ei ta, Chakei ama thiepa luh cha tai ei ta, a peimawh chaipa avochipa luh cha phaopâpa ta a chhuah ei ta, a chhôh liata ataw cha, la ei ta, a paih ta papaih ei ta. Unawhnah cha ama yna khih nata O cha angiapata a thao ei ta, ama sie tua nota ama phao laihpa Mamo kha phaopâ ly mâ ei ta. Ama riena lâpi liata azo ta. Chakeih taw cha pua'pa a chhuah ta. Mamo ama phao laihpa khata pahno ha ta, "Hm hm,... chyhsapa, hriah-la taw taw a zo hih," tahpata zâ chhôh zydua sâh ngâthlâh hata, a my lâ zâ liata Chakeih tawta cha a palôh vaw sadyu via syulyu ha ta, a paih tawhna cha pua a chhuahpa ta chaki hnolo ngâ kaw ta, Mamochata, "Hm, hm........ chyhsapa, hraihlâ tawta a zo hih,hih;" tah ngâ kaw heih ta. "He Mamo hela a palopasa hana, tihâpa ta thie ha sih la," tah ei ta. Ama thie haw. Unawhnah chata ama uasa rohria leipa vâta azota Chakeih taw cha a paih tawhta pua ha ta, a uhtheipa cha a rao liata sie ta a thi haw. Mamo, amo a baotuhpa hmâchhâh a zâ nona liata a palopasa hana, tah ta, ama thie hapa kha, A utheih viapa thi n'awpa a vaw châ thlâh haw. Chatanachata, a uhta luh nata Chakeih luh kha cha phaoh lyma ta -
+          "Tlah lâ, tlah lô kia nota,
+          Chyhhu riahno sa ei si Vah lâ, 
+          vah lâ hryh nota, 
+          Uhta chakhei laih ei si,"
+tahpa ta.
+      Chavah kao lâ a siena maihta, a uhtheipa, a uhtapa kha, chakhei lymâ ta. Tlâh la a siena maih ta, Hladyuh pathluah lymâ ta.
+      Chheihluti unawh, ama O ama pua sai tawhna khata, ama nô, ama siesaipa kha, yru ngaitapa ta y ta, a paw nata a rilâhpenawh Chakeih lu liata ama hrona chhâ khai hapa vâ nata, asawnah pano chhao Chakeih pakah liata vaw thi ha hra la ei, tahpa pachâpa ta noh-ly chhiki a kutha bâhtha chhao hoh khao leipa ta, ochhi a khawh hlôhpa ta y kôzaw ta. Chavyhpuhpa heta pachhipary tyh ta, a chipa vâta Ochhôh lâ tawhta ochhi thata chahry ta, chhôh a tlôh kôzawpa cha, khôtho lâ tawhta a awpa maih Chavyhpuhpa hawh saita pacha ta.
+      Nohkha cha a saw seihnaipa kha vaw tlô hnolo ha ta, “Ei nay, ei vaw tlô hana, Ochhi na vaw pahy la," tah ta. Anô chata, "Y, Chavyhpuhpa y, na dôvei heih kha y, ei sawnah naihta meidi meihthâ ama châ khai ha na" kaw tah ta. Asaw chata, "Ei nâ y, na kaw pahy thlâh ha la, keima na ei châ, A uh la Chakeih ta sie sao ha ta, keima deita na tlâ ei vaw tlô thlâh ha, Ei na zo leipa khiah chi ta la, ei uhta luh nata Chakeih luh ei kaw phaopa he, kaw moh tua la," za tah heih ta. Anô chata, "Y, Chavyhpuhpa y, na dôvei ngâ khah y," tah heih ta. A saw chata. Ohmia liata thlâ chao ta, a uhtapa luh cha pabu ta. Chakeih luh cha Okachha lâ Awhby chhôh liata khô ta, phiehruh ta. A saw chata, "Ei nâ y, chakhiahtala, keima la avâ lâ ei paw O lâ ei sie ha aw, khôtho lâ na vaw pua ti ta, Lôta liata ei pachih vaw pachhao na ta, Chavyhpuhpa pachih a châ khiahtala kha aw ta, keima pachih a châ khiatala a thlôh aw. Chatawhtala ei uhta luh cha tlyhmia liata pabu na ta, Okachha lâ Pâchhôh liata Awhby chhôh liata ei khôpa Chakeih luh a lai chaipa, maniah a pahleipadia tyhpa luh soh na ta, na ku ta vaw hria khah y, na hria khiatala na thi aw," tah ta. Anô cha a paw, LAIZAKHA hnohta ypata a vâ lâ a kiah haw.
+      Chatawhcha a my lâpa ta a nô cha khôtho lâ kaw pua ta, a sawnah ama châ tlai tahpa pahno ta. Tha tlaita a ngiapachhi ta, Lôta liata apachih pachhaopa cha palie ta, thlôh ha ta, ama nô cha thata cha ta, "Ei saw y, vaw kua la vaw kua hala," tahpata awh chaimâh ta, châhrasala, a vaw kua thai'pa châ khao leipa ta, a palôh liahsa a chhâ tawhta Okachha lâ Awhby chhikhaw kaw pahy ta, akuta kei cha pao ta, Chakeih luh chata vaw sie ta, a thi pâ haw hra.
+
+
+''';
+
+const nara = '''
+
+          NÂRA PHÔH
+
+      Hlâno heta Nôvah baokha y ei ta, Alahpinô cha saw phaoh ta. Lyu lâ siepa a chhuah ta, a py chhôh tawhta bie vaw reih ta., "Ei nâ y, atanoh la ti a phao la, noh thata a sah aw, na thiahrâ kha soh ha la," kaw tah ta. A nô chata, "Py chhôh tawhta bie na kaw reih." tah ta. A py cha a cha baih ta, zo leipa ta a thiahrâ cha a phao ta, lyu za tlô ta, noh cha thata sa ta, a dâh a phi tu hapa vâta, rai chhao hria thei khao leipa ta y ta, O lâ cha kaw sie ta, a py chhôh tawhna cha, "Ei cha tahpa tlai khawh," tahpata kaw ei law ta. A my lâ cha lyu lâ siepata a chhuah heih ta, apy chhôh tawhna chata, "ei nâ y, atanoh la ti a phao leipa la, thiahrâ a phao mah y, a vâ thata a suah aw," kaw tah ta. A nô cha a py a za chabaih ta, py chhôh tawhta bie reipa tlai cha," tah heih ta. Lyu lâ cha sie ta, lyu cha za tlo ta, avâ nata ziza ta thata phy ta, kohsao daihmâ ta. O lâ cha kaw tlô ta. Apy chhôh tawhna chata kaw ei law heih ta. "Ei cha tahpa tlai khawh," kaw tah heih ta, a nô cha a hiehâh ngâsâ heih ta, apy cha a za chabaih heih ta, Amy lâna cha a rie a thei tu hapa vâta a pahâ ta. A saw cha vaw pih pâ ha ta, Chapaw châ ta, amoh bi ei ta, 'NÂRÂ' ama tah. Nârâ nô cha nawhkhutlô a pai tawhta a saw hawsaihpa cha lyu lâ siekhei ta, Chapu chhôh liata pazia ta, lyu kaw thlyu sai ha ta, Cha noh chata ama lyu dady avâ lâ a ruapa liata Pahmôpi he a zaw ngâ kaw ta. A zawna chôta, 'Tawhtawhkie...' tahpata a sâhpa ngâ kawpa, Nârâ hasaihpa chata kaw thei ta:-
+        "Ei luh chô lia y, Tawhtawhkiepa, 
+        Na sah cha la,
+        Noh sa na ma, khihsana ma na sah e,"
+kaw tah ta. A nô chata lyu hmah liata, "U...Nârâ paw, ahyma Chapu liata hla a sa ngapa cha, ahy ma a châ aw duah za moh tua la," tah ta. Nârâ paw cha Chapu lâ tatuah tatuah zu ta, a saw Nârâ cha a paw a zupa apahno na ta, thata cha ta. A paw chata. "Eima nô y, Chapu liata chyhsa hropa rai y veih ei, Nârâ dei leipata la," tah ta. Nârâ no nata paw cha lyu thlyu heih ei ta. Buakha lih-lâ vaw y ta, Nârâ chata Chapu tawhna chata hla kaw sa heih ta.:-
+        "Ei luh chô lia, y, Tawhtawhkiepa, 
+        Na sâh cha la...
+        Nohsa na ma, khihsana na na sah e,"
+kaw tah heih ta, Nârâ nô chata, "U...Nârâ paw. Ahy ma hla cha avaw sa heih tly, bâh za moh heih tua la," tah ta. Nârâ paw cha, Chapu lâ za moh heih ta, Ahy hropa raita y leipa ei ta. Nârâ deikua cha vaw cha ngâ kaw ta, Nârâ paw cha a palôh hroh ha ta. Chapu okachha liata a ngiahpathli ta, cha nona chata Nârâ cha pahno leipa ta. Aluh chô liata Pahmôpi a vaw sâna maihta hla chata kaw sa thlu ha tyh ta.:-
+        "Ei luh chô lia y, Tawhtawhkiepa,
+        Nâ sâh cha la !.....
+        Noh sana ma, khihsana ma na sah e,"
+vaw tah heih ta. Nârâ paw chata, "Aw, ei saw Nârâ ma a châ mawh, eina laih chhu awpa he, "A paleih na ei tai haw y," tah ta. Nârâ paleih pawhmao cha, tai ha ta. Daihti vaw sie lymâ ta, Nârâ cha vaw satlia ha ta, Nohkha cha laihsa Vawri he kei charei ta, Nârâ chata Vawri cha, a pangiapali ta, Vawri thai sapa cha, paraoparapa nga kaw ta, Vaw ri chata "Nara, khata kha, ei thia sa ngapa tao kha, na parao na," tah , Nara cha a ngiah leipata tao rialia nga kaw ta, Vawri chata, "Nara tao kha y, ei cha tah aw na." tah ta, Nara cha. "Kheitama eina t'aw chi,na chho tlai la," tah ta. Vawri thai sapa cha a daopa nga thla ha ta. Vawri chata. "Nata he na hawsaih nota na paw ta, eina lai chhu aw na tah ta, na palei pawhmao a cha taipa, na pahno ma?" tah haw ta. Nara cha a hiehah ngasa ta. "Vawri y, kheita tao sala ma apha aw, na pacha khei tua," tah ta. Vawri chata "Nama o la vaw la, na paw kei ta, ei pa y, ei chhôh na a pasa tu ha, na pi la tah la, a ky liata a dyu-oh kha va lapa ha mah y." tah ta., Vawri reipa hawhna chata, ama o la thlai adi ta, "Eipa y, ei chhôh na apasa tu ha na pi la," tah ta. Apaw chata, "Na no chapi sala, tah ta. Nara chata. "Ei nâ pipa la khoh vana, nama pipa na ei khoh," chykha tah ha ta. Apaw chata, "Satliapipi, a vy teh, cha pi sa," tah ta. Nârâ paw chata, aky liata a dyu-ôh cha eina lapa aw tahpa chi kaw ta, Nârâ a pipa cha a chao liata pangieh thlâh ha ta. Nârâ chata, "Ei pâ, na pasua, na pasua via la," tah ta. A paw cha kaw pasua pakhô ta araohmi liata kaw khaih ta, Nârâ chata, "Ei pâ, na pakhao via la," tah heih ta. Nârâ a pipa cha, za pakhao via ta, a ky liata a dyu-ôh cha lapa ha ta. Apaw chata, Ei saw Nârâ, na pahlôhpa hra mah y," tah ta. A saw Nârâ chata. "Ei palâ khai ha khawh," tah ta. Chatawhna chata, Nârâ cha Vawri Syukipa zuah a châpa cha pahno leipa ta lahpinô awpa ta hiah ta, amâ hnei haw, Sawchanô hnei ei ta, ama saw moh cha DEICHAKHA ama tah. Nârâ cha apaw dyu-ôh a palâ khai tawhta cha dyu thai ngâsâ ta, a chipa rai ta y khao vei.
+      Nohkha cha apaw pasuapachao ta, "Ei pâ, sa ma sôh via ma, Cha aw? tah ta. A paw chata, "Aw ei saw, sa na a sôh via aw," tah ta. Cha noh na cha Nârâ ta Vaothawpa thie ta, Cha- aw kô kha lyu khai ta, a hmiatua ta Cha-aw bô cha avaw khiekha khei lymâ ta, chyhsazy chata "Pâpuh Nârâ, kei kao kha, A uh, kei kao kha," vaw tah lymâ ei ta. A Cha-aw sôhzie cha, phie amâ rai khai haw. Buakha y ta, vao sôcharupa rao chiehpa alâ dua ta satlia pano ta avaw sy laih ei ta. "A hyma vaosa a khoh y." vaw tah lymâ ei ta. Sa a chapa naihta ama rei pa kachhiepa ta chyh- ei tlâ leipa ei ta. A chhâna lâ cha. Nôhmeinô saw ta, "Ei nâ, pâ pâ, ei nâ, pâ pâ," vaw tah ngâ kaw ta, vao sôcharupa cha apôhpa duata ama chahyh thlâh haw. Zâlâ a vaw châ na ta. Nârâ cha. apaw khei ta. "Ei pâ, atanoh cha. Cha-aw nata vaosa akhiekheipa châ ta, kheihawhpa a sôh via?" tah ta. Nârâ paw chata. "Aw, thyuthy nata tlâbôh cha." vaw tah ta. He leipa chao heta Nârâ chata. "Ei pâ. Tlâh lâ hrei ma a pha via aw. Vah lâ hrei ma?" tah heih ta. Nârâ paw chata. "Chavah lâ hryhpa na a pha via," tah ta. Nârâ chata, "Aw, ei pâ. châ bao va. Tlâh lâ hryhpa na a pha via," tah ta. Nârâ chata "Ei pâ y, nâma cha Chavah lâ sie la, keima he Tlâh lâ râh ei khie aw." tah ta. Nârâ reipa hawhna chata, apaw cha Chavah lâ sie ta, Nga patu thei leipa ta Cha-ia. Iakâh ianota tlâ vaw phaoh ta. Nârâ deikua cha lytlâh tho lymâ ta. Ngiahraig sôcharupa ka ta. Hladyuh vaw pathluah lymâ ta :-
+        "Keina khohkheina Nârâ na, 
+        Ngiahrai luh vaw tlôkheina,"
+tahpa ta, hawka tawhta Meithei, 'phaih vaw ka ta. Khih chhôh mozy chata, Sahmahei vaw cheipa ei ta. Sa maniah zâ vei ma tahpa ta, "Pâpuh Nârâ. Â-uh Nârâ tlai bao hena," tah hôlô ei ta. Nârâ chata, apaw o lâ zu ta. "Ei pâ, kheihawhpa ma a noh a y via, vah lâ hryh ma, tlâh lâ hryh maw ?" tah heih ta. Nârâ paw chata, "Ei saw, thyuthy nata tlâhbô cha." tah heih ta, Nârâ paw cha a saw Nârâ ta a dyu a lapa khai hâpa vâta, hmotaotheina khapa hmahta hnei khao leipa ta a hru ngâpa hawhta pachapa vaw châ ha ta.
+      Chatawcha, Nârâ paw heta Unawh ta a taopa,khi hro lâ y ta. Amoh cha NASAIPAW dyu a thai ngaitapa châ hra ta. Nârâ ta a dyu a lapa hlâta cha, Nasaipaw nata dyu ta sai a solâh tyhpa he ama châ. Amâ hmô leina vârô vaw tah ha ta Nasaihpaw chata, Nârâ paw cha, avâ chheih hapa vâta, "Unawh Nârâ paw y, na vaw hmô dua mah y," tah ta. Nârâ paw cha a unawhpa Nasaihpaw a hmôpa chata sie ta. Nasaihpaw chata mokhâh thlâh ha ta, Okah liana cha, Nârâ paw vaw tlô awpa cha a thapha ngâsâpa ta a hâ thlâh haw. Nârâ paw cha kei tlô ta, Nasaihpaw chata, "Unawh Nârâ paw, thina chavah kaw sao, kaw sao chi ta, na pachha nata Ophu chavah kaw sao heih chi ta, na pachha nata zaotla chavah vaw sao heih chi ta, ei ochhôh he na vaw ngia," vaw tah ta, Nârâ paw cha dyu a thai khao leipa vâtâ, dyu thlâna bie pahno thai khao leipa ta Uh-mo hawhta moh thlâh ha ta, Nasaihpaw chata, "Ei pahnie haw," tah ta. Aly ngâsa ta, a unawhpa Nârâ paw cha Sahma do khei awpa ta a vaw chhuah ha ta. Sahma cha thlai vaw doh ei ta, Nasaihpaw cha vaw doh tua ta, a do khai na ta, Pâthao liata Vâzi vaw khô ha ta, "Unawh Nârâ paw y, nâma vaw doh mah y," tah ta. Nârâ paw cha, vaw pazy ta, ahmao nata Pâthao cha avaw phâpa ha ta, Nârâ paw chata, "Unawh Nasaihpaw, ei hmao nata Pâthao duama a vaw phâ pâh ha heih, kheitama tao sala a pha aw," tah ta. Nasaihpaw chata, "Ei hmao tloh la, Pâthao tloh la," tah ta, Nârâ paw chata "Ei hmao tloh la, Pâthao tloh la," tah ta, tlao a vaw phâpâh via ha heih ta, Chatawhna cha, apy nata beihrai hra cha avaw phâpâh ha heihta, Nârâ paw chata, "Cha mawh la ei py nata beihrai duama a vaw phâpâh ha heih," tah ta. Nasaihpaw chata, "Ei py tloh la, beihrai tloh la tah mah y," tah ta. Nârâ paw chata. "Ei py tloh la, beihrai tloh la," tah ta. Tlao a vaw phâpâh via ha heih ta. Nasaihpaw cha Seihkiphiehpa hnei ta, "Ei Seihkiphiehpa na y, Nârâ paw ta ei châ haw khai haw eina cha tah ei ta, chavâta vaw daihula, vaw thie ha teh u," tah ta. A seinah chata a vy ei ta, Nârâ paw cha. daih daih ei ta,ama thie haw.
+      Nasaihpaw chata, "Nârâ y, na paw thi ha ta, a ri kaw la muh vy," tahpa ta bie tah ta. Nârâ chata, "Nama ta soh thlâh ha chy la, ei rai a ma via tita ei khy aw," tah ta, bie a ta haw.
+      Nohkha cha apaw ri hmô awpa ta Nârâ cha sie ta. Nasaihpaw cha Nârâ he avaw tlô thlyu aw, tah ta. Mokhâh thlâh ha ta. "Nârâ he keima hlâta dyu a thaivia syulyupa châ ha tlôh ta, Opyupazy kha pamai khai ha muh vy," tah ta. Apyupa va pamai taraw ei ta, châkoh khao he pamai'pa phie my ha ei ta, Nârâ cha Kheihtaruhpa lâta a lie ta, Nârâ cha Nasaihpaw chakoh khao lâ tawhta a ngia ta.
+      Nasaihpaw saw chata, a paw kei ta, "Ei pâ, khichhai hih!" tah ta. A paw chata, "Okah liata ei mokhâh thlah hapa he khichhai cha kheihta e, Ochhôh liata a y thai aw? tah ta. A saw chata. "Pazu pôno eima pachawhpa kha, pôkha parâ ha ta, Chakoh liata sykahthu parie ta, a paw chhao a papawsa khai hana, za moh tua la." tah ta. A paw cha Ochhôh lâ thlai a za ngia ta, Nârâ, tlai cha, Chakoh liata a vaw tyuh thlâh ha ta. Nasaihpaw chata, "Ei saw Nârâ, thina chavah vaw sao chi ta, na pachha nata Ophu chavah vaw sao chi ta, na pachha nata zaotla chavah vaw sao heih chi ta, ei o chhôh he na vaw ngai," vaw tah ta, Nârâ chata," Châ bao va, hrozô chavah kaw sao na ta, he ochhôh he ei vaw ngai," tah ta. Chatawhcha Nasaihpaw chata a chipa vâta a chalyu ngâ kaw ta, anô hlâta Nârâ cha dyu a thai via hâpa vâta a ngiaroh kaw.
+      Nasaihpaw chata, Nâra chata Sahma a vaw chhuahdypa cha, sahma beihrai thlai vaw chalo ta, Pâthao vaw chahraoh ta, Pâthao liata Vâzi khô ha ta, Nasaihpaw chata, "Ei saw Nara, ei Sahma he doh tua la," vaw tah ta. Nârâ chata Sahma Pâthao chhoh liata Vâzi a khôpa cha pahno ha ta, a khutho pahluh ta, kaw pazawh ta, Pahmôpi lâta a vaw lie ta, Sahma Pâthao liata Vâzi cha za pachu ta, a zaw khei syulyu ha ta, Nârâ chata Sahma cha doh ta, a Sahma la a pathla tawhta Pâthao chhôh ta, Vâzi khopa hra ta. Nârâ chata, "Ei pâ Nasaihpaw y, nâma vaw doh mah y," tah ta. Nasaihpaw cha vaw pazy ta, Sahma Pâthao nata a hmao cha thlai a vaw phâpâh ha ta, "Ei saw Nârâ, ei hmao nata Pâthao dua ma a vaw phâpâh haw," vaw tah ta. Nârâ chata, "Ei hmao tloh la, Pâthao tloh la, tah la a pha aw," tah ta. Nasaihpaw chata, "Ei py tloh la, beihrai tloh la," tah ta. Beihrai nata apy cha aphâpâ ha ta. Nârâ chata, Nasaihpaw Seihkiphiehpa a hneipazy khei ta, "Seikiphieh penawh y, ei paw Nasaihpaw ta ei zuah khai haw ei na, cha tah ei ta, vaw daih u la, vaw thie ha teh u," tah ta. Seikiphieh penawh chata, Nasaihpaw cha vaw daih sao ha ei ta.
+      Chatawhcha Nârâ chata Nasaihpaw Seikiphiehpazy cha ama khih lâ vaw haoh lymâ ta. Nasaihpaw kha thi ha hrasala Nârâ ta a Seihkiphiehpazy cha a haoh khai hapa vâta, a hia vaw tlia ngâsâ ta. Pheithua lâ khah vaw châ ta, a sie ta sie thei khao tyh leipa ei ta. Nârâ chata, hla vaw thla ta.
+        "Seihphieh Raphieh sie bao la,
+        Ei paw Nasaihpaw dyu na,
+        tahpa hla a vaw sa pata nahta, vaw sie thei ha ei ta. Nârâ chata:-
+        "Seihphieh Raphieh sie bao la, 
+        Ei paw Nasaihpaw dyu na,"
+vaw tah heih ta, sie hnolo heih ei ta, a bohpa ta Nârâ o cha ama tlô haw.
+      Chatawhcha Nasaihpaw ta Nârâ kei ta na paw thi ha ta ari vaw la la a tahpa kha, a paw ri cha tlyhlia ta, Nasaihpaw dyu ta siphiah nata liahsa a phâpâhpa ta hmô ta. Nârâ chata, siphiah chhawhpa ta, khy ta, a vaw chhipa viasazy ta a pu laih ei ta, O a tlô nata Seiphiehpa thie ta, a rônah ngaitapa ta a pabu haw.
+      Nohkha cha Nârâ chavah lâ sie ta, vahthi tawhta vahhnaw lâ sao kaw vawh laih ta, Kiathy cha vahhnaw lâ tawhta vahthi lâ a zu laih ta, kohkah a tyhpa cha ha ei ta. Ama likawh ta liata lôpanô y ta, Nârâ chata, "A vy la, kei a vy hra'w na ta, lôpanô liana khata eima tyh aw," tah ta. Cha hawhna chata a tyh ei ta. Nârâ chata, "Kaduapa, na moh ahy a cha tâh ei maw?" tah ta. Kiathy chata a moh chho ta, Kiathy chhao chata, "Kaduapa, nâma zaw na moh ahy a cha tah ei khaw ?" tahpa ta hiahri hra ta. Ama moh ama hiahri khai tawhna chata, Nârâ chata, "A thiapawh kha ka-uapa khiahma cha tah na ta cha pabo ha vâ na, tah na ta nâma na vaw cha thlâh ha he," tah ta. Kiahthy chhao chata, "A thiapawh kha Ka-uapa khiah ma tah na ta, kawhkha ta cha bâ hawpa reih na ta, nâma na vaw châ thlâh hapa he eima vâ a hnei kaw na," tah ta. Kiathy chata, "Unawh Nârâ, nâma nata keima la a viasa sih la, kei nata dua ta a tao sih la, a pha thlyu na," tah ta. Chatanacha, Unawh, kei nata duahta a tao ha ei ta. Chavah liata sao cha Nârâ ta vawh lyma ta, Nga hluhpi patu ei ta, Nga cha pachawh ei ta. Kiathy cha, Chakeih a châpa vâta, a zo ta Ngavâh, a luh lâ maihta chaih khai ha ta. A my lâ cha o lâ siepa ta a chhuah rairie ei ta. Nga cha a rai ei ta, Nârâ cha o lâ tlô ta, Kiathy chhao cha a yna lâ sie awpa ta a chhuah hra ta. Nârâ kha ama o kaw tlô ta, alahpinô ta, a Lawhbu cha vaw pachhi ta, Nga a vaw phaopa cha moh ta, "Y Nârâ, Nga a vaw phaopa dua ma a luh leipa sai a châ thlâh haw," tah ta. Nârâ chata, "Chapaw râh lâ siepa cha, a luh chhaopa phaoh hra'w pi, a luh leipa phao hra'w pi, a luh cha tihâh ta eima sa khai ha khawh," tah ta. Cha nona chata Chakeih (Kiathy) kha Kheihtarupa lâta a lie ta, Nârâ hnôh lâta a kaw zaw laih ta, Nârâ ta, a lahpinô liata bie a chhyna a thei na chata, "Ei kei Nârâ he eina kô chaihmâh na," tah ta. A palôh tlâh ngâsâ ha ta.
+      A my lâ hânohpa liata Kiathy chata, "Unawh Nârâ y, eima khih lâ sôkha vaw tlyh ha la, ei nâ nata ei pâ chhao cha hmo khoh kaw sai ei ta, nâma chhao raita, ei nôpaw cha hmô khoh hraw chi ta," tahpa ta bieta ta. Ama khih a kei tlôpa cha Sahma vaw doh hôlô ei ta, thokha cha pari ha ei ta, o tlâh liata a zia ei ta, ama chaolahhmei pathliah hôlô ei ta. Kiathy ta Nârâ ama khih lâ a vawpa cha vaw pahno chhielie ta, Nârâ, khih a kei ngia pata nata, "Nama chaolahmei kha nyu la, nyu la, chyhsa na a vaw tlô ," tah ta. Ama chaolahmei cha a chatliepa ta nyu khai ei ta. Nârâ cha Kiathy na o chhôh a ngia na chata, "Unawh Kiathy, na nô nata na paw kha khataih liata ama y?" tah ta. Kiathy chata, "Unawh Nârâ y, keima nô nata paw cha la hmô tlah, sa tlah chhao châ bao veih ei, chhochâ lâ baitaruhpa khu za pahy la," tah ta. Nârâ chata, Baitaruhpa a za pahy bao cha; *ngie, ngie......" vaw tah ei ta. Ama pakah a kei moh bao cha; Chavamasiahpazy a zazi hôlô ta, ama hmaozy cha sa thisaih ta y thlâh ha ta. Nârâ chata, "Ei pâ, ei nâ saih, cha nama chhithai dâh cha, nama satlia laihsa no chhochhi châ sala khatluta ma nama chhithai vâ tly i" tah ta. Nârâ na chhôhkha chata a ly ngâsâ ei ta. Kiathy chata, "Unawh Nârâ, sahma raipi ma eima cha baopa aw, raita maw/" tah ta. Nârâ chata," Unawh, raita baopa thlâh ha teh u, Raipi cha kheita ma eima doh tiah aw," tah ta. Raipi baopa ei ta. Kiathy chata "Unawh Nârâ, Awhpanô ma eima cha tupa aw, a viapa maw?" tah heih ta. Nârâ chata, "Unawh, aviapa na tupa teh u, apano cha kheihtama eima pachhâ thei aw tly ?," tah ta Awhpano tlao tupa ei ta.
+
+
+''';
+
+const hlichhy = '''
+
+          HLICHHY NATA HLY-ÂH PHÔH
+
+      Hlâno heta Hlihchhy nata Hly-âh ama tahpa he y ei ta. Hly-ah he phoso zuah châ ta, no nata paw a hneipa a vaw châ.Hlihchhy deikua cha hârapa no nata paw chhao a hnei khao leipa a châ. Chata hrasala he pano penawh he kyh a vaw pacha ngaita ei ta.
+      Hlihchhy heta lahpinô chata Hly-âh he kei hiah ta Hly-âh nô nata paw chata Hlihchhy cha hâra rietheipa a chapa vâta vaw mohnao ngâsâ ei ta. "Hlihchhy ta eima saw maniah a vaw hiah thlâh hapa he a kârupa ma maniah a mâ aw," vaw tah ei ta. Chatana chata Hly-âh cha a palôh pasa ngâsâ ta, hla vaw phita.
+
+          "Hlihchhy p'va cha hára tah khah u la, 
+          Saopi chhita ngiahrai dai thai ha aw; 
+          Hlihchhy 'va cha hâra tah khah u la, 
+          Sakyuthyu ta la pah-ao kyh thai ha aw.
+Khihsaw mozy ta ama palôh pasa ngâsâ hra ei ta. He hawha heta hla ama vaw phi hrapa cha:-
+          “Hlihchhy nata Hly-ah vâ sâh cha la, 
+          Lyubie a thaipa ma tôh a bô vei ei."
+Hlihchhy cha khihsaw mota hla ama vaw phipa cha, hla ta kei palie ta:-
+          "Cha-ia, Cha-u Utu zyuhsy,
+          Khihsy tha liah chhata dei na, 
+          Lo chahrie sai pazy tôh a bô ei,"
+      Hlihchhy nata Hly-âh cha Kahrie tlâh lâ a chhei ha ei ta. Thlâpa nata kha chhôh cha Kahrie tlâh liata y ei ta, Lyurâhpa bia, chao tyh ei ta, bia a ngiapâpa ta ama y.
+      He nona heta Karô (Pheisaih) za kha, Kahrie tlah chapia papa ta khi a tlyhpa y ei ta; châhrasala Karô sahlao chata Hlihchhy nata Hly-âh amâ lôkhaoh sôh ngaitapa nata lôkhaoh liata ama lahuah sôh ngaitapa a lô dykhapa ta bâhlô amâ pahua tyhpa cha hmô chho leipa ei ta.
+          "Karô zakha, Kahrie tlah kaw chapia ta, 
+           Eimâ chheina Chuapi kaw pahno veih ei.
+
+tahpa ta hla vaw phi ta, he kahrie tlah ama chhaina lô khaoh chuapi liana heta kyh amâ pachâna cha, aina hnei leipa ta chhô nata zâ ama pahrâ.
+      Cha daihti liana chata Sangyu lâ tawhta Hly-âh kaw hiah ei ta. Cha tlupo ta Hlihchhy nata kyhpachâna ama hnei tarawpa ta Hly-âh cha anô paw rei a ngiah ngaitapa a vaw châ hapa vâta Hlihchhy nata a siesai lei theipa châ khao leipa ei ta.Hly-âh cha Sangyu lâ kia awpa vaw châ ha ta. Hly-âh chata "Ei kiana lâ na vaw zi la, khâpa na khoh, ama cha vaw tah khiatala Hly-ah hnory na ei khoh vaw tah ha mah y, hmo hropa la khoh khah y," tah ta.
+      Chatanachata Hlihchhy cha Hly-âh liana lâ cha zi awpa ta sie ha hra ta, chatawcha Sangyu mo chata, "Hlihchhy, khâpa ma na khoh" vaw tah ei ta, Meithei, dawh khohzy vaw pie ei ta"Keima la ei khopa hropa y vei Hly-ah hnory ngalah na ei khoh," tah ta. Aw; Hnory tlai ta a khoh thlâh hapa cha, Hly-âh Hnory cha pie u la, tah ei ta, ama pie haw.
+      Kyhchhi ama pai tawhna chata Hlihchhy nata a viasazy cha khih lâ vaw kua ei ta. Chavah, ti ama vaw chaka nota Hly- âh hnory cha ti ta phaoh ha ta, Hlichhy chata hla vaw phi ta :-
+          "Khihsaw saih ...zy, tily na toh p'va la
+          Hly-âh hnory ti ta phao tha hana."
+      A sielâhpa khihsaw mo chata, "Hly-âh Hnory tiai cha. pasi na a chhih," tah ei ta. Hlihchhy ta hla vaw phi ta :-
+          "Hly-ah hnory na tah kha ula, 
+          Khuru pochi, syupangawh phuh p'va na. "
+      Hlihchhy viasazy chata apalôh pasanazie vaw pahnopasia ei ta, ti cha tohpa ei ta. Hlihchhy cha Hly-âh Hnory ti ta a phaohpa cha a huah ta, aly ngaitapa ta o cha a tlô haw.
+      Nohkha cha Hly-âh nô nata paw heta Lyuvana lâ sie ei ta, ama lyu va nawpa â khona liata Zyhmaoh kô lai ngaitapa y ta, cha tho cha ama thlu leipa khia cha a pha thaipa châ leipa ta, ahnyhnah ta a kiah thei awpa nata a chiah a thlâh theipa ama y leipa vâta, Hlihchhy ngâlâh he cha Zyhmaoh kô cha kiah thei ta a chiahzy a thlâ theipa tlâ a châ.
+      Hly-âh nô chata paw nôpopa ta tho chiah a thlâ ta khihsaw mozy cha chho laih ei ta. Khihsaw mo chata, "Keimo la thokô kiah thei tlâ ma pi, Hlihchhy dei leipa ta la," ama tah haw.
+      Hly-âh nô nata paw chata ama ngâh leina chôta cha tho thlupa ta kei chho ei ta.Hlihchhy chata, "Keima tho thlupa tlaita kâh nama khoh khiahtala ei cha vaw thlu p'aw ei na." tahpa ta a vaw chhy ei. Chatanacha Hlihchhy cha Hly-âh nôpaw na lyu vana lâ cha tho thlu awpa ta a thao haw.Hly-âh nô nata paw chata a ly ngaita ei ta, Awhzy thie ei ta, Sahhma chhao phaoh pâ hra ei ta, lyu vana lâ cha ama thao.
+      Lyu vana ama tlô tawhta Hlihchhy cha Zyhmaoh kô lai ngaitapa he zuah kaw kiah lymâ ta, tho chiah zydua cha thlâ patei khai ha ta, a kiana kih lâ a kaw luah ta :-
+          "Hlihchhy patho thao lia luah aw sala, 
+          HLY-AH YNA Sangyu râh za lâ vei,"
+      He hla a sapa he thokô thaby tawhta a thei thai vei, tho kôpa he â sâh tu hapa vâta. Hlihchhy cha vaw pachâ heih ta, thokô thaby lâ ei za chô khiahta cha, ei ao thei aw ei ta, Awh ama thiepa nata Sahhma ti ama chhuahdyhpazy cha nie do awpa ta akâzô a pachhiesa hapa vâta, Hly-âh nôpaw ama pahno vei chhôhta zôhripa a vaw pazawhpa ahli laih ta, thokô hropa lâta a ka laih ta, a ru lâta alei lâ a za chô haw, ama pahno leipa ta olâ a kaw sie syulyu haw.
+      Hly-âh nô nata paw cha Hlihchhy châta Awh zy, Sahhma tizy ama chhuahdypa cha thokô thaby liana chata a zohna taihta hâ ngâthlâh ha ei ta, Hly-âh nô cha a palôh chhâ ngâsâ ha ta:-
+
+          "Hlihchhy p'va cha va cho luah sa khiama, 
+          Bôhpi ry lia beihpai ei pai ngâ ei,"
+tahpa ta a saiheina hla cha pathao ta, a zokaluhpa ta o lâ ama kaw tlô.
+      Nohkha cha Hlihchhy p'va cha Hly-âh Hnory sôh ngaitapa sypangawh phuhpa cha Matu lâ sie khei ta, Syu nata Seihzy a hluhpi ta vaw chalei ei ta, lytlâh, tlâh kha a kaw daophi lymâ ta. Cha nona chata lâpi sie nawpa liata Hly-âh nô nata paw cha vaw y thlâh ha ei ta, Hlihchhy p'va chata hlata kei phi ei sala ama no a sa tu aw, tah ta. Azakhano ta Hly-âh ei kei hia nota hârapa châ ta, a rupa ma maniah amâ aw, ama tahpa kha a vaw thei ta :-
+          "Hly-âh nô paw lâ lia duah kha u la, 
+          Hlihchhy ruthlypa hmah daih la rua a kâ u la,"
+tahpa ta hla vaw phi ta, Hly-âh nô paw cha ama noza ngâsâ talâpi liata ama ypa cha ama tlei haw. Hlihchhy a khô tawhta Hly-âh nô nata paw cha, thata a maochhie ei ta, lâthlôh liana cha a hryuh ei ta, ama tu pâ.
+      Daihti a vaw rei via tawhta Hly-âh cha Si palie awpa ta a nôpaw khih lâ a khy ta, nohkha cha a viasazy chhaota anôpaw lyu lâ sie ei ta, a viasazy chata "He thokô lai ngaitapa a sâh kawpa he, na y vei chhôh ta na nô paw ta Hlihchhy p'va hrua ei ta, ano ta a chiah zydua cha a thlâ patei khai haw." tah ei ta. Hly-âh cha a ngiachhie na vaw pua ta, hla vaw sa ha ta:-
+          "Hlihchhy pawtho kiana moh bao u la, 
+          A pathlie vualua na, Hmyh lia va kô.”
+      Hly-âh heta Hlihchhy kyh a pachâna he tleih leipa ta, Hlihchhy deikua chata kyhpacha awpa he ano châta a phahnai khao leipa vâta a kyhpachâna cha za tleih via ha ta. Hly-âh chata Hlihchhy p'va hnohta,"Atazâ la eimâ zia khoh tua na," tah ta. Hlihchhy p'va chhao chata vaw paryhsa hra ta. Zâ chhôh zydua cha a vaw zia khoh taraw ei ta, anodeikua cha Hlihchhy cha ama satlia laihsa nota ama ydâh hawhta vaw y khao leipa ta, Hly-âh chata:-
+          "Hlihchhy p'va cha, khâpa lôh ma a phaoh, 
+          Awhkho sâ ta a ku vaw rihrâ va."
+tahpa ta hla vaw phi ta, chatawcha Hly-âh cha a vahpa khih lâ sie lilaw ha ta, a palôh pasa ngaitana chôta, thata vaw pasa ta, palôh pasana rietheipa ta he khizaw he a siesai haw. A thipa thâtih cha Hlihchhy chho khoh leipa ei ta, a ri sie awpa nohna chata Hly-âh cha a kâh deina nata a hmiazy cha â phâ pâ khai ha ta, sie thei khao leipa ta, kyhpacha kaw ta a chhaihpa Hlihchhy p'va cha kaw la ei ta, Hlihchhy p'va cha, akhutho Awhpi thieta a vaw khu ta, sirâri a vaw ao ta, zaih-ôh vaw phaoh ta, Hly-âh ri kiahpa ta za tlô ha ta:-
+"Hly-âh y, eima satlia laihsa lochono hawhta na meikiahna zy kha ei vaw vâ ngâsâ na." tah ta. Chaphôh thata tu ta, thata chakhei ta. Hly-âh a thi hapa, a mo sa liahsa a theih hapa cha a laihsa lochono hawhta vaw y ta, a hmiazy vaw tlaoh sâhlâh khai ha ta, a thihpa tlai chata a mothlih a vaw pathla pâ ngâ kaw.
+Cha hawhta Hly-âh a thi hapa tlaita a thi tawh chhaota a raithlih ti a vaw lohpa Hlihchhy ta a hmôpa cha, apalôh pasa ngaita ta, Hlihchhy p'va chata, "Na meikia cha vaw lo ha bâ la, avâ zy a cha pachai na sie bâ vâ chi." A tah khaipa ta na ta, a hmia cha a vaw nano khai ha ta, chatanacha Hlihchhy p'va nata Hly-âh cha palôh pasa ngaitana chôta amâ vaw chhaih haw.
+
+
+''';
+const liasari = '''
+
+          LIASARINÔ PHÔH
+
+      Hlâno he laihsa hmipha ngâsâpa Liahsarinô ama tahpa he y ta. Ama sawchanô hnei chhôhpa a châpa vâta anô nata paw ta dao ngâsâ thlah ha ei ta, rai dadei chhao pahriasa pasaih lei pei ta, ama palai khei ngâsâ hra. Châhrasala, ama sawchanô cha a ma Seihtôhpa nata a khoh ha ei ta, zâlâ to maihta Seih avaw di nata ama tlyhmia liata a pakyh tyh ei ta. Seihtôhpa nata Liahsarinô ama khohpa thatih cha, chyhsa chô liata a tlô beih leipa hmo a chapa vata thata a chia ei ta, pei chhao ama tah ngâsâ sai. Cha thâtih cha a nô nata paw ta ama pahno nahta ama vâ a sâh ngâsâ thlâh hata,ama sawchanô cha chhorei eita, thata ama tu pa nga kaw. Châhrasala, phahnai khao vei tahpa ama pahno nahta pachhaih theina y chhôhpa cha, Seihtôhpa thie awpa ngâlâh a châpa ta ama pahno haw.
+      Chatawhcha, apaw chata, Seihtôhpa cha kyhchhi nawpa ta thie a chhuah ha ta. Cha bie ama thei nata cha Liahsarinô nata Seihtôhpa cha ama palôh pasa ngâsâ ta, apahnâ ei ta, ama cha ngâ thlâh haw. Seihtôhpa chata mothlih chhaota Liahsarinô hnohta, "Liahsarinô y, kei cha na paw ta thie eina chhuah ha tawh tly bao cha kheihta e, eima tao khao bao aw. Vaw thi haw na ta, kheitarai châsala, ei sapa he na vaw nie rai rai leipa la, ei vo chô liata chhao a vaw tyuh rai rai khah y, ei vo chô liata nâ vaw tyu tlai khiata cha, na chô liata hmo phaleipa atlô aw," tah ta.
+      Chatana cha, Nohkha cha Seihtôpa cha thie ha ei ta, a sapa cha kyhchhina châta hmâh ei ta, Liahsarinô deikua cha nie awpata ama chhopa chhaota nie khoh vei. Apalôh a lie ngâsâpa ta Seihtôhpa nata ama pakyhna su liana chata zâ lá to maih ta atyuhpa ta cha ngâ thlâh ha tyh ta. Seihtôhpa vo cha parai ei ta, khichhaizy atyuna nata aziana hmohphaw châta hmâh tyh ei ta. Liahsarinô deikua eikha hmahta savo chô liata atyuh khoh bei vei. A tyuh khoh leina chhapa deikua a hy hmahta a chho leipa vâta pahno vei ei.
+      Zâ kha deikua cha Khichhai Satliazy vaw charei ei ta, Sahma bao ei ta, Seihvo chô liata a tyuhpa ta hlazy sa chaimah ei ta, Liahsarinô cha Seihvo chô liata a tyuh leipa ta a liah liata a tyuh thlâh ha ta. Khichhai satlia nawh cha pari phiphu khai ha ei ta, "Liahsarinô, eima kiah liata Savo chô liana heta bâh a vaw tyuh tua hra bao la, hla sâkha chhâ pa-awh khoh tua bao ei si," tah ei ta. Châhrasala,Liahsarinô deikua chata cha Seihtôhpa ta bie a chhopa kha a thei thlâh hapa vâta a tyuh khoh leipa ta, "Satlia saih u, na pachâ thai u la, he ei tyuna su tawhna heta hla tlâ ei vaw sa thlâh ha hra aw," tahpata a chhy ei ta. Apaw ta Liahsarinô ydâh ahmô nahta apathi-ia ngâsâ ta, Seihtôhpa biereipazy apahno leipa vâta laihsa a palaipa nata a khohpa hawhta pachâ ta, reih chahrâh ngâsâpa ta, "Liahsarinô, khâpa a palaipa chi maw, satliazy ta veihseih kawpa ta a vaw tyuh la tah ngâ kawpa chhaota atyuh khoh leipa ta, na ei ngâ thlâh haw," tahpa ta thlai chalo ta, Seihvoh chô liana chata patyu ha ta. A patyu pataw nata cha Seihvoh cha thlai a kaw chakao khâh ta, Liahsarinô cha a chakao thlu sao khai haw. Ahy hmahta pathlâ thei khao leip'ei ta, pachârôh ngâsâpa ta a tao nawpa rai pahno khao vei ei.
+      Ahrei ta sua patlaw a chhuah chaihmâh ei ta, châhrasala patlaw thei leip'ei ta, pachârôh ngâsâpa ta moh thlâh ha ei ta. A tao nawpa ama pahno khao lei vâta chavah lâ siekhei ei ta ti liata a nai thei nawpa ta pachie ei ta. Noh thôh nata zâ thôh ama pachie tawhta thao ei ta, sua patlaw thei taraw ei ta, Châhrasala, Liahsarinô deikua cha vaw thi hata, vâro vaw thu hmâ ha ta, a lô chhao thla khai ha ta. A nô nata paw cha angiapachhi ngâsâpa ta a cha deikua ama cha ngâ thlâh haw. Khihsa tôhtu nata raihria khia-hria chhao pacha thei khao leipa ta Pohluh a khupa ta chaphôh deikua ama tu ngâ thlâh haw.
+      Zâ kha cha amâ mo chhôhta ama sawchanô Liahsarinô thlahpa cha palôhlie ngâsâpa ta hla vaw sa laih lymâna chôta ama O vaw tly ta. Ama Laitlâ cha thlai vaw kiah ta, hlata hetana heta vaw sa ta, 
+        "Ei paw tlailai.. tlaipheih.. he, 
+        Seihta Kaorâh ei mo na," 
+tahpa ta Seihtôhpa nata ama pakyhna suzy cha mothlih chhao ta vaw chahryh ta. O chhi pahy ta, châhkeih za chakâ heih ta, 
+        "Ei paw chhikao châhkeih he 
+        keihkao vahlai ei sana," 
+tah heih ta, Pachoh kaw hria heih ta, 
+        "Ei paw chôhhnai chôsâh he, 
+        sâhziahnô sâh ei zawna na,"
+ tahna chôta Pawkhao- beihkoh pazu pathâ lymâ ta. 
+        "Ei paw Pawkhao-beihkoh he, 
+        Saziahnô lao ei bawna,"
+ tahpa ta thata cha heih ta. A chhâ chaina liata azia tyhna Rakhô kaw kiah ta, 
+        "Ei paw khôpi khôphei he, 
+        mohku ramâ ei khaihna," 
+tahpa ta aoh tlili ta cha chaimâh ta. Châhrasala, khih a dei daihmâ hapa vâta palôhlie ngâsâpa ta chana chôta sie ha ta, a ao chhao diah ha ta.
+      A nô nata paw cha mokuhti ama hie hapa vâta ama sawchanô ama vâ ngâsâpa ta chana chôta ama O a vaw chahryh laih ngâpazy cha a thei leipa ei ta. Ama O kachha nô deikua cha â thei thlâh ha ta. Palôh lie ngâsâpa ta Liahsarinô ta palôh liengâsâpa ta ama O chahryh ta, hlasana chôta a cha laih ngâ kawpa cha nahthlie thlâh ha ta. My khih a vaw dei pataw nata thlai zu ta, Liahsarinô nô hnoh ta, "Ei nawh, azâhhia zâ kha nama sawchanô Liahsarinô kha cha vaw tly ei ta, palôh lie ngâsâpa ta a hi ngâ kaw ta, chana chôta hla sa ta, nama kahmi tawhta rakhô taih pazu pathâ ngâ kaw ta. Cha aw ngâ kaw taraw ei nata nama thei leipa bao hnaih ta cha lymâna chôta khihdei chyta a sie ha kha zaw," tahpa ta chho ta, Anô nata apaw cha pei tah ngâsâ thlâh he ei ta, ama O kachhanô hnohna chata hetana heta chho ei ta, "A tazâ a vy heih khiata la, eima Pheipi liata Khawhhri buh ei sih la, nama O chôtôh liata kaw hrai haw pi ta, a vy heih pathlei khiata la, a thapi ta bâh a dao la, eima kaw thei na hâh ta," tah ei ta. Ama reipa hawh tlai chata ama Pheipi liata khawhhri buhpa ta ama O kachha nawh chôtôh liata hraih ha ei ta, a daihti ta liata Liahsarinô thlahpa a vy heih ta, a hla sa tyhpa kha chana chôta vaw sa lymâ heih ta. Cha pataw nata Khawhri cha thlai a dao ta, Châhrasala, a chie haw, Khawhhri a chie ha vâta a hra thei khao heih vei ei. A my lâta O kachhapa nô cha a zu heih ta, "Ei nawh, a zâhhia nama sawchanô avy heih taraw ta, khawhri kha a zâ dao nata châhrasala, a chie ha bao," tahpa ta chho heih ei ta. Cha thâtih ama thei na ta chhochhi cha pei tah via pahchai heih ei ta. Khawhri chakhyhpa châ khao leipata Thosaih-ri charipa cheingei ta ama hrai chiehna chôhtôh lia pyly chata kaw hraih chanei heih ei ta, amô ha ei ta.
+      Cha zâ cha zâcho Awhkho avaw chhi nah ta a daihti ta Liahsarinô thlahpa cha a vy heih ta, ama kahmi a vaw kiah pataw nahta palôhlie ngâsâna chôta mothlih chhao ta, 
+        "Ei paw tlailai tlaiphiah he, 
+        Seihta kaoRâh ei mona," 
+tahpa ta hlasana chôta cha pathao ha heih ta. Chhikao pahy ta, châhkeih a za chakâ na ta, 
+        "Ei paw chhi kao châhkeih he, 
+        keikao vahhlai ei sana," 
+tah ta, pachôh lâ khy ta, sâh ama zaw tyhna zy kaw hria ta, 
+        "Ei paw chôhnai chôsah he, 
+        saziahnô sâh ei zawna," 
+tah heih ta, tlâkhai lâ zu ta, pawkhao beihkoh zy pazu pathana chô ta, 
+        "Ei paw pawkhao beihkoh he, 
+        saziahnô lao bawna," 
+tah pata thata a cha heih. A hro nota chhôkha a ki ngâsâ pata lao ama baw tyh zy kha a mothlaw liata a vaw lâ khai hata, to tie pachâ na, a vaw kua thai awpa cha khao tlôh lei pata aplôh a lie ngâsâ. A chha chaina liata zâto ta a mona tyh pa rakhôh thlai kaw kiah ta, a zamo pachhi na chôta, 
+        "Ei paw khopi khopheih he, 
+        moku ramâ ei khaihna,”
+tah pata a cha nga no chata ama okachhapa nô ta thosaihri cha a thakarôh pita aza dao hata. Cha pawna chata a nô nata paw cha thlai a kaw hra eita, ama sawchanô ama vâ ngâsâ pa cha khâchâ patu ha ei ta, pathlie pasaih khao vei ei.
+      Ama sawchanô Liahsarinô chata "Ei na nata ei pa, na pathlie thlah ha teh u. A va ngâsâ hrei sila, a thih na ta ahroh cha a y khoh thei pa cha khao ma pi, Na pathlie ula, a châhta ei cha vaw tly tyh aw ei" tah pata chho chaihmah ei ta, Châhrasala, ano nata paw deikua ta cha kheihta rai hmah cha sala pathlie a chhuah tiahrâh vei ei, Chavata, Liahsarihnô chhao chata ama pasai hei tu ha va na tapathlie ama chhuah khao lei vata, ama hnoh ta y chyh a ryh tah ha ta. Anô nata paw chhao ama ly ngâsâ.
+      Châhrasala, a thih nata ahroh cha a ryh hmeiseih thei vei ei. Pati pahah ngâsâ pa na ta sa nata lao zy chhôh ei ta, anô nata paw ta nie ei ta, ana sawchanô ama khokhei ngâsâ pa Liahsarinô deikua cha nie lei pata a pahnâ ngalah pahnâta a tyh thla ha tyh ama tah. A thihpa a cha vata ano chata cha ahropa hawhta pati nie byuh khao vei.
+      Nohkha cha Liahsarinô nata a nô cha lyu lâ sie ei ta, noh palo ngâsâ thlâh ha ta, ama rie chhao a thei ngâsâ. Ama vaw liena lâ cha, Chavah liata a pahâ ei ta, anô chata, "Liahsarinô, cha noh palo rimâ chala, ti buakha a si tua bao ei si" tahpa ta pahrua ta. Liahsarinô chata, "Ei nâ y, chata a châ khiatala, kei titha lâ a si sah la, nâ tihnaw lâ a si mah y," tahpa ta palie ta, Châhrasala, anô ta, "Laihsa via châ tlôh chi ta, titha lâ cha pha aw vei, nâ tihnaw lâ a si la, kei machâ via hnai na ta titha lâ tlao ei si aw," tah ha ta. Liahsarinô chata, "Cha khiatala ei nâ y, tihnaw lâ avaw si sah la, anodeikua 'cha cha khâpa thu roh maw? vaw tah rai rai khah y,"tahpa ta tihnaw lâ a si awpa ta khy ha ta. Seihvo tawhta ama thao nota a thu hapa bao hnaih ta, abâhkalie vaw hy ta, avaw pasi bao cha la, athuti thata vaw pua ta, aroh pahnâh ngâsâ thlâh ha ta, a thuti roh chhiepa ta anô a sina su lâ tita aza phao paw nata cha, anô ta Liahsarinô bie reipa kha mypa ta, "E, Liahsarinô, khâpa thuroh tly ma i? A pahnâh ngâsâ dua maw?" vaw tah pathlei ha ta, Liahsarinô chata anô hnohta, "Ei nâ. ei cha tah patlai khaw; a thihpa nata ahrohpa la y khoh thei aw ma pi ei cha tah ngâ tlai mâ tah; A va ngâsâ hrei sih la, a y khoh theipa châ khao ma pi hi, ei cha sie sai ha bâ lah y,"tahpa ta zaw thlai a vaw chhuah ta. Anô cha taochhei atah ngâsâna chôta ngiahthaina thata a haw taraw ta, châhrasala, phahnai khao vei. A nô chata khâchâ patu taraw ta, châhrasala Mathyupa lâta a lie ta, anô kuparo likawh liata puapata a zaw syu lyu haw. Anô cha palôhlie ngâsâna chôta ano deita ta O la a vaw tlô haw. Charakha tawh na chata mahnô mahpawzy chata Mathyupa he a thihpa thlahpa hawhta pachâ ei ta, ama dao ngâsâ ama tah cha maw.
+
+
+''';
+
+const hlyche = '''
+
+        HLYCHE NATA AMAH-NÔ PHÔHPA
+
+      Hlâno he Hlyche nata amah-nô chyhsa areisi kawpa he y eita, achado ngâsâpa ta khihsapa châ ei ta. Amah-no he chyhsa areisi kawpa a châpa vâta, Hlyche ta Lyurâhpa lâ Tho a phaona daihti liata "Tako nata ahrei hnie ahnopa tho rai phaoh lei awpa, chyhsa eih a châ pathlei aw" tahpa ta apachu tyhpa vâta Tho lana kyh liata a sohsi kaw tyh ta. He hawhta ama hmotaopa nata areisipa ama châpa vâta, Vâ Khazohpa ta avâ lâ tawhta chyhsa pakha Hlyche vahpa awpa ta za tuapa ta.
+      He chyhsa heta Hlyche nata amah-nô O kei tlô ta, Hlyche mahnô ta chyhsapa hnohta, "Keimo he Nôhmei khihsapa châ pi ta, miah nama khoh hmeiseih ma ?" vaw tah ta. Chyhsapa ta "Nâmo a khoh awpa ta a zupa ei châ." a tahpa vâta, amah-nô ta Hlyche nata chyhsapa cha pahlyh ha ei ta. A zo a vaw châ nahta, Chyhsapa chata O cha a phei ta tly lymâ ta, Pakawh pâ lymâ ta, O chhôh liata hmobaoh a ypa zydua cha, hmobaoh rônahpa nata hmo sôhpa lâta palie khai haw ta.He hawhta Hlyche vahpa ta O nata O chhôh liata hmobaoh zydua hmosôhpa lâta atao khaipa vâta, Nôhmeipa O rônah papi liata pahrâpa vaw châ ha ei ta. Chyhsa ta uava ngâsâ ha ei ta, a o hripa liata Nôhmeipa pakha he y ta, a ku ta hmo phapa hria beihleipa, hmo phapa apachâ beihleipa, Nôhmeipa chata uava ngâsâ ha ei ta. "Kheihta e, he hawhta dyh na vaw châ thai, kheihta e, vahpa na hneina dâh ?" tahpa ta hiahhri ta. "Einarô y, kheihta hmahta tao ma pi, zâ lâ noh a tla chyta lytlâhpa lâ Awhbai a chei pi ta, eima kia khei, alao eima pie nota eima awna hawhta, tiri....tiri.....tahpa ta aw pi ta, eima Awhbai liata avaw sy thlâh he maw," tahpa ta a chho.
+      Hlyche mahnô ta a chhona dâh hawhta Nôhmeipa chata tao hra awpa a ngiahtiah leipa ta. Zâkha cha, Hlyche mahnô ta a chhona dâh hawhta, Lytlâh lâ Awhbai a cheipa ta khykheita. Awh ama awna dâh hawhta, Tiri...tiri.... aw hra ta. Parihpi cha a Awhbai liata avaw sy ta, aly kawpa ta O lâ cha avaw dikhei ta. A vaw zoh na ta Parihpi nata asawchanônô cha paziasa khoh ta. Parihpi ta asawchanônô cha apaleih ta palie ta, a saw ta, "Einâ, Parihpi ta eina palie ngâ kaw hih." tahpa ta anô cha chho.ta. Anô chata, "Ei saw y, na reih pathlie ngâ khah y, hmo phapa miah a taopa aw," tah ta. A pôhpa duata apalie khai nahta cha Nôhmeinô saw cha, Parihpi ta a siekhei syulyu haw.
+
+Phôh patló liahpatló, Nôhmeinô Awh thi thi.., Keimo Awh pôh pôh....
 
 
 ''';

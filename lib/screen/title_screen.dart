@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mara_rei_achuna/screen/home_screen.dart';
-import 'package:mara_rei_achuna/screen/tluana_screen.dart';
-import 'package:mara_rei_achuna/screen/topic_screen.dart';
-import 'package:mara_rei_achuna/song/title_list.dart';
-import 'package:mara_rei_achuna/screen/phohla_screen.dart';
+import 'package:mara_rei_achuna1/screen/home_screen.dart';
+import 'package:mara_rei_achuna1/screen/tluana_screen.dart';
+import 'package:mara_rei_achuna1/screen/topic_screen.dart';
+import 'package:mara_rei_achuna1/song/title_list.dart';
+import 'package:mara_rei_achuna1/screen/phohla_screen.dart';
 
 class TitleScreen extends StatelessWidget {
   const TitleScreen({
@@ -154,7 +154,7 @@ class TitleScreen extends StatelessWidget {
                   SizedBox(
                       height: 4), // Add some space between the icon and text
                   Text(
-                    'Mara phȏhpa', // Your text here
+                    'Mara phôhpa', // Your text here
                     style: TextStyle(
                       fontSize: 12, // Adjust the font size as needed
                       color: Colors.white,
@@ -166,6 +166,7 @@ class TitleScreen extends StatelessWidget {
           ],
         ),
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
         shape: const CircularNotchedRectangle(),
         child: Container(

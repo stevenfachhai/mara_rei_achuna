@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mara_rei_achuna/screen/home_screen.dart';
+import 'package:mara_rei_achuna1/screen/home_screen.dart';
 
 void main() {
   setupGetIt();

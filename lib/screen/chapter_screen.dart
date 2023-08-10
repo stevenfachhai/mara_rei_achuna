@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mara_rei_achuna/content/audio_block.dart';
-import 'package:mara_rei_achuna/content/chapter_block.dart';
+import 'package:mara_rei_achuna1/content/audio_block.dart';
+import 'package:mara_rei_achuna1/content/chapter_block.dart';
 import 'package:just_audio/just_audio.dart';
 
 class ChapterScreen extends StatefulWidget {
