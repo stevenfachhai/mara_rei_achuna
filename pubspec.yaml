@@ -12,6 +12,7 @@ dependencies:
   just_audio: ^0.9.34
   cupertino_icons: ^1.0.2
   google_fonts: ^5.1.0
+ 
   
 
 dev_dependencies:
@@ -37,7 +38,7 @@ flutter:
     - assets/audio/1.mp3
     - assets/audio/Relax.mp3
     - assets/image/nubyh.png
-    - assets/image/Contentsh.png 
+    - assets/image/Contentsfn.png 
     - assets/image/icon.png
     - assets/image/phohla.png
     - assets/image/MaraPh.png
@@ -47,6 +48,30 @@ flutter:
     - assets/image/PHOHLA2.png
     - assets/image/HOME1.png
     - assets/image/ACHUAWPAZY.png
+    - assets/image/2.png
+    - assets/image/3.png
+    - assets/image/5.jpg
+    - assets/image/6.png
+    - assets/image/10.jpg
+    - assets/image/15.png
+    - assets/image/19.png
+    - assets/image/21.png
+    - assets/image/23.png
+    - assets/image/25.png
+    - assets/image/28.png
+    - assets/image/32.png
+    - assets/image/36.png
+    - assets/image/48.png
+    - assets/image/75.png
+    - assets/image/79.jpg
+    - assets/image/AWKHYHLA.png
+    - assets/image/AWKHYHLA1.png
+    - assets/image/awkhypa.png
+    - assets/image/90.png
+    - assets/image/91.png
+    - assets/image/92.png
+    - assets/image/93.png
+    - assets/image/94.png
 
 
 family: 'Raleway'

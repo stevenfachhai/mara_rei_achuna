@@ -19,5 +19,15 @@ const tluanaList = [
   '18. Hlichhy nata hly-âh Phôh',
   '19. Liasarinô Phôh',
   '20. Hlyche nata amah-nô Phôhpa',
-  '21.'
+  '21. Siaramainô Phôh,',
+  '22. Seramenô Phôhpa',
+  '23. Karu nata Anô',
+  '24. Azyh nata ahrupa nata asota Phôhpa',
+  '25. Samieliethie Phôh',
+  '26. Unawh pano maw nata chho lata asie penawh Phôhpa',
+  '27. Haratiepa Phôhpa (Paku Chiachi pawnô Phôhpa)',
+  '28. Vao nata i Phôhpa',
+  '29. Pahmôpi Phôhpa',
+  '30. Laidyu unawh nata pala tipo yna dâh ',
+  '31'
 ];

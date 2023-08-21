@@ -21,7 +21,7 @@ class StoryScreen extends StatelessWidget {
           return SingleChildScrollView(
             child: Container(
               width: double.infinity,
-              margin: const EdgeInsets.symmetric(horizontal: 35),
+              margin: const EdgeInsets.symmetric(horizontal: 18),
               child: Column(
                 children: [
                   const SizedBox(
@@ -31,7 +31,7 @@ class StoryScreen extends StatelessWidget {
                     story,
                     style: GoogleFonts.libreBaskerville(
                       textStyle: const TextStyle(
-                        fontSize: 20,
+                        fontSize: 17,
                         fontWeight: FontWeight.normal,
                       ),
                     ),

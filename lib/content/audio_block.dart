@@ -10,4 +10,6 @@ const audioBlock = {
   9: 'assets/audio/Nuby_reina.mp3',
   10: 'assets/audio/Nuby_reina.mp3',
   11: 'assets/audio/Nuby_reina.mp3',
+  12: 'assets/audio/1.mp3',
+  13: 'assets/audio/1.mp3',
 };

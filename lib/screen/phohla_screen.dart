@@ -22,10 +22,10 @@ class PhohlaScreen extends StatelessWidget {
           return SingleChildScrollView(
             child: Container(
               width: double.infinity,
-              margin: const EdgeInsets.symmetric(horizontal: 35),
+              margin: const EdgeInsets.symmetric(horizontal: 0),
               child: Column(
                 children: [
-                  const SizedBox(height: 16),
+                  const SizedBox(height: 0),
                   InteractiveViewer(
                     minScale: 1.0,
                     maxScale: 4.0, // Adjust the maximum zoom level as needed

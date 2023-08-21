@@ -15,7 +15,7 @@ class HomeScreen extends StatelessWidget {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/image/Contentsh.png'),
+            image: AssetImage('assets/image/Contentsfn.png'),
             fit: BoxFit.fill,
           ),
         ),
@@ -106,7 +106,7 @@ class HomeScreen extends StatelessWidget {
                             width:
                                 10), // Add some spacing between the second image and text
                         Text(
-                          '   Phohla     ',
+                          '   Pho Hla    ',
                           style: GoogleFonts.libreBaskerville(
                             fontSize: 30,
                             color: Color.fromARGB(255, 236, 161, 90),

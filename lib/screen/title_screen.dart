@@ -15,9 +15,9 @@ class TitleScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Color.fromARGB(255, 69, 42, 12),
         title: Text(
-          'Mara Phohla',
+          'Mara Pho Hla',
           style: GoogleFonts.yesevaOne(
             textStyle: const TextStyle(
               fontSize: 20,
@@ -88,7 +88,7 @@ class TitleScreen extends StatelessWidget {
                   Text(
                     'Achu awpa zy', // Your text here
                     style: TextStyle(
-                      fontSize: 12, // Adjust the font size as needed
+                      fontSize: 5, // Adjust the font size as needed
                       color: Colors.white,
                     ),
                   ),
@@ -122,7 +122,7 @@ class TitleScreen extends StatelessWidget {
                   Text(
                     'Home', // Your text here
                     style: TextStyle(
-                      fontSize: 12, // Adjust the font size as needed
+                      fontSize: 5, // Adjust the font size as needed
                       color: Colors.white,
                     ),
                   ),
@@ -150,13 +150,13 @@ class TitleScreen extends StatelessWidget {
               child: const Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Icon(Icons.menu_book_sharp, color: Colors.white),
+                  Icon(Icons.edit_note, color: Colors.white),
                   SizedBox(
                       height: 4), // Add some space between the icon and text
                   Text(
                     'Mara phôhpa', // Your text here
                     style: TextStyle(
-                      fontSize: 12, // Adjust the font size as needed
+                      fontSize: 5, // Adjust the font size as needed
                       color: Colors.white,
                     ),
                   ),

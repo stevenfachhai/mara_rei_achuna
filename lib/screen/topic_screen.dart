@@ -26,12 +26,12 @@ class TopicScreen extends StatelessWidget {
           ),
         ),
       ),
-      body: Stack(
-        children: [
-          Container(
-            color: const Color.fromARGB(255, 19, 18, 18),
-          ),
-          ListView.builder(
+      body: SingleChildScrollView(
+        child: Container(
+          color: const Color.fromARGB(255, 19, 18, 18),
+          child: ListView.builder(
+            shrinkWrap: true,
+            physics: NeverScrollableScrollPhysics(),
             itemCount: topicList.length,
             itemBuilder: (context, index) {
               return Card(
@@ -60,11 +60,11 @@ class TopicScreen extends StatelessWidget {
               );
             },
           ),
-        ],
+        ),
       ),
       floatingActionButton: Container(
         height: 50.0,
-        color: Colors.black,
+        color: Color.fromARGB(255, 5, 5, 5),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
@@ -78,7 +78,7 @@ class TopicScreen extends StatelessWidget {
                 );
               },
               style: TextButton.styleFrom(
-                backgroundColor: Colors.black,
+                backgroundColor: Color.fromARGB(255, 15, 15, 15),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20),
                 ),
@@ -88,13 +88,16 @@ class TopicScreen extends StatelessWidget {
               child: const Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Icon(Icons.music_note, color: Colors.white),
-                  const SizedBox(height: 4),
+                  Icon(
+                    Icons.music_note,
+                    color: Color.fromARGB(255, 252, 249, 249),
+                    size: 20,
+                  ),
                   Text(
-                    'Mara phohla',
+                    'Mara pho hla',
                     style: TextStyle(
-                      fontSize: 12,
-                      color: Colors.white,
+                      fontSize: 5,
+                      color: Color.fromARGB(255, 250, 249, 249),
                     ),
                   ),
                 ],
@@ -121,11 +124,11 @@ class TopicScreen extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Icon(Icons.home, color: Colors.white),
-                  const SizedBox(height: 4),
+                  SizedBox(height: 4),
                   Text(
                     'Home',
                     style: TextStyle(
-                      fontSize: 12,
+                      fontSize: 5,
                       color: Colors.white,
                     ),
                   ),
@@ -152,23 +155,22 @@ class TopicScreen extends StatelessWidget {
               child: const Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Icon(Icons.menu_book_sharp, color: Colors.white),
-                  const SizedBox(height: 4),
+                  Icon(Icons.edit_note, color: Colors.white),
+                  SizedBox(height: 4),
                   Text(
                     'Mara phôhpa',
                     style: TextStyle(
-                      fontSize: 12,
+                      fontSize: 5,
                       color: Colors.white,
                     ),
                   ),
                 ],
               ),
             ),
-
-// ... Your TextButton widgets ...
           ],
         ),
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
         shape: const CircularNotchedRectangle(),
         child: Container(

@@ -87,9 +87,9 @@ class TluanaScreen extends StatelessWidget {
                   SizedBox(
                       height: 4), // Add some space between the icon and text
                   Text(
-                    'Mara Phohla', // Your text here
+                    'Mara Pho hla', // Your text here
                     style: TextStyle(
-                      fontSize: 12, // Adjust the font size as needed
+                      fontSize: 5, // Adjust the font size as needed
                       color: Colors.white,
                     ),
                   ),
@@ -123,7 +123,7 @@ class TluanaScreen extends StatelessWidget {
                   Text(
                     'Home', // Your text here
                     style: TextStyle(
-                      fontSize: 12, // Adjust the font size as needed
+                      fontSize: 5, // Adjust the font size as needed
                       color: Colors.white,
                     ),
                   ),
@@ -157,7 +157,7 @@ class TluanaScreen extends StatelessWidget {
                   Text(
                     'Achu awpa zy', // Your text here
                     style: TextStyle(
-                      fontSize: 12, // Adjust the font size as needed
+                      fontSize: 5, // Adjust the font size as needed
                       color: Colors.white,
                     ),
                   ),

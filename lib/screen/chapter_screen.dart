@@ -108,7 +108,7 @@ class _ChapterScreenState extends State<ChapterScreen> {
           return SingleChildScrollView(
             child: Container(
               width: double.infinity,
-              margin: const EdgeInsets.symmetric(horizontal: 35),
+              margin: const EdgeInsets.symmetric(horizontal: 10),
               child: Column(
                 children: [
                   Slider(
@@ -168,14 +168,17 @@ class _ChapterScreenState extends State<ChapterScreen> {
                   ),
                   const SizedBox(
                     height: 16,
-                  ), // Add some spacing between audio player and text content
-                  Text(
-                    block,
-                    style: GoogleFonts.libreBaskerville(
-                      textStyle: const TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.normal,
+                  ),
+                  SingleChildScrollView(
+                    child: Text(
+                      block,
+                      style: GoogleFonts.libreBaskerville(
+                        textStyle: const TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.normal,
+                        ),
                       ),
+                      textAlign: TextAlign.justify,
                     ),
                   ),
                 ],
