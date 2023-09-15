@@ -12,6 +12,7 @@ const chapterBlock = {
   11: marareihliatapazaoawhpanatapazaoleiawhpazy,
   12: biepaveihpa,
   13: biesozy,
+  14: macharei,
 };
 
 const introduction = '''
@@ -31,11 +32,12 @@ const maraReihChahnawhalphabet = '''
           MARA REIH CHÂHNAWH (ALPHABETS)
 
 
-HAWRAWH PIPA (CAPITAL LETTERS)
+            HAWRAWH PIPA 
+          (CAPITAL LETTERS)
 
-    A       AW      Y        B      CH      D 
-    E        F         H        I        K        L
-    M       N        NG     O       Ô       P
+    A       AW      Y       B     CH      D 
+    E       F          H      I       K         L
+    M      N         NG   O      Ô      P
     R        S         T        U        V      Z
 
 
@@ -43,7 +45,7 @@ Hawrawh chypa (small letters)
 
     a       aw       y        b       ch       d
     e        f          h        I         k         l
-    m       n        ng      o        ô         p
+    m       n        ng      o        ô        p
     r         s          t        u        v         z
 
 
@@ -364,7 +366,7 @@ const marareihliatahbaina = '''
               NATA A NGIANA 
                 (ACCENT).
 
-      Mara reih liata Vowels a ypazy eima parosana dâh cha chhâh thôh lâta parosapa a châ. Â sâhpa ta parosapa y ta, a liah-ryhpa nata â hnaipa ta parosana dâh chhâh thôh eima hneipa he a ngiana (accent) tao khaipa châ sala, reizie nata rozie liata a sia kaw awpa a châ. Châhrasala ngiana a hluh tu khiahla rozie liata runa nata a ngia leina a hnei awpa vâta ngiana châta luhkhu (^) nata 'h' he hmâpa a châ.
+      Mara reih liata Vowels a ypazy eima parosana dâh cha chhâh thôh lâta parosapa a châ. Â sâhpa ta parosapa y ta, a liahryhpa nata â hnaipa ta parosana dâh chhâh thôh eima hneipa he a ngiana (accent) tao khaipa châ sala, reizie nata rozie liata a sia kaw awpa a châ. Châhrasala ngiana a hluh tu khiatala rozie liata runa nata â ngia leina a hnei awpa vâta ngiana châta luhkhu (^) nata 'h' he hmâpa a châ.
 
       Ngiana châta luhkhu (^) hmâzie : He luhkhu (^) he vowels chi no liata hmâpa a châ. Vowel chi kha khatino rai ta luhkhu â khupa cha châhnawh (Alphabet) liata 'ô' kha a châ. He 'ô' he cha ngiana hawh chhaota pachâ a byuh leipa, ano hmia phaozie awpa tlai ta Alphabet liata pahlaopa a châ.
 
@@ -374,13 +376,13 @@ const marareihliatahbaina = '''
       
       ‘Alôh’ a iah kaw. 
       
-      ‘Alôhthlôhpa’ a ‘pa-0’, 
+      ‘Alôhthlôhpa’ a ‘pa-ô’, 
       
-      ‘Tiôh’ liata ti y vei. 
+      ‘Ti-ôh’ liata ti y vei. 
       
       ‘Ngôh’ cha hmo ‘sôhpa’ a châ.
 
-      Vowel hropa liata luhkhu (^) eima hmânapa cha pakah âpa ta ‘â’ eima reipa , â sâhpa ta eima parosapa nata a liahryhpa ta eima parosapa liata 'â' luhkhu â khupa he hmâpa châ ta, pakah âpa ta 'â' luhkhu â khupa hmâna he â hnai chaipa liata hmâpa châ hra ta, a chhâna lâta 'h' he baipa a châ.
+      Vowel hropa liata luhkhu (^) eima hmâpa cha pakah âpa ta ‘â’ eima reipa, â sâhpa ta eima parosapa nata a liahryhpa ta eima parosapa liata 'â' luhkhu a khupa he hmâpa châ ta, pakah âpa ta 'â' luhkhu a khupa hmâna he â hnai chaipa liata hmâpa châ hra ta, a chhâna lâta 'h' he baipa a châ.
 
   (1)Pakah âpa ta 'â' â sâhpa ta eima parosapa cha he hawhta hmâpa a châ.
 
@@ -391,7 +393,7 @@ const marareihliatahbaina = '''
       'Tâkâ' na pie teh. 
       'Châ nâ' chu ma?
 
-  (2) Pakah âpa ta 'â' a liah-ryhpa ta eima parosapa cha 'â' luhkhu â khupa he hmâpa châ hra ta, he hawhta hmâpa a châ: 
+  (2) Pakah âpa ta 'â' a liahryhpa ta eima parosapa cha 'â' luhkhu â khupa he hmâpa châ hra ta, he hawhta hmâpa a châ: 
       
       Dawhty ta he chyhsa 'sâ' he a tai. 
       
@@ -431,7 +433,7 @@ const marareihliatahbaina = '''
 
   (4)   Ngiana châta 'h' hmâna dâh :
 
-      Vowels -a, aw, y, e, i, o, ô, u, tahpazy he eima parosana dâh chhâh thôh ta parosapa ama châ hra. Anodeikuacha, a sâh chaipa nata a liah-ryhpa ta eima parosapa liata cha ngiana taopa châ vei. Â hnai chaipa liata deita 'h' he baipa a châ.
+      Vowels -a, aw, y, e, i, o, ô, u, tahpazy he eima parosana dâh chhâh thôh ta parosapa ama châ hra. Anodeikuacha, â sâh chaipa nata a liahryhpa ta eima parosapa liata cha ngiana taopa châ vei. Â hnai chaipa liata deita 'h' he baipa a châ.
 He hawhta:
         
         'Alôh' a iah kaw.
@@ -450,7 +452,7 @@ He hawhta:
         
         'Hnôh' lâta a y.
 
-  (5) Vowel liana heta 'a' he eima parosana dâh chi no hnei pi ta, pakah âpa ta 'â' eima reipa cha â sâh chaipa liata nata a liah-ryhpa nata â hnai chaipa liata chhao ngiana châta luhku hmâpa a châ tahpa pahno ha pi ta, â hnai chaipa liata cha 'â' luhkhu pakhupa eima hmâpa tho ta 'h' eima bai pâ tyh tahpa chhao eima pahno. Vowel 'a' tahpa ta eima parosa tyh. Eima parosana dâh chhao chhâh thôh- â sâh chaipa, a liah-ryhpa, â hnai chaipa ta eima parosa tyh hra. Anodeikua cha â sâh chaipa nata a liah-ryhpa liata ngiana tao leipa pi ta, â hnai chaipa liata ngiana châta 'h' ngâlâh baipa a châ. Luhkhu pakhupa châ hra vei. He 'a' â pahy leipa, pakah chhôh lâta eima parosapa 'h' baipa eima hmâna cha he hawhta a châ.
+  (5) Vowel liana heta 'a' he eima parosana dâh chi no hnei pi ta, pakah âpa ta 'â' eima reipa cha â sâh chaipa liata nata a liahryhpa nata â hnai chaipa liata chhao ngiana châta luhku hmâpa a châ tahpa pahno ha pi ta, â hnai chaipa liata cha 'â' luhkhu pakhupa eima hmâpa tho ta 'h' eima bai pâ tyh tahpa chhao eima pahno. Vowel 'a' tahpa ta eima parosa tyh. Eima parosana dâh chhao chhâh thôh- â sâh chaipa, a liahryhpa, â hnai chaipa ta eima parosa tyh hra. Anodeikua cha â sâh chaipa nata a liahryhpa liata ngiana tao leipa pi ta, â hnai chaipa liata ngiana châta 'h' ngâlâh baipa a châ. Luhkhu pakhupa châ hra vei. He 'a' â pahy leipa, pakah chhôh lâta eima parosapa 'h' baipa eima hmâna cha he hawhta a châ.
 
       'Chavah' lâ eima sie.
       
@@ -491,12 +493,12 @@ He hawhta:
 ''';
 
 const marareihliatapazaoawhpanatapazaoleiawhpazy = '''
-
       Mara reih liata pazao awhpa nata pazao lei awhpa zy 
 
 	Mohchhoh/Hmo moh cha roh pazao khai awpa a châ.
 
 Pamosana zy :-
+
 1.	Noun – Chakeihbarôhneipa, kypachârôna, Meisavaih.
 
 
@@ -939,8 +941,46 @@ Marapa Biesozy cha hezy he a châ.
 
     Vânoh chhikao liata â duah : Viari thôna a chatliezie pachuna nata byhnâ tona kyh pachâpa ta a chado a byuhzie pachuna a châ.
 
+''';
 
+const macharei = '''
 
+Macha reih
+
+Khydi			-		 Satlia
+Dizuah			-		 Laisa
+Laiheihnô		-		Chanô sawsa chiehpa.
+Laiheihpaw		-		Chapaw sawsa chiehpa.
+Dyhnô Nô		-		vahpa âpyh haipa
+Dyhpaw		-		paw lapinô âpyh haipa.
+Meikiah			-		kho-iah
+Mothleih		-		Athihapa
+Pheiliaha		-		athihpa ri
+Lâpôh			-		Lâpi
+Vyhai			-		Luhua
+Sikhôh			-		Thâchhie
+Peirâh			-		Athihpa khih
+Rahmâ			-		mâ.
+Chhôsoh		-		Palôhrupa
+Chhaohlei		-		Alei.
+Meithâ			-		Ameih
+Bôzyu			-		Ahrohpa yna su
+Saliah			-		Saw.
+Nohlynô		-		Noh
+Lôhdu			-		Lôh khopa
+Rianai			-		Kyh eima pachâpa.
+Hiavâ			-		Vâhia
+Thângiahna		-		Vâ pasana.
+Lôhiah			-		Palôh-ypa.
+Lyuhbie			-		lôhkhopa bie.
+Châhdi			-		kô eima khosaihapa.
+Bydi			-		Lyuchâpa.
+Sihnôh			-		Hnôhlâ daiti.
+Vânohsahlâh		-		Byhnâ.
+Khôphei		- 		Rakhô
+Hiavâ			-		 khazoh
+Lôhiah			-		Palôruhpa
+Lyubie			-		Bie
 
 
 ''';

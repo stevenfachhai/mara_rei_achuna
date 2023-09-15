@@ -1,7 +1,7 @@
 const audioBlock = {
   1: 'assets/audio/1.mp3',
   2: 'assets/audio/Marareih.mp3',
-  3: 'assets/audio/Vowel_Consonanats.mp3',
+  3: 'assets/audio/ConsonantnataVowels.mp3',
   4: 'assets/audio/Nuby_rei.mp3',
   5: 'assets/audio/Nuby_hluna.mp3',
   6: 'assets/audio/Ko.mp3',
@@ -12,4 +12,5 @@ const audioBlock = {
   11: 'assets/audio/Nuby_reina.mp3',
   12: 'assets/audio/1.mp3',
   13: 'assets/audio/1.mp3',
+  14: 'assets/audio/1.mp3',
 };

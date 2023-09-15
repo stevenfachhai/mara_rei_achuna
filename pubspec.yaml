@@ -12,6 +12,7 @@ dependencies:
   just_audio: ^0.9.34
   cupertino_icons: ^1.0.2
   google_fonts: ^5.1.0
+  google_nav_bar: ^5.0.6
  
   
 
@@ -34,7 +35,7 @@ flutter:
     - assets/audio/Nuby_hluna.mp3
     - assets/audio/Nuby_rei.mp3
     - assets/audio/Nuby_reina.mp3
-    - assets/audio/Vowel_Consonanats.mp3
+    - assets/audio/ConsonantnataVowels.mp3
     - assets/audio/1.mp3
     - assets/audio/Relax.mp3
     - assets/image/nubyh.png

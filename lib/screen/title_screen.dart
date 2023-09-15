@@ -5,14 +5,15 @@ import 'package:mara_rei_achuna1/screen/tluana_screen.dart';
 import 'package:mara_rei_achuna1/screen/topic_screen.dart';
 import 'package:mara_rei_achuna1/song/title_list.dart';
 import 'package:mara_rei_achuna1/screen/phohla_screen.dart';
+import 'package:google_nav_bar/google_nav_bar.dart';
 
 class TitleScreen extends StatelessWidget {
-  const TitleScreen({
-    Key? key,
-  }) : super(key: key);
+  const TitleScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    int _selectedIndex = 0;
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 69, 42, 12),
@@ -26,151 +27,86 @@ class TitleScreen extends StatelessWidget {
           ),
         ),
       ),
-      body: Stack(
-        children: [
-          ListView.builder(
-            itemCount: titleList.length,
-            itemBuilder: (context, index) {
-              return Card(
-                child: ListTile(
-                  title: Text(
-                    titleList[index],
-                    style: const TextStyle(fontSize: 17),
+      body: ListView.builder(
+        itemCount: titleList.length,
+        itemBuilder: (context, index) {
+          return Card(
+            child: ListTile(
+              title: Text(
+                titleList[index],
+                style: const TextStyle(fontSize: 17),
+              ),
+              onTap: () {
+                // ignore: avoid_print
+                print(index + 1); // Print index for ChapterScreen
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => PhohlaScreen(
+                      titleNumber: index + 1,
+                    ),
                   ),
-                  onTap: () {
-                    // ignore: avoid_print
-                    print(index + 1); // Print index for ChapterScreen
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => PhohlaScreen(
-                          titleNumber: index + 1,
-                        ),
-                      ),
-                    );
-                  },
-                ),
-              );
-            },
-          ),
-        ],
+                );
+              },
+            ),
+          );
+        },
       ),
-      floatingActionButton: Container(
-        height: 50.0,
-        color: Colors.black,
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            TextButton(
-              onPressed: () {
+      bottomNavigationBar: Container(
+        decoration: BoxDecoration(
+          color: Colors.white,
+          boxShadow: [
+            BoxShadow(
+              blurRadius: 20,
+              color: Colors.black.withOpacity(.1),
+            )
+          ],
+        ),
+        child: GNav(
+          tabs: const [
+            GButton(
+              icon: Icons.library_books_outlined,
+              text: 'Achu awpa zy',
+            ),
+            GButton(
+              icon: Icons.home,
+              text: 'Home',
+            ),
+            GButton(
+              icon: Icons.edit_note,
+              text: 'Mara phôhpa',
+            ),
+          ],
+          selectedIndex: _selectedIndex,
+          onTabChange: (index) {
+            // Handle tab changes here
+            switch (index) {
+              case 0:
                 Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) => const TopicScreen(),
                   ),
                 );
-              },
-              style: TextButton.styleFrom(
-                backgroundColor: Colors.black,
-                shape: RoundedRectangleBorder(
-                  borderRadius:
-                      BorderRadius.circular(20), // Adjust the radius as needed
-                ),
-                padding: const EdgeInsets.symmetric(
-                    horizontal: 16, vertical: 8), // Adjust padding as needed
-              ),
-              child: const Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Icon(Icons.library_books_outlined, color: Colors.white),
-                  SizedBox(
-                      height: 4), // Add some space between the icon and text
-                  Text(
-                    'Achu awpa zy', // Your text here
-                    style: TextStyle(
-                      fontSize: 5, // Adjust the font size as needed
-                      color: Colors.white,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            TextButton(
-              onPressed: () {
+                break;
+              case 1:
                 Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) => const HomeScreen(),
                   ),
                 );
-              },
-              style: TextButton.styleFrom(
-                backgroundColor: Colors.black,
-                shape: RoundedRectangleBorder(
-                  borderRadius:
-                      BorderRadius.circular(20), // Adjust the radius as needed
-                ),
-                padding: const EdgeInsets.symmetric(
-                    horizontal: 16, vertical: 8), // Adjust padding as needed
-              ),
-              child: const Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Icon(Icons.home, color: Colors.white),
-                  SizedBox(
-                      height: 4), // Add some space between the icon and text
-                  Text(
-                    'Home', // Your text here
-                    style: TextStyle(
-                      fontSize: 5, // Adjust the font size as needed
-                      color: Colors.white,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            TextButton(
-              onPressed: () {
+                break;
+              case 2:
                 Navigator.push(
                   context,
                   MaterialPageRoute(
                     builder: (context) => const TluanaScreen(),
                   ),
                 );
-              },
-              style: TextButton.styleFrom(
-                backgroundColor: Colors.black,
-                shape: RoundedRectangleBorder(
-                  borderRadius:
-                      BorderRadius.circular(20), // Adjust the radius as needed
-                ),
-                padding: const EdgeInsets.symmetric(
-                    horizontal: 16, vertical: 8), // Adjust padding as needed
-              ),
-              child: const Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Icon(Icons.edit_note, color: Colors.white),
-                  SizedBox(
-                      height: 4), // Add some space between the icon and text
-                  Text(
-                    'Mara phôhpa', // Your text here
-                    style: TextStyle(
-                      fontSize: 5, // Adjust the font size as needed
-                      color: Colors.white,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ),
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      bottomNavigationBar: BottomAppBar(
-        shape: const CircularNotchedRectangle(),
-        child: Container(
-          height: 0,
+                break;
+            }
+          },
         ),
       ),
     );

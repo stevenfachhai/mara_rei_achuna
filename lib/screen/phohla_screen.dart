@@ -22,18 +22,16 @@ class PhohlaScreen extends StatelessWidget {
           return SingleChildScrollView(
             child: Container(
               width: double.infinity,
-              margin: const EdgeInsets.symmetric(horizontal: 0),
+              margin: const EdgeInsets.symmetric(horizontal: 10),
               child: Column(
                 children: [
-                  const SizedBox(height: 0),
                   InteractiveViewer(
                     minScale: 1.0,
                     maxScale: 4.0, // Adjust the maximum zoom level as needed
-                    child: Image.network(
-                      image, // Use the image URL or replace with asset path if using assets
-                      // Set the width as per your requirement
-                      fit: BoxFit
-                          .fill, // Set the appropriate fit to fully contain the image
+                    child: Image.asset(
+                      image,
+                      // Set the height as per your requirement (optional)
+                      fit: BoxFit.fill,
                     ),
                     onInteractionStart: (details) {
                       // Prevent the parent scroll view from scrolling when zooming the image
@@ -46,7 +44,7 @@ class PhohlaScreen extends StatelessWidget {
                       }
                     },
                   ),
-                  const SizedBox(height: 16),
+                  const SizedBox(height: 0),
                   Text(
                     song,
                     style: const TextStyle(fontSize: 17),
