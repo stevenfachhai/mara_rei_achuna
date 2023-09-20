@@ -13,6 +13,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   google_fonts: ^5.1.0
   google_nav_bar: ^5.0.6
+  photo_view: ^0.14.0
  
   
 
@@ -34,9 +35,7 @@ flutter:
     - assets/audio/Marareih.mp3
     - assets/audio/Nuby_hluna.mp3
     - assets/audio/Nuby_rei.mp3
-    - assets/audio/Nuby_reina.mp3
     - assets/audio/ConsonantnataVowels.mp3
-    - assets/audio/1.mp3
     - assets/audio/Relax.mp3
     - assets/image/nubyh.png
     - assets/image/Contentsfn.png 
@@ -73,6 +72,9 @@ flutter:
     - assets/image/92.png
     - assets/image/93.png
     - assets/image/94.png
+    - assets/audio/sonatikhao.mp3
+    - assets/audio/Vowelparonsanadahnatangiana.mp3
+    - assets/audio/Nubyreinadah.mp3
 
 
 family: 'Raleway'

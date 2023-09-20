@@ -2,7 +2,7 @@ const tluanaList = [
   '1. Mara Chhopasiana',
   '2. Mara chano nata chapaw atobi nata ama hrozie nôchâ',
   '3. Sawnah moh-chho',
-  '4. Mama phôhpa azuapa chi',
+  '4. Mara phôhpa azuapa chi',
   '5. Rieta nata Vachhuh Phôh',
   '6. Cha-U nata Sakhih Phôh',
   '7. Papangawh lyurie atlapa phôh',

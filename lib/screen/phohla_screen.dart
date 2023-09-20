@@ -22,7 +22,7 @@ class PhohlaScreen extends StatelessWidget {
           return SingleChildScrollView(
             child: Container(
               width: double.infinity,
-              margin: const EdgeInsets.symmetric(horizontal: 10),
+              margin: const EdgeInsets.symmetric(horizontal: 0),
               child: Column(
                 children: [
                   InteractiveViewer(
