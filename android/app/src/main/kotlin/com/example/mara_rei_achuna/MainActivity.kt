@@ -1,4 +1,4 @@
-package com.mra.app.mara_rei_achuna1
+package com.mra.app.marareiachuna1
 
 import io.flutter.embedding.android.FlutterActivity
 
