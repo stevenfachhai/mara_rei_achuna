@@ -12,5 +12,4 @@ const audioBlock = {
   11: 'assets/audio/sonatikhao.mp3',
   12: 'assets/audio/sonatikhao.mp3',
   13: 'assets/audio/sonatikhao.mp3',
-  14: 'assets/audio/sonatikhao.mp3',
 };

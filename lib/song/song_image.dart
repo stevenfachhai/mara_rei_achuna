@@ -22,5 +22,6 @@ const songImage = {
   21: 'assets/image/91.png',
   22: 'assets/image/92.png',
   23: 'assets/image/93.png',
-  24: 'assets/image/94.png'
+  24: 'assets/image/94.png',
+  25: 'assets/image/95.png'
 };

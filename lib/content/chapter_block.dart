@@ -12,7 +12,6 @@ const chapterBlock = {
   11: marareihliatapazaoawhpanatapazaoleiawhpazy,
   12: biepaveihpa,
   13: biesozy,
-  14: macharei,
 };
 
 const introduction = '''
@@ -20,13 +19,13 @@ const introduction = '''
 
          Mara reih a chuna App tao awpa heta kô 2022 March tawhta chyhsa thai viapa nata châbu a y theipa mai a saohiah pathao na ta, chyhsa ei saohiah viapa nata na bao chaituhpazy cha Puhpa Pachi Hlychho, Executive Secretary (RTD) nata Puhpa Thati Khithie (ei Personal advisor) zy ama châ. Châbu ei hmô theipa nata ei saohiah via chaipa cha Puhpa A. Zakia (L) ropa “Mara reih Grammar book 1 nata MADC ry liata achuna bu class 1 châbu” zy a châ. 
 
-	       Mara reih achuna App ei chhuanohna liata MSO Headquarters Siaha ta tlaw 10000/- na bao eita, ei ly hmeiseih. Audio taona liata a ao ngia ngâsâpa nata Mara reih reizie do ngâsâpa ta a na khôpatuhpa Ls. Ngovâ Hlychho, Meisavaih Siaha chô liata ei ly hmeiseih.
+	       Mara reih achuna App ei chhuanohna liata MSO Headquarters Siaha ta tlaw 10000/- na bao eita, ei ly hmeiseih. Audio taona liata a ao ngia ngâsâpa nata Mara reih reizie do kawpa ta na khôpatuhpa Ls. Ngovâ Hlychho, Meisavaih Siaha chô liata ei ly hmeiseih.
 
-        A châbu pasai kawpa ta hmâ na pasaituhpa Puhpa K. Mara hleikhôhta mohpakha ta na baotuhpa AZ Zesi nata H. Beichakaolai zy chô liata alynabie ei reih hmeiseih hra.
+        A châbu pasai kawpa ta hmâ na pasaituhpa Puhpa K. Mara hleikhôhta mohpakha ta na baotuhpa AZ Zese nata H. Beichakaolai zy chô liata alynabie ei reih hmeiseih hra.
 
-	       He App liana heta tao chheipa nata pado leipa, voice record aparo dâh asupia khai leipa a y thei aw. He chôchâh liata nama pasopakâhna nata padokheina angia aw na ta, tao chheipa nata pado khai leipa a ypa nama pahnopa zy cha kâchhie leipa ta nama vaw reih lymâ awpa ta khatino rai ta ei pahy thlâh ha.
+	       He App liana heta tao chheipa nata pado leipa, voice record aparo dâh asupia khai leipa hlupi a y thei ngyu aw. He chôchâh liana heta nama pasopakâhna nata padokheina angia aw na ta, tao chheipa nata pado khai leipa a ypa zy cha kâchhie leipa ta nama vaw reih lymâ awpa ta ei châ haw ei.
 
-	       He App hmâpa ta Mara reih dopa achupa maih hnohta khokheina cha hlâ ei na ta, Mara reih he cheichalo ta, pasâhsa lymâ awpa ta ei hmalana liata na baotuhpa nata hmala pazituhpa châ chyu awpa ta Mara saw khizaw râh to liata ypa zydua ei cha hrua ei.
+	       He App hmâpa ta Mara reih khopasata achupa maih hnohta khokheina cha hlâ ei na ta, Mara reih he cheichalo ta, pasâhsa lymâ awpa ta ei hmalana liata na baotuhpa nata hmala pazituhpa châ chyu awpa ta khizaw râh to liata Mara saw a ypa zydua ei cha hrua ei.
 
 Contact no.	 +918798044892
 FC. BEIRACHHUADY
@@ -61,9 +60,11 @@ Hawrawh chypa (small letters)
 const vowelsNataConsonants = '''                    
           CONSONANTS NATA VOWELS
 
-      Alphabet (Châhnawh) liata hawhrawh a ypazy cha py no ta pachhaihpa châ ta. Py khapa cha ano deita ta palei nata hmao papie kaw hlei leipa ta, yzie hneipa ta parosa theipa châ ei ta, chahawhpa hawhrawh cha "Vowels" tahpa ta bipa ama châ. Vowels cha hezy he ama châ:
+      Alphabet (Châhnawh) liata hawhrawh a ypazy cha py no ta pachhaihpa châ ta. Py khapa cha ano deita ta palei nata hmao papie kaw hlei leipa ta, yzie hneipa ta parosa theipa châ ei ta, chahawhpa hawhrawh cha "Vowels" tahpa ta bipa ama châ. 
+      
+      Vowels cha hezy he ama châ:
         
-        aw, y, e, i, 0, ô,
+        aw, y, e, i, o, ô,
       
       Alphabet(Châhnawh) liata hawhrawh py hropa heih cha "Consonants" tahpa ta bipa a châ. Consonant cha ano deita ta yzie a hneipa châ leipa ta, vowel nata pakaohpa ta parosa khohpa a châ. Chavâta, "Consonant" tahpa yzie cha 'paro pakaoh' tlyma, 'paro pabaoh’ tahna châ ta, Mara reih liata Consonant-zy cha – 
         
@@ -407,8 +408,8 @@ const tlosaihnatachapireihalyuleipazy = '''
       4.  y                        4. Au
       eg: chyhsa                    eg: chaufaw
 
-      5.  ua                       5. Ue
-      eg: kua                      eg: kue
+      5.  ua                       5. y
+      eg: kua                      eg: ky
 
           TLÔSAIH NATA CHAPI REIH ALYUPA ZY
 
@@ -634,7 +635,7 @@ Biepaveihpazy nata a reipasiana :
 
 4.A hnie a lai : Hmo taopa patlô leipa ta a bâhsai hapa reina.
 
-5.Alei moh po, avâ moh sâh : Hmo â ngiahpa la nawpa nata hmô nawpa rai y leipa, nôpo vâsâhna bie reina. Taozie pahno thai khao leipa nôpona bie reipa.
+5.Alei moh na po, avâ moh na â sâh : Hmo â ngiahpa la nawpa nata hmô nawpa rai y leipa, nôpo vâsâhna bie reina. Taozie pahno thai khao leipa nôpona bie reipa.
 
 6.Alaipa lai lao, aleipa lei lao : Hmo pha â tyhpa ta a tyh ngâthlâh ha ta, hmo chhie â tyhpa ta hmo chhiepa lilaw a tyh ngâthlâh hapa reina.
 
@@ -989,23 +990,23 @@ const biesozy = '''
                 Arohtuhpa : A Zakia 
   (Mara grammar “second edition”)
 
-      Bieso cha mohchho ypakhypa, bietlohpa châ ta. Reizie nata rozie hawhta a bie a chhuahna châ hra vei sala, a bie a chhuahpa cha a do ta. Pachuna a hneipa a châ. Khatino rai ta bie dopa ta â duah lymâ thei awpa bie cha "Bieso" tahpa a châ.
+      Bieso cha mohchho ypakhypa, bietlohpa châ ta. Reizie nata rozie hawhta a bie a chhuahna châ hra vei sala, a bie â chhuahpa cha â do ta. Pachuna a hneipa a châ. Khatino rai ta bie dopa ta â duah lymâ thei awpa bie cha "Bieso" tahpa a châ.
 
 Marapa Biesozy cha hezy he a châ.
 
     1.Awh saih chi saih chalâh, awh vyh chi vyh chalâh: Nôchâ hrozie nata ria-reih a chhiepa cha amâ pathla pachhuah laih lymâna tahpa pachuna bie a châ.
 
-    2.Seih râhpa ta seih râhpa pathla ta, sahrâpa ta sahrâhpa a pathla: Chyhsa phapa nata chyhsa machhyu-mahrâ a châpazy ama pathla liata ama vaw pua tyh thlyu na tahpa bie pachuna a châ.
+    2.Seih râhpa ta seih râhpa pathla ta, sahrâpa ta sahrâhpa a pathla: Chyhsa phapa nata chyhsa machhyu-mahrâ a châpazy cha ama pathla liata ama vaw pua thlyu tyh na tahpa bie pachuna a châ.
 
     3.Syhly a kao a pha khiahtala a hmô chhao a pha: Chyhsa pôhraoh phapa nata hmi phapa cha ama saw chhao chahawhta ama châ tahpa pachuna a châ.
 
     4.Sao vawh thai lei luh khu : Bie rei kathlâ a thai leipa cha âmo chhie n'awpa nata rao n'awpa ta na â reih thlâh ha tyh tahpa pachuna a châ.
 
-    5.Hmah a y leipa ta zachih ie thai vei: Âthaona nata a thabypa a y tua leipa ta a hnôh lâta chhiena tlô thai vei tahpa pachuna a châ.
+    5.Hmah a y leipa ta zâchieh ie thai vei: Âthaona nata a thabypa a y tua leipa ta a hnôh lâta chhiena tlô thai vei tahpa pachuna a châ.
 
     6.Lyurâh thokô reih leinô hmah â chamie na: Chyhsa liata dyhryhna y ngâthlâh thei vei tahpa pachuna a châ.
 
-    7.Noh nata thlaw hmah â tlei hai na : Adyhryhleina nata ahryusinazy y hra sala, a pachâ thai raihriepa ta adyhna ay pakhua (heih) theina tahpa pachuna a châ.
+    7.Noh nata thlaw hmah â tlei hai na : Adyhryhleina nata ahryusinazy y hra sala, â pachâ thai raihriepa ta adyhna a y pakhua (heih) theina tahpa pachuna a châ.
 
     8.No paw rei ângiah leipa cha lâ do tly veih ei : Nô paw bie a zyh leipa nata rei â ngiah leipazy ama hro lâthlôh a palâh thai leizie awpa nata ama châta hmo pha leipa a châ awpazie pachuna a châ.Nôpaw rei ângiah leipa cha lâ chavei a tlei” ama tah hra.
 
@@ -1018,47 +1019,6 @@ Marapa Biesozy cha hezy he a châ.
     12.Tilih cha a lâ lâta châ ta, a lâ cha a lih lâta a châ tyh: Hneirôhpa nata sipasapazy, dyhchhiepa nata dyhphapazy ama duahmo a thlathlâ tyhna tahpa pachuna a châ.
 
     13.Vânoh chhikao liata â duah : Viari thôna a chatliezie pachuna nata byhnâ tona kyh pachâpa ta a chado a byuhzie pachuna a châ.
-
-''';
-
-const macharei = '''
-
-Macha reih
-
-Khydi			-		 Satlia
-Dizuah			-		 Laisa
-Laiheihnô		-		Chanô sawsa chiehpa.
-Laiheihpaw		-		Chapaw sawsa chiehpa.
-Dyhnô Nô		-		vahpa âpyh haipa
-Dyhpaw		-		paw lapinô âpyh haipa.
-Meikiah			-		kho-iah
-Mothleih		-		Athihapa
-Pheiliaha		-		athihpa ri
-Lâpôh			-		Lâpi
-Vyhai			-		Luhua
-Sikhôh			-		Thâchhie
-Peirâh			-		Athihpa khih
-Rahmâ			-		mâ.
-Chhôsoh		-		Palôhrupa
-Chhaohlei		-		Alei.
-Meithâ			-		Ameih
-Bôzyu			-		Ahrohpa yna su
-Saliah			-		Saw.
-Nohlynô		-		Noh
-Lôhdu			-		Lôh khopa
-Rianai			-		Kyh eima pachâpa.
-Hiavâ			-		Vâhia
-Thângiahna		-		Vâ pasana.
-Lôhiah			-		Palôh-ypa.
-Lyuhbie			-		lôhkhopa bie.
-Châhdi			-		kô eima khosaihapa.
-Bydi			-		Lyuchâpa.
-Sihnôh			-		Hnôhlâ daiti.
-Vânohsahlâh		-		Byhnâ.
-Khôphei		- 		Rakhô
-Hiavâ			-		 khazoh
-Lôhiah			-		Palôruhpa
-Lyubie			-		Bie
 
 
 ''';

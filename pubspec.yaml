@@ -14,6 +14,7 @@ dependencies:
   google_fonts: ^5.1.0
   google_nav_bar: ^5.0.6
   photo_view: ^0.14.0
+  persistent_bottom_nav_bar: ^5.0.2
  
   
 
@@ -75,6 +76,8 @@ flutter:
     - assets/audio/sonatikhao.mp3
     - assets/audio/Vowelparonsanadahnatangiana.mp3
     - assets/audio/Nubyreinadah.mp3
+    - assets/image/95.png
+
 
 
 family: 'Raleway'

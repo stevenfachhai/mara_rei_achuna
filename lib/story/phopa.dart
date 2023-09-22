@@ -126,7 +126,7 @@ const sawnahmohchho = '''
 
 const maraphohpa = '''
                 MARA PHÔHPA 
-                AZUAPA CHI
+                    AZUAPA CHI
 
 Hlâno Mara sawzy alai a chyh, hawti machâ, achanô chapaw ta eima yru châh ta nata daihti ruapa lia mainta lathli pachâna a kawh nata kawh lei, eima sona nata so lei pahno nawpa ta khâ ama vaw hiahri tyhpa, atanoh sawtliapa chhâ liata eima my lei nawpa alâhâh viapazy ei vaw palâsa. Hlâno Mara sawzy IQ a pha nata pha lei he tawhna heta na pahno thei aw.
 
@@ -280,8 +280,8 @@ Phôhpatlô liah patlô, sakyh ta patlai-patlô nôhmeinô awhta chhih tai saopa
 ''';
 
 const papangawhlyurie = '''
-              PAPANGAWH LYURIE ATLAPA 
-                         PHÔH
+              PAPANGAWH LYURIE 
+                    ATLAPA PHÔH
 
         Hlâno he sa chinanopa sai papangawh ta lyurie tla ei ta chazycha:- Vaothawpa, Siahrâ, Sahawh, Vachakiekahnah nahta Azyh zy he ama châ.
 

@@ -18,10 +18,11 @@ const songLyrics = {
   17: awkhy,
   18: awkhypa,
   19: awkhypahla,
-  20: aolaino,
+  20: thyula,
   21: molah,
   22: heheeima,
   23: laina,
+  24: aolaino,
 };
 
 const azipa = '''
@@ -85,7 +86,7 @@ const awkhypa = '''
 const awkhypahla = '''
 
 ''';
-const aolaino = '''
+const thyula = '''
 
 ''';
 const molah = '''
@@ -98,5 +99,9 @@ const laina = '''
 
 ''';
 const eipina = '''
+
+''';
+
+const aolaino = '''
 
 ''';

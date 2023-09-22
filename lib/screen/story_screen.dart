@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:mara_rei_achuna1/story/phopa.dart';
 
-class StoryScreen extends StatelessWidget {
+class StoryScreen extends StatefulWidget {
   const StoryScreen({
     Key? key,
     required this.titleNumber,
@@ -11,8 +11,27 @@ class StoryScreen extends StatelessWidget {
   final int titleNumber;
 
   @override
+  _StoryScreenState createState() => _StoryScreenState();
+}
+
+class _StoryScreenState extends State<StoryScreen> {
+  int likeCount = 0;
+  bool isLiked = false;
+
+  void toggleLike() {
+    setState(() {
+      isLiked = !isLiked;
+      if (isLiked) {
+        likeCount++;
+      } else {
+        likeCount--;
+      }
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
-    final story = phopa[titleNumber] ?? '';
+    final story = phopa[widget.titleNumber] ?? '';
 
     return Scaffold(
       appBar: AppBar(),
@@ -25,8 +44,8 @@ class StoryScreen extends StatelessWidget {
               child: Column(
                 children: [
                   const SizedBox(
-                      height:
-                          18), // Add some spacing between icon and text content
+                    height: 18,
+                  ),
                   Text(
                     story,
                     style: GoogleFonts.libreBaskerville(
@@ -35,7 +54,7 @@ class StoryScreen extends StatelessWidget {
                         fontWeight: FontWeight.normal,
                       ),
                     ),
-                    textAlign: TextAlign.justify, // Add this line
+                    textAlign: TextAlign.justify,
                   ),
                 ],
               ),
@@ -44,16 +63,40 @@ class StoryScreen extends StatelessWidget {
         },
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.popUntil(context, (route) => route.isFirst);
-        },
-        child: const Icon(Icons.home),
+        onPressed: toggleLike,
+        child: Icon(
+          isLiked ? Icons.thumb_up : Icons.thumb_up_alt_outlined,
+        ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
         shape: const CircularNotchedRectangle(),
         child: Container(
           height: 50.0,
+          padding: EdgeInsets.symmetric(horizontal: 16),
+          child: Row(
+            mainAxisAlignment:
+                MainAxisAlignment.spaceBetween, // Adjust alignment
+            children: [
+              Row(
+                children: [
+                  Icon(
+                    Icons.thumb_up,
+                    size: 15,
+                  ),
+                  SizedBox(width: 8), // Add spacing between icon and text
+                  Text(
+                    'Likes: ${likeCount}',
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
+              // You can add other widgets here if needed
+            ],
+          ),
         ),
       ),
     );

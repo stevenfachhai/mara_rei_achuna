@@ -18,10 +18,10 @@ const titleList = [
   '17. Awkhyhla 1',
   '18. Awkhyhla 2',
   '19. Awkhyhla 3',
-  '20. Aolainô',
+  '20. Thyu la, khai teh.',
   '21. Molâh khydi',
   '22. He he eima râh',
   '23. Laihna rahpha',
   '24. Ei vaw pihna maraland',
-  '25.'
+  '25. Aolainô'
 ];

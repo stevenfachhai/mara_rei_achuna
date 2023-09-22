@@ -7,7 +7,7 @@ class DonationScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const String thuhmahruai = '''
-        Mara reih achuna App  hmá theipa ta a y nawpa heta sôh peimawh ngâsâ miakha a châ. 
+        Mara reih achuna App  hmâ theipa ta a y n’awpa heta sôh he peimawh ngâsâpa miakha a châ. 
 
         Mo pakha khopasana ta taopa a chápa vâta sôh hnawh y leipa ta, App siepahliepa ta sôh hmôpa chhao he hmo rairu kawpa a châ hra. 
 
@@ -15,11 +15,13 @@ class DonationScreen extends StatelessWidget {
 
         Donation a tlopakhypa tawhta content chhao update lymâpa a châ aw. 
 
-        Na reih cheichalo nawpa ta na pasaina rakha lymâ hawhta vaw thyu hra mah y.
+        Na reih cheichalo nawpa ta na pasaina rakha lymâ hawhta vaw thyu hra mah y.
 
 Bank Account No. : 20286547989
 IFSC : SBIN0005822
 UPI : 8798044892@paytm 
+
+
 
     ''';
 
