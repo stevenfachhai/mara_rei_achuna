@@ -1,7 +1,7 @@
 name: mara_rei_achuna1
 description: A new Flutter project.
 publish_to: 'none'
-version: 1.0.1+5
+version: 1.0.1+6
 
 environment:
   sdk: ^3.0.0
