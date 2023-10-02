@@ -27,8 +27,8 @@ const introduction = '''
 
 	       He App hmâpa ta Mara reih khopasata achupa maih hnohta khokheina cha hlâ ei na ta, Mara reih he cheichalo ta, pasâhsa lymâ awpa ta ei hmalana liata na baotuhpa nata hmala pazituhpa châ chyu awpa ta khizaw râh to liata Mara saw a ypa zydua ei cha hrua ei.
 
-Contact no.	 +918798044892
 FC. BEIRACHHUADY
+Contact no.	 +918798044892
 (Meisavaih siaha)
 Email: stevenbfachhai2@gmail.com
 
