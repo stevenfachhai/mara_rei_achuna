@@ -19,7 +19,7 @@ const introduction = '''
 
          Mara reih a chuna App tao awpa heta kô 2022 March tawhta chyhsa thai viapa nata châbu a y theipa mai a saohiah pathao na ta, chyhsa ei saohiah viapa nata na bao chaituhpazy cha Puhpa Pachi Hlychho, Executive Secretary (RTD) nata Puhpa Thati Khithie (ei Personal advisor) zy ama châ. Châbu ei hmô theipa nata ei saohiah via chaipa cha Puhpa A. Zakia (L) ropa “Mara reih Grammar book 1 nata MADC ry liata achuna bu class 1 châbu” zy a châ. 
 
-	       Mara reih achuna App ei chhuanohna liata MSO Headquarters Siaha ta tlaw 10000/- na bao eita, ei ly hmeiseih. Audio taona liata a ao ngia ngâsâpa nata Mara reih reizie do kawpa ta na khôpatuhpa Ls. Ngovâ Hlychho, Meisavaih Siaha chô liata ei ly hmeiseih.
+	       Mara reih achuna App ei chhuanohna liata MSO Headquarters Siaha ta tlaw 10000/- na bao eita, ei ly hmeiseih,. Audio taona liata a ao ngia ngâsâpa nata Mara reih reizie do kawpa ta na khôpatuhpa Ls. Ngovâ Hlychho, Meisavaih Siaha chô liata ei ly hmeiseih.
 
         A châbu pasai kawpa ta hmâ na pasaituhpa Puhpa K. Mara hleikhôhta mohpakha ta na baotuhpa AZ Zese nata H. Beichakaolai zy chô liata alynabie ei reih hmeiseih hra.
 
@@ -82,7 +82,7 @@ zy he ama châ.
       
       Vowels pakaohpa - 'ao, yu, ie' tahpazy deikua he ama hawhrawh chyu parosana dâh hawhta parosapa châ leipa ei ta, parosa nawpa dâh a eih ta a hneipa ama châ. He 'ao, yu, ie' zy he Alphabet(Châhnawh) liata â hlao hr'awpa a lyu kaw:
       
-      Châhrasala vowels combined liata a ypa he a hawhrawh hawhta parosapa a châ leipa vâta parosana dâh (Sound) a eih ta a chu a byuhpa a châ. Parosa nawpa dâh cha "'ao' he 'a', 'o'" tahpa ta parosa leipa la, Mara reih cheina liata "Ao ei thei" tahpa bie liata Aoparosana dâhta hawhta rei awpa a châ. 'Yu' chhao he 'y', 'u' tahpa ta rei leipa la, "Lyu lâ ei sie" tahpa bie 'lyu" parosana dâh liata 'I' apazaotuhpa 'yu' parosana dâh kha ngia la, a parozie ta hawhta reipa a châ. Chahawhnachata 'ie' chhao he 'i', 'e' tahpa ta rei leipa la, "ie o" tahpa reih tawhta 'ie' parosa dâhta hawhta reih hra awpa a châ.
+      Châhrasala vowels combined liata a ypa he a hawhrawh hawhta parosapa a châ leipa vâta parosana dâh (Sound) a eih ta a chu a byuhpa a châ. Parosa nawpa dâh cha "'ao' he 'a', 'o' " tahpa ta parosa leipa la, Mara reih cheina liata "Ao ei thei" tahpa bie liata Aoparosana dâhta hawhta rei awpa a châ. 'Yu' chhao he 'y', 'u' tahpa ta rei leipa la, "Lyu lâ ei sie" tahpa bie 'lyu" parosana dâh liata 'I' apazaotuhpa 'yu' parosana dâh kha ngia la, a parozie ta hawhta reipa a châ. Chahawhnachata 'ie' chhao he 'i', 'e' tahpa ta rei leipa la, "ie o" tahpa reih tawhta 'ie' parosa dâhta hawhta reih hra awpa a châ.
 
 
 ''';
@@ -408,8 +408,8 @@ const tlosaihnatachapireihalyuleipazy = '''
       4.  y                        4. Au
       eg: chyhsa                    eg: chaufaw
 
-      5.  ua                       5. y
-      eg: kua                      eg: ky
+      5.  ua                       5. ue
+      eg: kua                      eg: kue
 
           TLÔSAIH NATA CHAPI REIH ALYUPA ZY
 
@@ -421,7 +421,7 @@ const tlosaihnatachapireihalyuleipazy = '''
         eg: lai                 eg: lai
 
         3.  e                   3. E
-        eg: he,the              eg: he,the
+        eg: he,teh              eg: he,the
 
         4.  ô                   4. Ô
         eg: chô,khô             eg: chô.khô
@@ -623,7 +623,7 @@ const biepaveihpa = '''
                 Arohtuhpa : A Zakia 
    (Mara grammar “second edition”)
 
-      Biepaveihpazy (Idioms): Biepaveihpa (Idiom) he mohchho py kha ta a ypakhypa, reizie hawhta â chhuahna a châ leipa bie kao hro lâta a dy theipa he a châ. Chyhsa thokha ta, 'Biepaveihpa' eima tahpa cha "Reih machâpa" a tahpa y ei ta. Chyhsa thokha ta "Nô paw bie phôhpa" a tahpa ama y hra.
+      Biepaveihpazy (Idioms): Biepaveihpa (Idiom) he mohchho py kha ta a ypakhypa, reizie hawhta â chhuahna a châ leipa bie kao hro lâta a dy theipa he a châ. Chyhsa thokha ta, 'Biepaveihpa' eima tahpa cha "Reih machâpa" a tahpa y ei ta. Chyhsa thokha ta "Nô paw bie phôh" a tahpa ama y hra.
 
 Biepaveihpazy nata a reipasiana :
 
