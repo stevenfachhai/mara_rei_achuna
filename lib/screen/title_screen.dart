@@ -65,16 +65,16 @@ class TitleScreen extends StatelessWidget {
         child: GNav(
           tabs: const [
             GButton(
-              icon: Icons.library_books_outlined,
-              text: 'Achu awpa zy',
+              icon: Icons.edit_note,
+              text: 'Mara phôhpa',
             ),
             GButton(
               icon: Icons.home,
               text: 'Home',
             ),
             GButton(
-              icon: Icons.edit_note,
-              text: 'Mara phôhpa',
+              icon: Icons.library_books_outlined,
+              text: 'Achu awpa zy',
             ),
           ],
           selectedIndex: _selectedIndex,

@@ -29,5 +29,4 @@ const tluanaList = [
   '28. Vao nata i Phôhpa',
   '29. Pahmôpi Phôhpa',
   '30. Laidyu unawh nata pala tipo yna dâh ',
-  '31'
 ];

@@ -74,7 +74,9 @@ const marachanonatachapaw = '''
 
       Hlâno Mara chanô nata Chapawnah heta O chhôh lyukah hluh kaw ta. Chanônah heta ti chho beih chho, O chhôh lyukah liata hmâtlâh ama vaw chânah heta raihria awpa vaw hluh kaw ta.Chanônah heta ti chho beih chho, O chhôh lyukah nata a kiapâh pathai rai nata Lyu rai chhao thata vaw hria ei ta. He hleikhô ta ama daihti ruapa liata Thaisapa, Pala hriapa nata Tho phao, Ti thaizy chhao thata ama vaw hria tyh. He hleikhô ta ama nie awpa Sâh zy zawh ei ta, chakhai nahta Mydi Awh khota thyu ei ta, Sâh ama vaw daih pazao heih tyhpa a châ. Nohchhô lâta ama hria awpazy ama hriapazi khai tawhta zâ daihti liata chhaota Laihsa châta O chareipazy ama hnei khiatala adi hlâ viata cha amâ tyupâ tyh. He vâna heta hlâno Mara chanônah he ama riethei/ hriapasa via pahchai.
 
-      Hlâno Mara Chapawnah chhao, Chanônah hawhta rai hria pasa ngâsâ ei ta, O chhôh lâta ama hria viapazy deikua cha, Chapawnah ta Ti thai nawpa ta Ramawh Ti-ôh achapawpa ta Ti thaih ei ta, Thozy chhao ama vaw phao khei tyh hra. O sa chhao he Chapaw rai eih viapa hawhta pachâpa a châ. Khichhôh Satlia nata Laihsazy chhao y molo leipa ei ta,a hripi ta Sawpâh phaona lâzy sie tyh ei ta, ama Khizaw daihti haosai ama vaw phapasa ngâsâ tyh. Ngiadih tai ei, phaoh ei, Chavah lâzy sie apahrua ei ama vaw tah tyh. Nie dona kyh liata chhao hlâno chyhsanah he ama vaw paphasa ngâsâ tyh. Sahma apahâh ngâsâpa ama hneipa, Râchâ beih liata ama vaw pazy tyh. Noh peimawhpa liata zy, apaly-pa-uasana daihti liata zy ama vaw hmâh ngâsâ. Chapaw nah he Hrâsihpa chyhsa ama châpa vâta, Chanônah hlâta a ei viapa ama vaw châ. Sa ama phaopazy chhao a khitlâh ta alykhei thai kawpa chyhsa ama vaw châ. A khina rakha ta Sa cha tlâh ama vaw zâ tyh. Hlâno daihti liata Sa aka theipazy cha a khisaw dei chhao châ leipa ta, Khih beipa chhaota avaw palaikhei kaw tyh hra.
+      Hlâno Mara Chapawnah chhao, Chanônah hawhta rai hria pasa ngâsâ ei ta, O chhôh lâta ama hria viapazy deikua cha, Chapawnah ta Ti thai nawpa ta Ramawh Ti-ôh achapawpa ta Ti thaih ei ta, Thozy chhao ama vaw phao khei tyh hra. O sa chhao he Chapaw rai eih viapa hawhta pachâpa a châ. Khichhôh Satlia nata Laihsazy chhao y molo leipa ei ta,a hripi ta Sawpâh phaona lâzy sie tyh ei ta, ama Khizaw daihti haosai ama vaw phapasa ngâsâ tyh. Ngiadih tai ei, phaoh ei, Chavah lâzy sie apahrua ei ama vaw tah tyh. Nie dona kyh liata chhao hlâno chyhsanah he ama vaw paphasa ngâsâ tyh. 
+      
+      Sahma apahâh ngâsâpa ama hneipa, Râchâ beih liata ama vaw pazy tyh. Noh peimawhpa liata zy, apaly-pa-uasana daihti liata zy ama vaw hmâh ngâsâ. Chapaw nah he Hrâsihpa chyhsa ama châpa vâta, Chanônah hlâta a ei viapa ama vaw châ. Sa ama phaopazy chhao a khitlâh ta alykhei thai kawpa chyhsa ama vaw châ. A khina rakha ta Sa cha tlâh ama vaw zâ tyh. Hlâno daihti liata Sa aka theipazy cha a khisaw dei chhao châ leipa ta, Khih beipa chhaota avaw palaikhei kaw tyh hra.
 
 1. Hrôsy : Sâ pakiah
 
@@ -87,6 +89,7 @@ const marachanonatachapaw = '''
 5. Chiaraku :Hlâno Mara Chapaw nah heta Poh vaw hnei hleileipa pi ta,, Zokha ngâlâh amoh Chiaraku tah ei ta. He he Viahpakao châpa ta Kykao ta ama vaw hmâ/hnei chyupa a châ. He Chiaraku Poh he ama môna daihti liata a phao bâ, abu ba ama vaw tah tyh.
 
 6. Kaohrei: Chanô nah he Poh tawtaw kawpa ama nô nahta ama sapa vaw hmâh ei ta, cha chata ama sâhpi nata keikhaoh liata ama lâ lei nawpa rakhata ama vaw pahly tyhpa a châ. He hleikhô ta amâ môziana châta (khei awpa ta) poh zokha ama vaw hmâh hra. Khitlâh pua-eina liata nata khitly hlatly siena daihti liata Kaohrei he ama vaw ky tyh. He Kaohrei he Chanô nah ama tobina chaipa a châ
+
 7. Vâ-poh -o: Eima satlianah he O chhôh liata Nô nata Paw hnohta vaw y molopa châ leipa ei ta, khichhôh liata 0 lai kawpa aliahlô chaipa nata su ryh chaipa liana chata Satlianahzy cha ama vaw rie pakhy tyh. He liata Satila dawpa nata a chô lâ a khohpa momaih chhao ama vaw rie pakhy tyh. He Satlianah ama vaw rie pakhy tyhna su he, 'Vâ poh o' or 'Zaw O' ama vaw tah. He Vâ poh o liana heta Chapaw hawtizy ta Mei vaw patih ei ta, hlâta utheih viapazy ta Hawti viapazy cha a byuhna dâh hawhta ama vaw pasopakâ tyh. He Vâ poh o liana heta Chapiazy papiasa ei ta, Awhkhypa hlazy chhao ama vaw pachu tyh hra. Chhie noh pha noh liata Khi hro lâta zikyu arâ awpa avaw byuh ha khiata cha, he O liata ariepa utheih viapazy cha Nôpawpazy ta ama vaw pahnosa tyh. Mara râh khi hluhpi liata he Vâ-poh o, Zaw O he vaw hnei hlei vei ei. He leipa chhaota Satlia laihsa vâ-ia a hneipazy cha, Laihsa O lâ ama vaw rie tyh hra. Cha cha 'Laiphô chô' ama tahpa he a châ.
 
 
@@ -102,12 +105,14 @@ const sawnahmohchho = '''
 3. Matlu-khailapa saw : Unawh pilâhpa ahnei leipa reina a châ. Saw sôkhai or saw sôphi ama tah hra.
 
 4. Saw chaikie : Sawpano ngâlâh a hneipa reina a châ. 
+
 5. Saw lômahthu: Chanô nata chapaw pathlua leipa ta saw pathôh ngâlâh reina a châ.
 
 6. Tu-saw: Sietanô nata unawhpa sawnah reina châ ta,eima saw, saw pachhuahpa sawzy reina a châ. Moh ama hnei pachhuah heih- Samoh, sahlâh etc.
 
 7. Puhpa saw: He he chino ta y thei ta, nôpi nata novah saw,puhpa hnohta phothyu pie leipa ta achhaih ha ei sala, ama saw cha, Puhpa saw y ta ama y. He leipa chhaota Riasaw chhao puhpa mâ phothyu ama pie vei khiatala, Puhpa saw ta ama y hra. He leipa chhao ta mâ nata chhao ama pie chiehpa, a Paw ta a râsai ha khiata la, Puhpa saw ta ama y hra. Pilâh, unawhpa hawh tlu ta O chhôh liata su ama to. Ama Puhpa pho chhao ama hly pâ khai.
       Chapaw ta atahmâ mâ hropa zydua pie patloh khai hrasala, Okia/phothyu apie vei khiala, asawnah kha Puhpa saw y ta ama y. Ama Puhpa pho ama hly aw.
+
 8. Sôh nata dawh apakhypa saw: Saw chanô a hnei hluhpa reina a châ. ‘Sôh nata Dawh apakhypa saw mah na hnei cha maw' ama vaw tah ty. 
 
 9. Phaopi saw: - He he Phopi paduapa, saw chapaw ahnei hluhpa reina a châ. "Nama sawnah he phaopi-bâhpi sawnah ma a a cha maw" ama vaw tah tyh.
@@ -117,8 +122,11 @@ const sawnahmohchho = '''
 11. Machhie saw : - Bei chi pathla a châ leipa châ leipa he 'Machhie' Pho ama vaw tah. e.g. Kyhpachâna aphahlapa,a anawtana ahnei leipa, hmotaona kyh liata apapei-pahliasana ahnei leipa, abie liata aduah leipazy reina châ ta, 'Machhie mahru saw’ ahno ama vaw tah tyh.
 
 12. Hârapa saw: Hawtipa, a chyh nota a nô nata paw ta ama thisai penawh reina a châ. Cha leipa chhaota a chyh nota or a hawti nota, a nô paw ta ama thisai khia cha, Hâra saw ama tah hra.
+
 13. Riasaw: Nôpi nata nôvah châ leipa saw, or nô ta paw a hnei leipa saw reina a châ. 
+
 14. Saw chhypa: Chyhsa ta chyhsa hropa saw ama saw châta alapa or chhypa reina a châ.
+
 15. Nôhmeipa saw. A paw ta a thisai penawh, anô ta dyhchâ leipa sala, a kuhkhei khiatala, nôhmeipa saw ama châ. Mâ nata Chhao reina liata anano vei ei.
 
 
