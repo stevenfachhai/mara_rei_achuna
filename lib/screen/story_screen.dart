@@ -15,7 +15,7 @@ class StoryScreen extends StatefulWidget {
 }
 
 class _StoryScreenState extends State<StoryScreen> {
-  int likeCount = 0;
+  int likeCount = 1;
   bool isLiked = false;
 
   void toggleLike() {

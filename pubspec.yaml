@@ -9,12 +9,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  just_audio: ^0.9.34
-  cupertino_icons: ^1.0.2
+  just_audio: ^0.9.38
+  cupertino_icons: ^1.0.8
   google_fonts: ^5.1.0
   google_nav_bar: ^5.0.6
-  photo_view: ^0.14.0
+  photo_view: ^0.15.0
   persistent_bottom_nav_bar: ^5.0.2
+  image_picker: ^1.1.1
+  get_it: ^7.7.0
+  flutter_tts: ^4.0.2
+
  
   
 
@@ -22,7 +26,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_launcher_icons: ^0.13.1
-  flutter_lints: ^2.0.1
+  flutter_lints: ^4.0.0
 
 flutter_launcher_icons:
   android: "launcher_icon"
@@ -39,9 +43,8 @@ flutter:
     - assets/audio/ConsonantnataVowels.mp3
     - assets/audio/Relax.mp3
     - assets/image/nubyh.png
-    - assets/image/Contentsfn.png 
+    - assets/image/update.png 
     - assets/image/icon.png
-    - assets/image/phohla.png
     - assets/image/MaraPh.png
     - assets/image/thyu.png
     - assets/image/cho.png
@@ -77,6 +80,8 @@ flutter:
     - assets/audio/Vowelparonsanadahnatangiana.mp3
     - assets/audio/Nubyreinadah.mp3
     - assets/image/95.png
+    - assets/image/ARTICLE.png
+    - assets/image/POEM.png
 
 
 

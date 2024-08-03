@@ -24,6 +24,7 @@ if (flutterVersionName == null) {
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+apply plugin: 'com.google.gms.google-services'
 
 def keystoreProperties = new Properties()
 def keystorePropertiesFile = rootProject.file('key.properties')
@@ -83,6 +84,11 @@ flutter {
 }
 
 dependencies {
+    implementation platform('com.google.firebase:firebase-bom:31.1.0')  // Add this line for Firebase BOM
+    implementation 'com.google.firebase:firebase-analytics'  // Add this line for Firebase Analytics
+    implementation 'com.google.firebase:firebase-firestore'  // Add this line for Firestore
+    implementation 'com.google.firebase:firebase-storage'
+    
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.multidex:multidex:2.0.1'
     
