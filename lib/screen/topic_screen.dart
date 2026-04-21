@@ -1,178 +1,153 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:google_nav_bar/google_nav_bar.dart';
-import 'package:mara_rei_achuna1/content/topic_list.dart';
-import 'package:mara_rei_achuna1/screen/chapter_screen.dart';
-import 'package:mara_rei_achuna1/screen/home_screen.dart';
-import 'package:mara_rei_achuna1/screen/title_screen.dart';
-import 'package:mara_rei_achuna1/screen/tluana_screen.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'alphabet_screen.dart';
+import 'chapter_screen.dart';
 
-class TopicScreen extends StatefulWidget {
-  const TopicScreen({
-    Key? key,
-  }) : super(key: key);
-
-  @override
-  _TopicScreenState createState() => _TopicScreenState();
-}
-
-class _TopicScreenState extends State<TopicScreen> {
-  int _currentIndex = 0;
-
-  final List<Widget> _screens = [
-    const TitleScreen(),
-    const HomeScreen(),
-    const TluanaScreen(),
-  ];
-
-  void _onTabTapped(int index) {
-    setState(() {
-      _currentIndex = index;
-    });
-
-    switch (index) {
-      case 0:
-        break;
-      case 1:
-        break;
-      case 2:
-        break;
-      default:
-        break;
-    }
-  }
+class TopicScreen extends StatelessWidget {
+  const TopicScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+
     return Scaffold(
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
-        backgroundColor: Colors.black,
-        title: Text(
-          'Achu awpa zy',
-          style: GoogleFonts.yesevaOne(
-            textStyle: const TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.normal,
-            ),
-          ),
+        title: const Text("Achu awpa zy"),
+        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+        elevation: 0,
+        iconTheme: IconThemeData(
+          color: Theme.of(context).textTheme.bodyLarge?.color,
         ),
       ),
-      body: SingleChildScrollView(
-        child: Container(
-          color: const Color.fromARGB(255, 19, 18, 18),
-          child: ListView.builder(
-            shrinkWrap: true,
-            physics: NeverScrollableScrollPhysics(),
-            itemCount: topicList.length,
-            itemBuilder: (context, index) {
-              return Card(
-                child: ListTile(
-                  title: Text(
-                    topicList[index],
-                    style: GoogleFonts.arapey(
-                      textStyle: const TextStyle(
-                        fontSize: 20,
-                        fontWeight: FontWeight.bold,
-                      ),
+      body: StreamBuilder<QuerySnapshot>(
+        stream: FirebaseFirestore.instance
+            .collection('content')
+            .where('type', isEqualTo: 'Topic')
+            .snapshots(),
+        builder: (context, snapshot) {
+          if (!snapshot.hasData) {
+            return const Center(child: CircularProgressIndicator());
+          }
+
+          final docs = snapshot.data!.docs;
+
+          return ListView(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            children: [
+              /// 🔤 Alphabet (FIRST)
+              _articleTile(
+                context,
+                index: 1,
+                title: "Mara reih châhnawh (Alphabet)",
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => const AlphabetScreen(),
+                    ),
+                  );
+                },
+              ),
+
+              /// 📚 Topics
+              ...docs
+                  .where((doc) {
+                    final data = doc.data() as Map<String, dynamic>;
+                    return data['title'] != null && data['title'] != '';
+                  })
+                  .toList()
+                  .asMap()
+                  .entries
+                  .map((entry) {
+                    final i = entry.key;
+                    final data = entry.value.data() as Map<String, dynamic>;
+
+                    final title = data['title'] ?? '';
+                    final content = data['content'] ?? '';
+
+                    return _articleTile(
+                      context,
+                      index: i + 2,
+                      title: title,
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (_) => ChapterScreen(
+                              title: title,
+                              content: content,
+                              audio: '', // ❌ removed audio
+                            ),
+                          ),
+                        );
+                      },
+                    );
+                  }),
+            ],
+          );
+        },
+      ),
+    );
+  }
+
+  /// 🔥 ARTICLE STYLE TILE (CLEAN)
+  Widget _articleTile(
+    BuildContext context, {
+    required int index,
+    required String title,
+    required VoidCallback onTap,
+  }) {
+    final textColor = Theme.of(context).textTheme.bodyLarge?.color;
+
+    return Column(
+      children: [
+        InkWell(
+          onTap: onTap,
+          borderRadius: BorderRadius.circular(12),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 4),
+            child: Row(
+              children: [
+                /// 🔢 NUMBER
+                Text(
+                  "$index.",
+                  style: TextStyle(
+                    fontSize: 15,
+                    color: textColor?.withOpacity(0.7),
+                  ),
+                ),
+
+                const SizedBox(width: 10),
+
+                /// 📖 TITLE
+                Expanded(
+                  child: Text(
+                    title,
+                    style: TextStyle(
+                      fontSize: 17,
+                      fontWeight: FontWeight.w500,
+                      color: textColor,
                     ),
                   ),
-                  onTap: () {
-                    print(index + 1);
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ChapterScreen(
-                          titleNumber: index + 1,
-                        ),
-                      ),
-                    );
-                  },
                 ),
-              );
-            },
-          ),
-        ),
-      ),
-      bottomNavigationBar: Container(
-        decoration: BoxDecoration(
-          color: Colors.white,
-          boxShadow: [
-            BoxShadow(
-              blurRadius: 20,
-              color: Colors.black.withOpacity(0.1),
-            ),
-          ],
-        ),
-        child: SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 8),
-            child: GNav(
-              gap: 8,
-              activeColor: Color.fromARGB(255, 17, 17, 17),
-              iconSize: 24,
-              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
-              tabs: [
-                GButton(
-                  icon: Icons.music_note,
-                  text: 'Mara pho hla',
-                  textStyle: TextStyle(
-                    fontSize: 14, // Adjust the font size as needed
-                    color: Colors.black, // Adjust the text color as needed
-                  ),
-                  iconActiveColor:
-                      Colors.black, // Adjust the icon color as needed
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const TitleScreen(),
-                      ),
-                    );
-                  },
-                ),
-                GButton(
-                  icon: Icons.home,
-                  text: 'Home',
-                  textStyle: TextStyle(
-                    fontSize: 14, // Adjust the font size as needed
-                    color: Colors.black, // Adjust the text color as needed
-                  ),
-                  iconActiveColor:
-                      Colors.black, // Adjust the icon color as needed
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const HomeScreen(),
-                      ),
-                    );
-                  },
-                ),
-                GButton(
-                  icon: Icons.edit_note,
-                  text: 'Mara phôhpa',
-                  textStyle: TextStyle(
-                    fontSize: 14, // Adjust the font size as needed
-                    color: Colors.black, // Adjust the text color as needed
-                  ),
-                  iconActiveColor:
-                      Colors.black, // Adjust the icon color as needed
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const TluanaScreen(),
-                      ),
-                    );
-                  },
+
+                /// ➡️ ARROW
+                Icon(
+                  Icons.chevron_right,
+                  color: textColor?.withOpacity(0.6),
                 ),
               ],
-              selectedIndex: _currentIndex,
-              onTabChange: _onTabTapped, // Use the custom callback
             ),
           ),
         ),
-      ),
+
+        /// 🔥 DIVIDER (IMPORTANT FOR ARTICLE STYLE)
+        Divider(
+          height: 1,
+          color: Theme.of(context).dividerColor.withOpacity(0.3),
+        ),
+      ],
     );
   }
 }

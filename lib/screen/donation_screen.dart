@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class DonationScreen extends StatelessWidget {
-  const DonationScreen({Key? key}) : super(key: key);
+  const DonationScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ UPI : 8798044892@paytm
 
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 88, 88, 87),
+        backgroundColor: const Color.fromARGB(255, 88, 88, 87),
         title: Text(
           'Donation',
           style: GoogleFonts.yesevaOne(

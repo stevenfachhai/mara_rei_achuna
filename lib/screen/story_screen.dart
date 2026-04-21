@@ -1,102 +1,135 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:mara_rei_achuna1/story/phopa.dart';
 
 class StoryScreen extends StatefulWidget {
-  const StoryScreen({
-    Key? key,
-    required this.titleNumber,
-  }) : super(key: key);
+  final String title;
+  final String content;
+  final String author;
 
-  final int titleNumber;
+  const StoryScreen({
+    super.key,
+    required this.title,
+    required this.content,
+    required this.author,
+  });
 
   @override
-  _StoryScreenState createState() => _StoryScreenState();
+  State<StoryScreen> createState() => _StoryScreenState();
 }
 
 class _StoryScreenState extends State<StoryScreen> {
-  int likeCount = 1;
+  double fontSize = 17;
+
+  int likeCount = 0;
   bool isLiked = false;
 
   void toggleLike() {
     setState(() {
-      isLiked = !isLiked;
       if (isLiked) {
-        likeCount++;
+        isLiked = false;
+        likeCount = 0;
       } else {
-        likeCount--;
+        isLiked = true;
+        likeCount = 1;
       }
+    });
+  }
+
+  void changeFont(String size) {
+    setState(() {
+      if (size == "small") fontSize = 15;
+      if (size == "medium") fontSize = 17;
+      if (size == "large") fontSize = 19;
+      if (size == "xlarge") fontSize = 21;
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    final story = phopa[widget.titleNumber] ?? '';
-
     return Scaffold(
-      appBar: AppBar(),
-      body: LayoutBuilder(
-        builder: (context, constraints) {
-          return SingleChildScrollView(
-            child: Container(
-              width: double.infinity,
-              margin: const EdgeInsets.symmetric(horizontal: 18),
-              child: Column(
-                children: [
-                  const SizedBox(
-                    height: 18,
-                  ),
-                  Text(
-                    story,
-                    style: GoogleFonts.libreBaskerville(
-                      textStyle: const TextStyle(
-                        fontSize: 17,
-                        fontWeight: FontWeight.normal,
-                      ),
-                    ),
-                    textAlign: TextAlign.justify,
-                  ),
-                ],
-              ),
-            ),
-          );
-        },
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: toggleLike,
-        child: Icon(
-          isLiked ? Icons.thumb_up : Icons.thumb_up_alt_outlined,
-        ),
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      bottomNavigationBar: BottomAppBar(
-        shape: const CircularNotchedRectangle(),
-        child: Container(
-          height: 50.0,
-          padding: EdgeInsets.symmetric(horizontal: 16),
-          child: Row(
-            mainAxisAlignment:
-                MainAxisAlignment.spaceBetween, // Adjust alignment
-            children: [
-              Row(
-                children: [
-                  Icon(
-                    Icons.thumb_up,
-                    size: 15,
-                  ),
-                  SizedBox(width: 8), // Add spacing between icon and text
-                  Text(
-                    'Likes: ${likeCount}',
-                    style: TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ],
-              ),
-              // You can add other widgets here if needed
+      appBar: AppBar(
+        actions: [
+          PopupMenuButton<String>(
+            onSelected: changeFont,
+            itemBuilder: (context) => const [
+              PopupMenuItem(value: "small", child: Text("Small")),
+              PopupMenuItem(value: "medium", child: Text("Medium")),
+              PopupMenuItem(value: "large", child: Text("Large")),
+              PopupMenuItem(value: "xlarge", child: Text("Extra Large")),
             ],
           ),
+        ],
+      ),
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 18),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const SizedBox(height: 18),
+            Text(
+              widget.title,
+              style: GoogleFonts.libreBaskerville(
+                textStyle: const TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+            const SizedBox(height: 6),
+            Text(
+              "By ${widget.author}",
+              style: const TextStyle(color: Colors.grey),
+            ),
+            const SizedBox(height: 18),
+            Expanded(
+              child: SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      widget.content,
+                      textAlign: TextAlign.justify,
+                      style: GoogleFonts.libreBaskerville(
+                        textStyle: TextStyle(
+                          fontSize: fontSize,
+                          height: 1.6,
+                        ),
+                      ),
+                    ),
+
+                    const SizedBox(height: 20),
+
+                    /// 👍 FACEBOOK LIKE
+                    GestureDetector(
+                      onTap: toggleLike,
+                      child: Row(
+                        children: [
+                          Icon(
+                            Icons.thumb_up,
+                            size: 20,
+                            color: isLiked ? Colors.blue : Colors.grey,
+                          ),
+                          if (likeCount > 0)
+                            Padding(
+                              padding: const EdgeInsets.only(left: 6),
+                              child: Text(
+                                likeCount >= 1000
+                                    ? '${(likeCount / 1000).toStringAsFixed(1)}K'
+                                    : '$likeCount',
+                                style: TextStyle(
+                                  color: isLiked ? Colors.blue : Colors.grey,
+                                  fontWeight: FontWeight.w600,
+                                ),
+                              ),
+                            ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );

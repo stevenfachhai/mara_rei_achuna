@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "386151344884",
+    "project_id": "adminpanel-82819",
+    "storage_bucket": "adminpanel-82819.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386151344884:android:acc40dd38d52bec1c44ca1",
+        "android_client_info": {
+          "package_name": "com.mra.app.marareiachuna1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJf11YmdwxbyDNYXM8idwtotYLaBkVevM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386151344884:android:457031cafbfbc372c44ca1",
+        "android_client_info": {
+          "package_name": "com.wlm.app.worshiplyricsmara"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJf11YmdwxbyDNYXM8idwtotYLaBkVevM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

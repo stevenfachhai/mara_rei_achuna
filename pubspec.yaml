@@ -9,18 +9,22 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  just_audio: ^0.9.38
   cupertino_icons: ^1.0.8
-  google_fonts: ^5.1.0
+  google_fonts: ^6.1.0
   google_nav_bar: ^5.0.6
   photo_view: ^0.15.0
   persistent_bottom_nav_bar: ^5.0.2
-  image_picker: ^1.1.1
+  image_picker: ^1.2.1
   get_it: ^7.7.0
   flutter_tts: ^4.0.2
+  firebase_core: ^3.15.2
+  just_audio: ^0.10.5
+  cloud_firestore: ^5.6.12
+  audioplayers: ^6.6.0
+  firebase_auth: ^5.7.0
+  firebase_storage: ^12.4.10
+  provider: ^6.1.5+1
 
- 
-  
 
 dev_dependencies:
   flutter_test:
@@ -35,59 +39,9 @@ flutter_launcher_icons:
 
 flutter:
   uses-material-design: true
+
   assets:
-    - assets/audio/Ko.mp3
-    - assets/audio/Marareih.mp3
-    - assets/audio/Nuby_hluna.mp3
-    - assets/audio/Nuby_rei.mp3
-    - assets/audio/ConsonantnataVowels.mp3
-    - assets/audio/Relax.mp3
-    - assets/image/nubyh.png
-    - assets/image/update.png 
-    - assets/image/icon.png
-    - assets/image/MaraPh.png
-    - assets/image/thyu.png
-    - assets/image/cho.png
-    - assets/image/MARAPHOPA1.png
-    - assets/image/PHOHLA2.png
-    - assets/image/HOME1.png
-    - assets/image/ACHUAWPAZY.png
-    - assets/image/2.png
-    - assets/image/3.png
-    - assets/image/5.jpg
-    - assets/image/6.png
-    - assets/image/10.jpg
-    - assets/image/15.png
-    - assets/image/19.png
-    - assets/image/21.png
-    - assets/image/23.png
-    - assets/image/25.png
-    - assets/image/28.png
-    - assets/image/32.png
-    - assets/image/36.png
-    - assets/image/48.png
-    - assets/image/75.png
-    - assets/image/79.jpg
-    - assets/image/AWKHYHLA.png
-    - assets/image/AWKHYHLA1.png
-    - assets/image/awkhypa.png
-    - assets/image/90.png
-    - assets/image/91.png
-    - assets/image/92.png
-    - assets/image/93.png
-    - assets/image/94.png
-    - assets/audio/sonatikhao.mp3
-    - assets/audio/Vowelparonsanadahnatangiana.mp3
-    - assets/audio/Nubyreinadah.mp3
-    - assets/image/95.png
-    - assets/image/ARTICLE.png
-    - assets/image/POEM.png
+    - assets/audio/
+    - assets/image/
 
-
-
-family: 'Raleway'
-fonts:
-  - asset: assets/fonts/Raleway-Regular.ttf
-    weight: 400
-  - asset: assets/fonts/Raleway-Bold.ttf
-    weight: 700
+  
