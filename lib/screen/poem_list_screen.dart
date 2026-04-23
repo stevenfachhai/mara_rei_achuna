@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'poem_screen.dart';
 
 class PoemsListScreen extends StatelessWidget {
@@ -9,7 +10,18 @@ class PoemsListScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Poems"),
+        backgroundColor: Colors.black,
+        iconTheme: const IconThemeData(color: Colors.white),
+
+        /// 🔥 PREMIUM TITLE FONT
+        title: Text(
+          "Hla phô",
+          style: GoogleFonts.playfairDisplay(
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        ),
       ),
       body: StreamBuilder<QuerySnapshot>(
         stream: FirebaseFirestore.instance

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class PhohlaScreen extends StatefulWidget {
   final String title;
@@ -15,129 +16,112 @@ class PhohlaScreen extends StatefulWidget {
 }
 
 class _PhohlaScreenState extends State<PhohlaScreen> {
-  double fontSize = 16;
-
-  /// 🔥 FONT SIZE CHANGE
-  void changeFont(String size) {
-    setState(() {
-      if (size == "small") fontSize = 14;
-      if (size == "medium") fontSize = 16;
-      if (size == "large") fontSize = 18;
-      if (size == "xlarge") fontSize = 20;
-    });
-  }
-
-  /// 🔥 BUILD LYRICS (FINAL FIXED VERSION)
-  List<Widget> buildLyrics() {
-    final lines = widget.content.split('\n');
-
-    List<Widget> widgets = [];
-    bool isCenter = false;
-
-    for (var line in lines) {
-      String cleanLine = line.trim();
-
-      /// 🔥 DETECT START CENTER (STRONG CHECK)
-      if (cleanLine.toLowerCase().contains("[center]")) {
-        isCenter = true;
-        continue;
-      }
-
-      /// 🔥 DETECT END CENTER
-      if (cleanLine.toLowerCase().contains("[/center]")) {
-        isCenter = false;
-        continue;
-      }
-
-      /// 🔥 SKIP EMPTY LINES (optional clean)
-      if (cleanLine.isEmpty) {
-        widgets.add(const SizedBox(height: 8));
-        continue;
-      }
-
-      widgets.add(
-        Padding(
-          padding: isCenter
-              ? const EdgeInsets.symmetric(vertical: 4, horizontal: 40)
-              : const EdgeInsets.symmetric(vertical: 2),
-          child: Text(
-            cleanLine,
-            textAlign: isCenter ? TextAlign.justify : TextAlign.left,
-            style: TextStyle(
-              fontSize: fontSize,
-              height: 1.6,
-              fontWeight: isCenter ? FontWeight.w600 : FontWeight.normal,
-            ),
-          ),
-        ),
-      );
-    }
-
-    return widgets;
-  }
+  double fontSize = 18;
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text(""),
+    final isDark = Theme.of(context).brightness == Brightness.dark;
 
-        /// 🔥 FONT SIZE MENU
+    return Scaffold(
+      backgroundColor: isDark ? Colors.black : Colors.white,
+
+      /// 🔝 APPBAR
+      appBar: AppBar(
+        backgroundColor: isDark ? Colors.black : Colors.white,
+        elevation: 0,
+        iconTheme: IconThemeData(
+          color: isDark ? Colors.white : Colors.black,
+        ),
+
+        title: Text(
+          widget.title,
+          style: GoogleFonts.playfairDisplay(
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+            color: isDark ? Colors.white : Colors.black,
+          ),
+        ),
+
+        /// 🔠 FONT SIZE CONTROL
         actions: [
-          PopupMenuButton<String>(
-            onSelected: changeFont,
-            itemBuilder: (context) => const [
-              PopupMenuItem(value: "small", child: Text("Small")),
-              PopupMenuItem(value: "medium", child: Text("Medium")),
-              PopupMenuItem(value: "large", child: Text("Large")),
-              PopupMenuItem(value: "xlarge", child: Text("Extra Large")),
-            ],
+          IconButton(
+            icon: Icon(
+              Icons.text_decrease,
+              color: isDark ? Colors.white : Colors.black,
+            ),
+            onPressed: () {
+              setState(() {
+                if (fontSize > 14) fontSize -= 2;
+              });
+            },
+          ),
+          IconButton(
+            icon: Icon(
+              Icons.text_increase,
+              color: isDark ? Colors.white : Colors.black,
+            ),
+            onPressed: () {
+              setState(() {
+                fontSize += 2;
+              });
+            },
           ),
         ],
       ),
 
-      body: Padding(
-        padding: const EdgeInsets.all(20),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            /// 🔥 TITLE
-            Text(
-              widget.title,
-              style: const TextStyle(
-                fontSize: 22,
-                fontWeight: FontWeight.bold,
-              ),
+      /// 📖 BODY
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(16),
+        child: buildLyrics(widget.content, isDark),
+      ),
+    );
+  }
+
+  /// 🎵 LYRICS BUILDER
+  Widget buildLyrics(String lyrics, bool isDark) {
+    final lines = lyrics.split('\n');
+
+    bool isChorusBlock = false;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: lines.map((line) {
+        final cleanLine = line.trim().toLowerCase();
+
+        /// 🎯 START CHORUS
+        if (cleanLine == "[chorus]") {
+          isChorusBlock = true;
+          return const SizedBox();
+        }
+
+        /// 🎯 END CHORUS
+        if (cleanLine == "[/chorus]") {
+          isChorusBlock = false;
+          return const SizedBox();
+        }
+
+        final isHighlight = isChorusBlock;
+
+        /// 🎯 SPACE BEFORE VERSES
+
+        return Padding(
+          padding: isHighlight
+              ? const EdgeInsets.symmetric(vertical: 6, horizontal: 30)
+              : const EdgeInsets.symmetric(vertical: 3),
+          child: Text(
+            line,
+            textAlign: isHighlight ? TextAlign.center : TextAlign.left,
+
+            /// 🔥 PREMIUM FONT STYLE
+            style: GoogleFonts.lora(
+              fontSize: isHighlight ? fontSize + 2 : fontSize,
+              fontWeight: isHighlight ? FontWeight.bold : FontWeight.normal,
+              letterSpacing: isHighlight ? 0.2 : 0,
+              height: 1.5,
             ),
-
-            const SizedBox(height: 20),
-
-            /// 🔥 LYRICS
-            Expanded(
-              child: SingleChildScrollView(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: buildLyrics(),
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
-
-      /// 🔥 HOME BUTTON
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.popUntil(context, (route) => route.isFirst);
-        },
-        child: const Icon(Icons.home),
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-
-      bottomNavigationBar: BottomAppBar(
-        shape: const CircularNotchedRectangle(),
-        child: Container(height: 50.0),
-      ),
+          ),
+        );
+      }).toList(),
     );
   }
 }

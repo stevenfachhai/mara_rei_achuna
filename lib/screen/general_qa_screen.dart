@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class GeneralQAScreen extends StatelessWidget {
   const GeneralQAScreen({super.key});
@@ -8,7 +9,18 @@ class GeneralQAScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("General Knowledge"),
+        backgroundColor: Colors.black,
+        iconTheme: const IconThemeData(color: Colors.white),
+
+        /// 🔥 PREMIUM TITLE FONT
+        title: Text(
+          "General Knowledge",
+          style: GoogleFonts.playfairDisplay(
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        ),
       ),
       body: StreamBuilder<QuerySnapshot>(
         stream: FirebaseFirestore.instance.collection('content').snapshots(),

@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:mara_rei_achuna1/screen/history_detail_screen.dart';
 
 class HistoryScreen extends StatelessWidget {
@@ -9,7 +10,18 @@ class HistoryScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("History"),
+        backgroundColor: Colors.black,
+        iconTheme: const IconThemeData(color: Colors.white),
+
+        /// 🔥 PREMIUM TITLE FONT
+        title: Text(
+          "History",
+          style: GoogleFonts.playfairDisplay(
+            fontSize: 24,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        ),
       ),
       body: StreamBuilder<QuerySnapshot>(
         stream: FirebaseFirestore.instance

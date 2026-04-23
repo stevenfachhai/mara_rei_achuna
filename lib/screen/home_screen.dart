@@ -6,8 +6,8 @@ import 'package:mara_rei_achuna1/screen/articles_list_screen.dart';
 import 'package:mara_rei_achuna1/screen/donation_screen.dart';
 import 'package:mara_rei_achuna1/screen/general_qa_screen.dart';
 import 'package:mara_rei_achuna1/screen/history_screen.dart';
+import 'package:mara_rei_achuna1/screen/mara_category_screen.dart';
 import 'package:mara_rei_achuna1/screen/poem_list_screen.dart';
-import 'package:mara_rei_achuna1/screen/song_list_screen.dart';
 import 'package:mara_rei_achuna1/screen/story_list_screen.dart';
 import 'package:mara_rei_achuna1/screen/theme_provider.dart';
 import 'package:mara_rei_achuna1/screen/topic_screen.dart';
@@ -130,14 +130,15 @@ class _HomeScreenState extends State<HomeScreen> {
                         },
                       ),
                       FolderItem(
-                        title: 'Pho Hla',
+                        title: 'Mara hla',
                         count: 0,
                         accent: const Color(0xFFD2B6F6),
                         onTap: () {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => SongListScreen(),
+                              builder: (context) =>
+                                  const MaraCategoryScreen(), // ✅ FIXED
                             ),
                           );
                         },
@@ -197,7 +198,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 const SizedBox(height: 12),
 
                 _NavCard(
-                  title: 'Hla pho',
+                  title: 'Hla phô',
                   onTap: () {
                     Navigator.push(
                       context,
