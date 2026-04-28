@@ -125,7 +125,7 @@ class TopicScreen extends StatelessWidget {
                   child: Text(
                     title,
                     style: TextStyle(
-                      fontSize: 17,
+                      fontSize: 15,
                       fontWeight: FontWeight.w500,
                       color: textColor,
                     ),
